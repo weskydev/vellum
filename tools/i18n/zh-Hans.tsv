@@ -1,0 +1,506 @@
+UntitledTab	无标题
+StatusPosition	第 {0} 行，第 {1} 列
+StatusCounts	{0} 个词 · {1} 个字符
+MenuButton.TT	菜单
+MenuNewTab.Text	新建标签页
+MenuOpen.Text	打开…
+MenuSave.Text	保存
+MenuSaveAs.Text	另存为…
+MenuCloseTab.Text	关闭标签页
+MenuExit.Text	退出
+SaveChangesTitle	是否保存对 {0} 的更改？
+SaveChangesText	如果不保存，你的更改将会丢失。
+ButtonSave	保存
+ButtonDontSave	不保存
+ButtonCancel	取消
+ButtonOk	确定
+ErrorOpenTitle	无法打开 {0}
+ErrorSaveTitle	无法保存 {0}
+FileTypeText	文本文档
+MenuSettings.Text	设置
+SettingsTab	设置
+SettingsHeader.Text	设置
+SetSectionAppearance.Text	外观
+SetThemeTitle.Text	主题
+SetThemeDesc.Text	浅色、深色或跟随 Windows
+SetThemeSystem.Content	使用系统设置
+SetThemeLight.Content	浅色
+SetThemeDark.Content	深色
+SetAccentTitle.Text	强调色
+SetAccentDesc.Text	用于高亮、选区和玻璃色调
+Accent_violet	Vellum 紫
+Accent_mint	薄荷
+Accent_amber	琥珀
+Accent_rose	玫瑰
+Accent_ocean	海洋
+Accent_graphite	石墨
+Accent_system	Windows 强调色
+SetBackdropTitle.Text	窗口背景
+SetBackdropDesc.Text	玻璃会模糊窗口后面的内容，Mica 会取用你的壁纸颜色
+SetBackdropAcrylic.Content	玻璃
+SetBackdropMica.Content	Mica
+SetBackdropSolid.Content	纯色
+SetGlassTitle.Text	玻璃透明度
+SetGlassDesc.Text	背景透出的程度
+SetSectionEditor.Text	编辑器
+SetFontTitle.Text	字体
+SetFontDesc.Text	选择一种字体，或输入任意已安装字体的名称
+SetWrapTitle.Text	自动换行
+SetWrapDesc.Text	长行会适应窗口宽度
+SetStatusTitle.Text	状态栏
+SetStatusDesc.Text	在底部显示行、列、字数和编码
+SetSpellTitle.Text	拼写检查
+SetSpellDesc.Text	为拼错的单词加下划线
+SetSectionFiles.Text	文件
+SetSessionTitle.Text	启动时恢复标签页
+SetSessionDesc.Text	下次打开时恢复你的标签页和未保存的文本
+SetAutoSaveTitle.Text	自动保存
+SetAutoSaveDesc.Text	打开的文件在你输入后不久会自动保存
+SetSectionLanguage.Text	语言
+SetLanguageTitle.Text	应用语言
+SetLanguageDesc.Text	默认情况下，Vellum 跟随 Windows 的语言
+SetLanguageSystem.Content	Windows 语言
+SetRestartBar.Message	重启 Vellum 以切换语言。你的标签页会保持打开。
+SetRestartButton.Content	重启
+SetSectionAbout.Text	关于
+SetVersion	版本 {0} · Wesky 出品
+FindReplaceToggle.TT	显示替换
+FindMatchCase.TT	区分大小写
+FindWholeWord.TT	全字匹配
+FindRegex.TT	正则表达式
+FindPrevious.TT	上一个结果 (Shift+F3)
+FindNext.TT	下一个结果 (F3)
+FindClose.TT	关闭 (Esc)
+FindBox.PlaceholderText	查找
+ReplaceBox.PlaceholderText	替换为
+ReplaceOne.Content	替换
+ReplaceAll.Content	全部替换
+FindCount	第 {0} 个，共 {1} 个
+FindTotal	找到 {0} 个
+FindNoResults	无结果
+FindRegexError	无效的模式
+ReplacedCount	已替换：{0}
+PaletteBox.PlaceholderText	输入命令，或输入 : 加行号
+PaletteGoToLine	转到第 {0} 行
+MenuFind.Text	查找
+MenuReplace.Text	替换
+MenuPalette.Text	命令面板
+CmdPalette	命令面板
+CmdNewTab	新建标签页
+CmdOpen	打开…
+CmdSave	保存
+CmdSaveAs	另存为…
+CmdCloseTab	关闭标签页
+CmdFind	查找
+CmdReplace	替换
+CmdFindNextPrev	下一个 / 上一个结果
+CmdGoToLine	转到行…
+CmdSettings	设置
+CmdWrapOn	开启自动换行
+CmdWrapOff	关闭自动换行
+CmdStatusOn	显示状态栏
+CmdStatusOff	隐藏状态栏
+CmdZoomIn	放大
+CmdZoomOut	缩小
+CmdZoomReset	重置缩放
+CmdZoom	放大 / 缩小 / 重置
+CmdThemeSystem	主题：跟随系统
+CmdThemeLight	主题：浅色
+CmdThemeDark	主题：深色
+CmdAccent	强调色：{0}
+CmdBackdropAcrylic	背景：玻璃
+CmdBackdropMica	背景：Mica
+CmdBackdropSolid	背景：纯色
+CmdSwitchTab	切换到标签页：{0}
+CmdSwitchTabs	切换标签页
+SetSectionShortcuts.Text	键盘快捷键
+PreviewButton.TT	Markdown 预览 (Ctrl+Shift+V)
+LanguageButton.TT	此标签页的高亮
+StatusCountsGoal	{0} / {1} 个词 · {2} 个字符
+SyntaxPlain	纯文本
+PreviewOff	预览
+PreviewSplit	并排
+PreviewFull	仅预览
+CtxUndo	撤销
+CtxRedo	重做
+CtxCut	剪切
+CtxCopy	复制
+CtxPaste	粘贴
+CtxSelectAll	全选
+CmdPreview	Markdown 预览
+CmdZenOn	禅模式
+CmdZenOff	退出禅模式
+CmdFocusOn	开启专注模式
+CmdFocusOff	关闭专注模式
+CmdTypewriterOn	开启打字机模式
+CmdTypewriterOff	关闭打字机模式
+CmdReadableOn	窄文本栏
+CmdReadableOff	全宽文本
+CmdMarkdownOn	开启 Markdown 格式
+CmdMarkdownOff	关闭 Markdown 格式
+CmdSyntaxOn	开启代码高亮
+CmdSyntaxOff	关闭代码高亮
+CmdSyntax	高亮：{0}
+CmdUndoRedo	撤销 / 重做
+SetLineSpacingTitle.Text	行距
+SetLineSpacingDesc.Text	行与行之间多一些空间，长文更易阅读
+SetReadableTitle.Text	窄文本栏
+SetReadableDesc.Text	在宽窗口中，行宽保持在舒适的阅读宽度
+SetSectionWriting.Text	写作与代码
+SetMarkdownTitle.Text	Markdown 格式
+SetMarkdownDesc.Text	在 .md 文件中输入时，标题、粗体和代码即时显示格式
+SetPreviewTitle.Text	Markdown 预览
+SetPreviewDesc.Text	状态栏中的按钮和 Ctrl+Shift+V 显示完成的页面
+SetSyntaxTitle.Text	代码高亮
+SetSyntaxDesc.Text	根据文件类型，为代码、JSON、XML、日志等着色
+SetMonoTitle.Text	代码使用等宽字体
+SetMonoDesc.Text	代码文件使用 Cascadia Mono，让各列对齐
+SetFocusTitle.Text	专注模式
+SetFocusDesc.Text	除当前段落外，其他内容都会变淡
+SetTypewriterTitle.Text	打字机
+SetTypewriterDesc.Text	你正在写的那一行保持在窗口中间
+SetGoalTitle.Text	字数目标
+SetGoalDesc.Text	在状态栏中显示进度；0 表示关闭
+HelpButton.TT	Markdown 速查表
+LineEndingButton.TT	行尾
+EncodingButton.TT	编码
+HelpClose.TT	关闭 (Esc)
+ToolDuplicateLine	复制行
+ToolDeleteLine	删除行
+ToolMoveLineUp	上移行
+ToolMoveLineDown	下移行
+ToolSortAsc	行排序 A → Z
+ToolSortDesc	行排序 Z → A
+ToolRemoveDuplicates	删除重复行
+ToolRemoveEmpty	删除空行
+ToolTrimTrailing	删除行尾空格
+ToolJoinLines	合并行
+ToolReverseLines	反转行顺序
+ToolUpper	大写
+ToolLower	小写
+ToolTitle	每个单词首字母大写
+ToolSentence	句首大写
+ToolInvert	反转大小写
+ToolComment	注释 / 取消注释
+ToolDateTime	插入日期和时间
+ToolBase64Encode	编码为 Base64
+ToolBase64Decode	从 Base64 解码
+ToolUrlEncode	URL 编码
+ToolUrlDecode	URL 解码
+ToolSearchWeb	在网上搜索
+ToolNothingChanged	没有需要更改的内容
+ToolNoComments	此语言没有注释
+ToolSelectFirst	请先选择文本
+ToolCannotDecode	无法解码所选内容
+CtxLines	行
+CtxCase	大小写
+CtxConvert	转换
+EolWindows	Windows (CRLF)
+EolUnix	Unix / macOS (LF)
+EolMac	旧版 Mac (CR)
+EncSaveAs	以编码保存
+EncReopen	以编码重新打开
+EncLossTitle	部分字符将会丢失
+EncLossText	{0} 无法保存此文本中的部分字符，它们会被保存为“?”。仍要转换吗？
+EncLossConfirm	转换
+ReloadTitle	重新加载文件？
+ReloadText	此标签页中未保存的更改将会丢失。
+ReloadConfirm	重新加载
+HelpTitle.Text	Markdown 速查表
+HelpSubtitle.Text	简单的符号会变成格式。适用于 .md 文件。
+HelpYouType.Text	你输入
+HelpYouGet.Text	你得到
+HelpTips.Text	Ctrl+Shift+V 显示预览。Enter 延续列表，Tab 缩进嵌套。图片：![说明](文件.png 或链接)。
+HelpMdHeadings	标题
+HelpMdHeadingsSample	# 标题 1\n## 标题 2\n### 标题 3
+HelpMdEmphasis	粗体和斜体
+HelpMdEmphasisSample	**粗体**，*斜体*，***两者***
+HelpMdStrike	删除线
+HelpMdStrikeSample	~~已不再适用~~
+HelpMdCode	行内代码
+HelpMdCodeSample	运行 `git status`
+HelpMdLink	链接
+HelpMdBullets	列表
+HelpMdBulletsSample	- 苹果\n- 梨\n  - 嵌套项
+HelpMdNumbers	编号列表
+HelpMdNumbersSample	1. 第一\n2. 第二
+HelpMdTasks	任务列表
+HelpMdTasksSample	- [x] 已完成\n- [ ] 待办
+HelpMdQuote	引用
+HelpMdQuoteSample	> 每天都写一点。
+HelpMdCodeBlock	代码块
+HelpMdTable	表格
+HelpMdTableSample	| 项目 | 价格 |\n|------|------|\n| 茶   | 3    |
+HelpMdRule	分隔线
+HelpMdRuleSample	上方\n\n---\n\n下方
+MenuRecent.Text	最近的文件
+MenuRecentClear	清除列表
+MenuSaveAll.Text	全部保存
+MenuTopmost.Text	窗口置顶
+MenuZen.Text	禅模式
+MenuMarkdownHelp.Text	Markdown 速查表
+MenuCloseAll.Text	关闭所有标签页
+TabClose	关闭
+TabCloseOthers	关闭其他标签页
+TabCloseRight	关闭右侧标签页
+TabCloseSaved	关闭已保存的标签页
+TabCloseAll	关闭所有标签页
+TabCopyPath	复制完整路径
+TabCopyName	复制文件名
+TabOpenFolder	打开所在文件夹
+TabReload	从磁盘重新加载
+CmdSaveAll	全部保存
+CmdOpenRecent	打开最近的文件：{0}
+CmdTopmost	窗口置顶（开 / 关）
+CmdMarkdownHelp	Markdown 速查表
+CmdLineNumbersOn	显示行号
+CmdLineNumbersOff	隐藏行号
+CmdLineBandOn	高亮当前行
+CmdLineBandOff	不再高亮当前行
+SetSectionEditing.Text	代码与编辑
+SetLineNumbersTitle.Text	行号
+SetLineNumbersDesc.Text	在左边距显示行号
+SetLineBandTitle.Text	高亮当前行
+SetLineBandDesc.Text	光标所在行后面显示一条柔和的强调色色带
+SetTabSizeTitle.Text	Tab 键
+SetTabSizeDesc.Text	Tab 键插入的内容。选中多行时，Tab 和 Shift+Tab 会移动它们的缩进。
+SetTabChar.Content	制表符
+SetTab2.Content	2 个空格
+SetTab4.Content	4 个空格
+SetTab8.Content	8 个空格
+SetAutoIndentTitle.Text	智能回车
+SetAutoIndentDesc.Text	新行保持缩进；Markdown 列表会自动延续
+SetSearchEngineTitle.Text	网页搜索
+SetSearchEngineDesc.Text	Ctrl+E 在哪里搜索所选文本
+SetExitLastTitle.Text	关闭最后一个标签页时退出 Vellum
+SetExitLastDesc.Text	否则会打开一个新的空白标签页
+SetNewEncodingTitle.Text	新文件的编码
+SetNewEncodingDesc.Text	打开的文件保持原有编码；可随时在状态栏中更改
+SetNewEolTitle.Text	新文件的行尾
+SetNewEolDesc.Text	Windows 应用使用 CRLF；Linux、macOS 和大多数代码工具使用 LF
+EolWindowsItem.Content	Windows (CRLF)
+EolUnixItem.Content	Unix / macOS (LF)
+EolMacItem.Content	旧版 Mac (CR)
+ShortcutMoveLines	上移 / 下移行
+ShortcutCase	大写 / 小写
+ShortcutIndent	增加 / 减少缩进
+CaptionMinimize.TT	最小化
+CaptionMaximize.TT	最大化
+CaptionClose.TT	关闭
+CaptionMaximizeName	最大化
+CaptionRestoreName	还原
+Accent_lavender	薰衣草
+Accent_indigo	靛蓝
+Accent_sky	天空
+Accent_teal	青绿
+Accent_sage	鼠尾草
+Accent_lime	青柠
+Accent_sand	沙色
+Accent_coral	珊瑚
+Accent_crimson	深红
+Accent_berry	莓果
+Accent_slate	岩灰
+ReadOnlyButton.TT	只读。点击以允许编辑
+ToolLineAbove	在上方插入行
+ToolLineBelow	在下方插入行
+ToolSortNumAsc	按数字排序 0 → 9
+ToolSortNumDesc	按数字排序 9 → 0
+ToolShuffle	随机打乱行
+ToolRemoveConsecutive	删除连续重复的行
+ToolTrimLeading	删除行首空格
+ToolTrimBoth	删除两端空格
+ToolTabsToSpaces	制表符 → 空格
+ToolSpacesToTabs	缩进空格 → 制表符
+ToolRandomCase	随机大小写
+ToolFormatJson	格式化 JSON
+ToolMinifyJson	压缩 JSON
+ToolHashMd5	复制 MD5 哈希
+ToolHashSha1	复制 SHA-1 哈希
+ToolHashSha256	复制 SHA-256 哈希
+ToolHashSha512	复制 SHA-512 哈希
+ToolHashCopied	{0} 已复制到剪贴板
+ToolNotJson	这不是有效的 JSON
+ToolBookmark	添加 / 删除书签
+ToolBookmarkNext	下一个书签
+ToolBookmarkPrev	上一个书签
+ToolBookmarkClear	删除所有书签
+ToolMatchingBracket	转到匹配的括号
+ToolReadOnly	只读
+BookmarksNone	还没有书签。按 Ctrl+F2 添加
+BracketNone	光标附近没有括号
+ReadOnlyOn	只读：文本已锁定
+ReadOnlyOff	已重新允许编辑
+ReadOnlyNote	只读。关闭后才能编辑
+CtxSpaces	空格与制表符
+CtxBookmarks	书签
+StatusSelection	（已选 {0} 个字符，{1} 行）
+SetAutoCloseTitle.Text	自动闭合括号和引号
+SetAutoCloseDesc.Text	在代码中输入 ( [ { 或 " 时自动添加闭合字符
+SetSmartHighlightTitle.Text	高亮相同内容
+SetSmartHighlightDesc.Text	选中的单词会在各处亮起；光标处的括号对会被标出
+SetWatchFilesTitle.Text	跟踪其他程序的更改
+SetWatchFilesDesc.Text	在别处修改的文件会自动重新加载；如有未保存的更改，Vellum 会先询问
+ShortcutNewLine	在下方 / 上方新建行
+ShortcutBookmarkJump	下一个 / 上一个书签
+CmdReopenClosed	重新打开已关闭的标签页
+TabRename	重命名文件…
+TabOpenWith	用其他应用打开…
+TabSaveCopy	保存副本…
+TabFileInfo	文件信息
+CopySuffix	副本
+RenameTitle	重命名文件
+RenameConfirm	重命名
+RenameInvalid	名称包含 Windows 不允许的字符：\ / : * ? " < > |
+RenameExists	已存在同名文件
+RenameError	无法重命名为 {0}
+InfoPath	位置
+InfoSize	大小
+InfoCreated	创建时间
+InfoModified	修改时间
+InfoEncoding	编码
+InfoLineEnding	行尾
+InfoLines	行数
+InfoWords	词数
+InfoChars	字符数
+InfoLanguage	高亮
+SizeBytes	{0} 字节
+SizeKb	{0} KB
+SizeMb	{0} MB
+ReloadedExternal	已重新加载：文件在 Vellum 之外被修改
+ExternalTitle	{0} 在 Vellum 之外被修改
+ExternalText	另一个程序保存了此文件，而你在这里有未保存的更改。要加载新版本并放弃你的更改，还是保留你的版本？
+ExternalReload	加载新版本
+ExternalKeep	保留我的
+SettingsClose.TT	关闭设置 (Esc)
+AboutTagline.Text	一款安静的玻璃记事本，用于文字、笔记和代码。
+AboutPrivacyNote.Text	离线工作。不收集任何数据：你的文字只留在你的电脑上。
+AboutWebsite	Vellum 网站
+AboutRate	为 Vellum 评分
+AboutSupport	支持这个项目
+AboutSupportDesc	Vellum 是免费的；捐助能帮助它变得更好
+AboutContact	联系我们
+AboutBug	报告问题
+AboutBugDesc	打开一封已填好版本号的邮件
+AboutPrivacy	隐私政策
+AboutPrivacyDesc	Vellum 如何处理（以及不处理）数据
+AboutStudio	更多 Wesky 作品
+MenuLibrary.Text	笔记
+MenuHistory.Text	版本历史
+LibraryNew.TT	新建笔记
+LibraryClose.TT	关闭 (Esc)
+LibraryClose.AN	关闭
+LibrarySearch.PlaceholderText	搜索笔记
+LibraryEmptyTrash.Content	清空回收站
+HistoryTitle.Text	版本历史
+HistoryClose.TT	关闭 (Esc)
+HistoryClose.AN	关闭
+HistoryShowChanges.OnContent	显示更改
+HistoryShowChanges.OffContent	显示更改
+HistoryEmpty.Text	还没有版本。你写作时，Vellum 每隔几分钟以及每次保存时都会保留一个版本。
+HistoryHint.Text	红色：当前文本中没有。绿色：之后新增。
+HistoryCopy.Content	复制
+HistoryRestore.Content	恢复此版本
+SetSectionNotes.Text	笔记与历史
+SetLibraryTitle.Text	笔记库
+SetLibraryDesc.Text	新标签页就是笔记：会自动保存，关闭后仍留在笔记库中 (Ctrl+Shift+L)。
+SetHistoryTitle.Text	版本历史
+SetHistoryDesc.Text	保留笔记的旧版本，以便查看或恢复 (Ctrl+Shift+H)。
+SetFileHistoryTitle.Text	文件也保留历史
+SetFileHistoryDesc.Text	同时保留你在 Vellum 中保存的文件的版本。
+SetClearHistoryTitle.Text	清除历史
+SetClearHistoryDesc.Text	删除所有已保存的版本。笔记会保留。
+SetClearHistoryButton.Content	清除
+NoteUntitled	新笔记
+LibraryTitleText	笔记
+LibraryMeta	{0} · {1} 个词
+LibraryTrash	回收站
+LibraryTrashCount	回收站 ({0})
+LibraryEmptyTrashText	回收站是空的。删除的笔记会在这里保留 30 天。
+LibraryNothingFound	未找到任何内容。
+LibraryEmptyText	还没有笔记。每个新标签页都是一条笔记：开始写吧。直接在文字中添加 #标签。
+LibraryAllTags	全部
+LibraryYesterday	昨天
+LibraryRestore	恢复
+LibraryDeleteForever	永久删除
+LibraryOpen	打开
+LibraryEmptyTrashYes	清空回收站
+LibraryEmptyTrashConfirm	永久删除回收站中的所有笔记？
+LibraryOff	笔记库已在设置中关闭。
+NotePin	固定
+NoteUnpin	取消固定
+NoteHistory	版本历史…
+NoteExport	另存为文件…
+NoteDelete	删除笔记
+NoteSaved	笔记已保存
+NoteEmpty	笔记为空
+HistoryToday	今天 {0}
+HistoryYesterday	昨天 {0}
+HistoryLines	{0} 行
+HistorySame	与当前相同
+HistoryChanges	此后：+{0} / −{1} 行
+HistoryRestored	已恢复该版本。按 Ctrl+Z 可撤销。
+HistoryOff	版本历史已在设置中关闭。
+HistoryUntitled	请先保存文件：历史适用于笔记和已保存的文件。
+HistoryFilesOff	文件历史已在设置中关闭。
+CmdLibrary	笔记库
+CmdHistory	版本历史
+SetClearHistorySize	删除所有已保存的版本 ({0})。笔记会保留。
+SetClearHistoryConfirm	删除所有已保存的版本？笔记和文件保持不变。
+SetClearHistoryYes	清除历史
+NoteLockedSnippet	已用密码保护
+HistoryLocked	受密码保护的笔记没有版本历史。
+LockOpenTitle	打开“{0}”
+LockOpenText	这条笔记已加密。输入密码即可打开。
+LockOpenButton	打开
+LockWrongPassword	密码错误。
+LockSetTitle	用密码保护笔记
+LockSetText	笔记将在磁盘上加密。忘记密码后将无法恢复，我们也无能为力。它的旧版本将被删除。
+LockSetButton	加密
+LockDone	笔记已用密码保护
+LockRemoveTitle	移除密码
+LockRemoveText	再次输入密码，笔记将改为不加密保存。
+LockRemoveButton	移除密码
+LockRemoved	已移除密码
+LockPassword	密码
+LockPasswordAgain	再次输入密码
+LockMismatch	两次输入的密码不一致。
+LockNote	用密码保护…
+LockRemove	移除密码…
+ExportPdf	导出为 PDF…
+ExportHtml	导出为 HTML…
+ExportDone	已导出：{0}
+ExportFailed	无法准备导出页面。
+MenuExport.Text	导出
+MenuExportPdf.Text	PDF…
+MenuExportHtml.Text	HTML 页面…
+MenuMini.Text	迷你窗口
+CaptionMini.TT	返回完整窗口
+CaptionMiniName	返回完整窗口
+MiniOff	迷你窗口已在设置中关闭。
+CmdMini	置顶迷你窗口（开 / 关）
+CmdExportPdf	导出为 PDF
+CmdExportHtml	导出为 HTML
+TrayOpen	打开 Vellum
+TrayNewNote	新建笔记
+TrayExit	退出
+SetSectionTray.Text	托盘
+SetTrayTitle.Text	时钟旁的图标
+SetTrayDesc.Text	从系统托盘打开 Vellum 或新建笔记。
+SetCloseToTrayTitle.Text	关闭到托盘
+SetCloseToTrayDesc.Text	关闭窗口后 Vellum 仍在时钟旁运行。菜单中的“退出”才会完全关闭。
+SetStartupTitle.Text	随 Windows 启动
+SetStartupDesc.Text	安静启动：在托盘中或最小化。
+SetStartupNote	安静启动：在托盘中或最小化。
+SetStartupBlocked	已在任务管理器 → 启动应用中关闭，请在那里开启。
+SetStartupPolicy	你的组织不允许。
+SetQuickNoteTitle.Text	快速笔记：Ctrl+Alt+N
+SetQuickNoteDesc.Text	在任何应用中都能打开 Vellum 并新建笔记。
+SetQuickNoteNote	在任何应用中都能打开 Vellum 并新建笔记。
+SetQuickNoteTaken	Ctrl+Alt+N 已被其他应用占用。
+SetMiniTitle.Text	迷你窗口
+SetMiniDesc.Text	置顶的小窗口：Ctrl+Shift+M。
+SetNoteLocksTitle.Text	密码保护的笔记
+SetNoteLocksDesc.Text	在标签页菜单中加密笔记，采用 AES-256。
+SetExportTitle.Text	导出为 PDF 和 HTML
+SetExportDesc.Text	位于主菜单、标签页菜单和命令面板中。
+ShortcutQuickNote	在任何应用中快速记笔记

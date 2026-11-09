@@ -1,0 +1,21 @@
+using Microsoft.Windows.ApplicationModel.Resources;
+
+namespace Vellum.Services;
+
+/// <summary>
+/// Localized strings from Strings/&lt;language&gt;/Resources.resw.
+/// The language follows Windows by default.
+/// </summary>
+internal static class Strings
+{
+    private static readonly ResourceLoader Loader = new();
+
+    public static string Get(string key)
+    {
+        string value = Loader.GetString(key);
+        return string.IsNullOrEmpty(value) ? key : value;
+    }
+
+    public static string Format(string key, params object[] args) =>
+        string.Format(System.Globalization.CultureInfo.CurrentCulture, Get(key), args);
+}

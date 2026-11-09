@@ -1,0 +1,506 @@
+UntitledTab	Без назви
+StatusPosition	Рд {0}, ст {1}
+StatusCounts	Слів: {0} · символів: {1}
+MenuButton.TT	Меню
+MenuNewTab.Text	Нова вкладка
+MenuOpen.Text	Відкрити…
+MenuSave.Text	Зберегти
+MenuSaveAs.Text	Зберегти як…
+MenuCloseTab.Text	Закрити вкладку
+MenuExit.Text	Вийти
+SaveChangesTitle	Зберегти зміни в «{0}»?
+SaveChangesText	Якщо не зберегти, зміни буде втрачено.
+ButtonSave	Зберегти
+ButtonDontSave	Не зберігати
+ButtonCancel	Скасувати
+ButtonOk	OK
+ErrorOpenTitle	Не вдалося відкрити {0}
+ErrorSaveTitle	Не вдалося зберегти {0}
+FileTypeText	Текстовий документ
+MenuSettings.Text	Налаштування
+SettingsTab	Налаштування
+SettingsHeader.Text	Налаштування
+SetSectionAppearance.Text	Вигляд
+SetThemeTitle.Text	Тема
+SetThemeDesc.Text	Світла, темна або як у Windows
+SetThemeSystem.Content	Як у системі
+SetThemeLight.Content	Світла
+SetThemeDark.Content	Темна
+SetAccentTitle.Text	Колір акценту
+SetAccentDesc.Text	Для підсвічування, виділення та відтінку скла
+Accent_violet	Фіалковий Vellum
+Accent_mint	М'ята
+Accent_amber	Бурштин
+Accent_rose	Троянда
+Accent_ocean	Океан
+Accent_graphite	Графіт
+Accent_system	Колір акценту Windows
+SetBackdropTitle.Text	Тло вікна
+SetBackdropDesc.Text	Скло розмиває те, що за вікном, Mica бере колір із шпалер
+SetBackdropAcrylic.Content	Скло
+SetBackdropMica.Content	Mica
+SetBackdropSolid.Content	Суцільне
+SetGlassTitle.Text	Прозорість скла
+SetGlassDesc.Text	Наскільки просвічує тло
+SetSectionEditor.Text	Редактор
+SetFontTitle.Text	Шрифт
+SetFontDesc.Text	Оберіть шрифт або введіть назву будь-якого встановленого
+SetWrapTitle.Text	Перенесення рядків
+SetWrapDesc.Text	Довгі рядки переносяться за шириною вікна
+SetStatusTitle.Text	Рядок стану
+SetStatusDesc.Text	Рядок, стовпець, кількість слів і кодування внизу
+SetSpellTitle.Text	Перевірка правопису
+SetSpellDesc.Text	Підкреслювати слова з помилками
+SetSectionFiles.Text	Файли
+SetSessionTitle.Text	Відновлювати вкладки під час запуску
+SetSessionDesc.Text	Наступного разу Vellum відкриє ваші вкладки й незбережений текст
+SetAutoSaveTitle.Text	Автозбереження файлів
+SetAutoSaveDesc.Text	Відкриті файли зберігаються самі, щойно ви перестаєте друкувати
+SetSectionLanguage.Text	Мова
+SetLanguageTitle.Text	Мова застосунку
+SetLanguageDesc.Text	Типово Vellum використовує мову Windows
+SetLanguageSystem.Content	Як у Windows
+SetRestartBar.Message	Перезапустіть Vellum, щоб змінити мову. Вкладки залишаться відкритими.
+SetRestartButton.Content	Перезапустити
+SetSectionAbout.Text	Про застосунок
+SetVersion	Версія {0} · створено Wesky
+FindReplaceToggle.TT	Показати заміну
+FindMatchCase.TT	Враховувати регістр
+FindWholeWord.TT	Ціле слово
+FindRegex.TT	Регулярний вираз
+FindPrevious.TT	Попередній збіг (Shift+F3)
+FindNext.TT	Наступний збіг (F3)
+FindClose.TT	Закрити (Esc)
+FindBox.PlaceholderText	Знайти
+ReplaceBox.PlaceholderText	Замінити на
+ReplaceOne.Content	Замінити
+ReplaceAll.Content	Замінити все
+FindCount	{0} з {1}
+FindTotal	Знайдено: {0}
+FindNoResults	Нічого не знайдено
+FindRegexError	Помилка у виразі
+ReplacedCount	Замінено: {0}
+PaletteBox.PlaceholderText	Введіть команду або : і номер рядка
+PaletteGoToLine	Перейти до рядка {0}
+MenuFind.Text	Знайти
+MenuReplace.Text	Замінити
+MenuPalette.Text	Палітра команд
+CmdPalette	Палітра команд
+CmdNewTab	Нова вкладка
+CmdOpen	Відкрити…
+CmdSave	Зберегти
+CmdSaveAs	Зберегти як…
+CmdCloseTab	Закрити вкладку
+CmdFind	Знайти
+CmdReplace	Замінити
+CmdFindNextPrev	Наступний / попередній збіг
+CmdGoToLine	Перейти до рядка…
+CmdSettings	Налаштування
+CmdWrapOn	Увімкнути перенесення рядків
+CmdWrapOff	Вимкнути перенесення рядків
+CmdStatusOn	Показати рядок стану
+CmdStatusOff	Сховати рядок стану
+CmdZoomIn	Збільшити
+CmdZoomOut	Зменшити
+CmdZoomReset	Скинути масштаб
+CmdZoom	Збільшити / зменшити / скинути
+CmdThemeSystem	Тема: як у системі
+CmdThemeLight	Тема: світла
+CmdThemeDark	Тема: темна
+CmdAccent	Акцент: {0}
+CmdBackdropAcrylic	Тло: скло
+CmdBackdropMica	Тло: Mica
+CmdBackdropSolid	Тло: суцільне
+CmdSwitchTab	До вкладки: {0}
+CmdSwitchTabs	Перемикання вкладок
+SetSectionShortcuts.Text	Гарячі клавіші
+PreviewButton.TT	Перегляд Markdown (Ctrl+Shift+V)
+LanguageButton.TT	Підсвічування для цієї вкладки
+StatusCountsGoal	Слів: {0} / {1} · символів: {2}
+SyntaxPlain	Звичайний текст
+PreviewOff	Перегляд
+PreviewSplit	Поруч
+PreviewFull	Лише перегляд
+CtxUndo	Скасувати
+CtxRedo	Повторити
+CtxCut	Вирізати
+CtxCopy	Копіювати
+CtxPaste	Вставити
+CtxSelectAll	Виділити все
+CmdPreview	Перегляд Markdown
+CmdZenOn	Режим дзен
+CmdZenOff	Вийти з режиму дзен
+CmdFocusOn	Увімкнути режим фокусу
+CmdFocusOff	Вимкнути режим фокусу
+CmdTypewriterOn	Увімкнути друкарську машинку
+CmdTypewriterOff	Вимкнути друкарську машинку
+CmdReadableOn	Вузька колонка тексту
+CmdReadableOff	Текст на всю ширину
+CmdMarkdownOn	Увімкнути оформлення Markdown
+CmdMarkdownOff	Вимкнути оформлення Markdown
+CmdSyntaxOn	Увімкнути підсвічування коду
+CmdSyntaxOff	Вимкнути підсвічування коду
+CmdSyntax	Підсвічування: {0}
+CmdUndoRedo	Скасувати / повторити
+SetLineSpacingTitle.Text	Міжрядковий інтервал
+SetLineSpacingDesc.Text	Рядки далі один від одного, довгий текст читається легше
+SetReadableTitle.Text	Вузька колонка тексту
+SetReadableDesc.Text	У широкому вікні рядки не довші за зручні для читання
+SetSectionWriting.Text	Письмо і код
+SetMarkdownTitle.Text	Оформлення Markdown
+SetMarkdownDesc.Text	Заголовки, жирний і код оформлюються одразу під час набору у файлах .md
+SetPreviewTitle.Text	Перегляд Markdown
+SetPreviewDesc.Text	Кнопка в рядку стану і Ctrl+Shift+V показують готову сторінку
+SetSyntaxTitle.Text	Підсвічування коду
+SetSyntaxDesc.Text	Розфарбовує код, JSON, XML, журнали тощо залежно від типу файлу
+SetMonoTitle.Text	Моноширинний шрифт для коду
+SetMonoDesc.Text	Файли коду показуються шрифтом Cascadia Mono, щоб стовпці збігалися
+SetFocusTitle.Text	Режим фокусу
+SetFocusDesc.Text	Усе, крім абзацу, який ви пишете, відходить на задній план
+SetTypewriterTitle.Text	Друкарська машинка
+SetTypewriterDesc.Text	Рядок, який ви пишете, лишається посередині вікна
+SetGoalTitle.Text	Мета за словами
+SetGoalDesc.Text	Прогрес видно в рядку стану. Щоб вимкнути, поставте 0
+HelpButton.TT	Шпаргалка з Markdown
+LineEndingButton.TT	Перенесення рядків
+EncodingButton.TT	Кодування
+HelpClose.TT	Закрити (Esc)
+ToolDuplicateLine	Дублювати рядок
+ToolDeleteLine	Видалити рядок
+ToolMoveLineUp	Перемістити рядок вгору
+ToolMoveLineDown	Перемістити рядок вниз
+ToolSortAsc	Сортувати рядки А → Я
+ToolSortDesc	Сортувати рядки Я → А
+ToolRemoveDuplicates	Прибрати повтори рядків
+ToolRemoveEmpty	Прибрати порожні рядки
+ToolTrimTrailing	Прибрати пробіли в кінці рядків
+ToolJoinLines	Склеїти рядки
+ToolReverseLines	Розвернути порядок рядків
+ToolUpper	ВЕЛИКІ ЛІТЕРИ
+ToolLower	малі літери
+ToolTitle	Кожне Слово З Великої
+ToolSentence	Як у реченні
+ToolInvert	іНВЕРСІЯ рЕГІСТРУ
+ToolComment	Закоментувати / розкоментувати
+ToolDateTime	Вставити дату й час
+ToolBase64Encode	Закодувати в Base64
+ToolBase64Decode	Розкодувати з Base64
+ToolUrlEncode	Закодувати для URL
+ToolUrlDecode	Розкодувати URL
+ToolSearchWeb	Шукати в інтернеті
+ToolNothingChanged	Нічого змінювати
+ToolNoComments	У цій мові немає коментарів
+ToolSelectFirst	Спершу виділіть текст
+ToolCannotDecode	Не вдалося розкодувати виділене
+CtxLines	Рядки
+CtxCase	Регістр
+CtxConvert	Перетворити
+EolWindows	Windows (CRLF)
+EolUnix	Unix / macOS (LF)
+EolMac	Старий Mac (CR)
+EncSaveAs	Зберегти в кодуванні
+EncReopen	Відкрити знову в кодуванні
+EncLossTitle	Частину символів буде втрачено
+EncLossText	{0} не може зберегти деякі символи цього тексту. Їх буде записано як «?». Все одно перетворити?
+EncLossConfirm	Перетворити
+ReloadTitle	Перечитати файл?
+ReloadText	Незбережені зміни в цій вкладці буде втрачено.
+ReloadConfirm	Перечитати
+HelpTitle.Text	Шпаргалка з Markdown
+HelpSubtitle.Text	Прості позначки, що перетворюються на оформлення. Працює у файлах .md.
+HelpYouType.Text	ВИ ПИШЕТЕ
+HelpYouGet.Text	ВИ ОТРИМУЄТЕ
+HelpTips.Text	Ctrl+Shift+V показує перегляд. Enter продовжує списки, Tab робить вкладені. Картинка: ![підпис](file.png або посилання).
+HelpMdHeadings	Заголовки
+HelpMdHeadingsSample	# Заголовок 1\n## Заголовок 2\n### Заголовок 3
+HelpMdEmphasis	Жирний і курсив
+HelpMdEmphasisSample	**жирний**, *курсив*, ***обидва***
+HelpMdStrike	Закреслений
+HelpMdStrikeSample	~~вже неправда~~
+HelpMdCode	Код у рядку
+HelpMdCodeSample	Виконайте `git status`
+HelpMdLink	Посилання
+HelpMdBullets	Список
+HelpMdBulletsSample	- Яблука\n- Груші\n  - Вкладений пункт
+HelpMdNumbers	Нумерований список
+HelpMdNumbersSample	1. Перше\n2. Друге
+HelpMdTasks	Список справ
+HelpMdTasksSample	- [x] Зроблено\n- [ ] Зробити
+HelpMdQuote	Цитата
+HelpMdQuoteSample	> Пишіть щодня.
+HelpMdCodeBlock	Блок коду
+HelpMdTable	Таблиця
+HelpMdTableSample	| Товар | Ціна |\n|-------|------|\n| Чай   | 3    |
+HelpMdRule	Розділювач
+HelpMdRuleSample	Вище\n\n---\n\nНижче
+MenuRecent.Text	Нещодавні файли
+MenuRecentClear	Очистити список
+MenuSaveAll.Text	Зберегти все
+MenuTopmost.Text	Поверх усіх вікон
+MenuZen.Text	Режим дзен
+MenuMarkdownHelp.Text	Шпаргалка з Markdown
+MenuCloseAll.Text	Закрити всі вкладки
+TabClose	Закрити
+TabCloseOthers	Закрити інші вкладки
+TabCloseRight	Закрити вкладки праворуч
+TabCloseSaved	Закрити збережені вкладки
+TabCloseAll	Закрити всі вкладки
+TabCopyPath	Копіювати повний шлях
+TabCopyName	Копіювати ім'я файлу
+TabOpenFolder	Відкрити папку з файлом
+TabReload	Перечитати з диска
+CmdSaveAll	Зберегти все
+CmdOpenRecent	Відкрити нещодавній: {0}
+CmdTopmost	Поверх усіх вікон (увімк. / вимк.)
+CmdMarkdownHelp	Шпаргалка з Markdown
+CmdLineNumbersOn	Показати номери рядків
+CmdLineNumbersOff	Сховати номери рядків
+CmdLineBandOn	Підсвічувати поточний рядок
+CmdLineBandOff	Не підсвічувати поточний рядок
+SetSectionEditing.Text	Код і редагування
+SetLineNumbersTitle.Text	Номери рядків
+SetLineNumbersDesc.Text	Номери на лівому полі
+SetLineBandTitle.Text	Підсвічувати поточний рядок
+SetLineBandDesc.Text	М'яка смуга кольору акценту за рядком із курсором
+SetTabSizeTitle.Text	Клавіша Tab
+SetTabSizeDesc.Text	Що вставляє Tab. Якщо виділено кілька рядків, Tab і Shift+Tab зсувають їх.
+SetTabChar.Content	Символ табуляції
+SetTab2.Content	2 пробіли
+SetTab4.Content	4 пробіли
+SetTab8.Content	8 пробілів
+SetAutoIndentTitle.Text	Розумний Enter
+SetAutoIndentDesc.Text	Новий рядок зберігає відступ; списки Markdown продовжуються самі
+SetSearchEngineTitle.Text	Пошук в інтернеті
+SetSearchEngineDesc.Text	Де Ctrl+E шукає виділений текст
+SetExitLastTitle.Text	Закривати Vellum з останньою вкладкою
+SetExitLastDesc.Text	Інакше відкриється нова порожня вкладка
+SetNewEncodingTitle.Text	Кодування нових файлів
+SetNewEncodingDesc.Text	Відкриті файли зберігають своє; змінити можна будь-коли в рядку стану
+SetNewEolTitle.Text	Перенесення рядків у нових файлах
+SetNewEolDesc.Text	Програми Windows чекають CRLF, а Linux, macOS і більшість інструментів для коду чекають LF
+EolWindowsItem.Content	Windows (CRLF)
+EolUnixItem.Content	Unix / macOS (LF)
+EolMacItem.Content	Старий Mac (CR)
+ShortcutMoveLines	Перемістити рядки вгору / вниз
+ShortcutCase	Великі / малі літери
+ShortcutIndent	Збільшити / зменшити відступ
+CaptionMinimize.TT	Згорнути
+CaptionMaximize.TT	Розгорнути
+CaptionClose.TT	Закрити
+CaptionMaximizeName	Розгорнути
+CaptionRestoreName	Відновити
+Accent_lavender	Лаванда
+Accent_indigo	Індиго
+Accent_sky	Небо
+Accent_teal	Бірюза
+Accent_sage	Шавлія
+Accent_lime	Лайм
+Accent_sand	Пісок
+Accent_coral	Корал
+Accent_crimson	Малиновий
+Accent_berry	Ягода
+Accent_slate	Сланець
+ReadOnlyButton.TT	Лише читання. Натисніть, щоб дозволити редагування
+ToolLineAbove	Вставити рядок вище
+ToolLineBelow	Вставити рядок нижче
+ToolSortNumAsc	Сортувати за числом 0 → 9
+ToolSortNumDesc	Сортувати за числом 9 → 0
+ToolShuffle	Перемішати рядки
+ToolRemoveConsecutive	Прибрати повтори поспіль
+ToolTrimLeading	Прибрати пробіли на початку рядків
+ToolTrimBoth	Прибрати пробіли з обох боків
+ToolTabsToSpaces	Табуляції → пробіли
+ToolSpacesToTabs	Пробіли відступу → табуляції
+ToolRandomCase	вИпАдКоВиЙ рЕгІсТр
+ToolFormatJson	Відформатувати JSON
+ToolMinifyJson	Стиснути JSON
+ToolHashMd5	Копіювати хеш MD5
+ToolHashSha1	Копіювати хеш SHA-1
+ToolHashSha256	Копіювати хеш SHA-256
+ToolHashSha512	Копіювати хеш SHA-512
+ToolHashCopied	{0} скопійовано в буфер обміну
+ToolNotJson	Це не правильний JSON
+ToolBookmark	Поставити / зняти закладку
+ToolBookmarkNext	Наступна закладка
+ToolBookmarkPrev	Попередня закладка
+ToolBookmarkClear	Прибрати всі закладки
+ToolMatchingBracket	До парної дужки
+ToolReadOnly	Лише читання
+BookmarksNone	Закладок ще немає. Додати закладку: Ctrl+F2
+BracketNone	Біля курсора немає дужки
+ReadOnlyOn	Лише читання: текст заблоковано
+ReadOnlyOff	Редагування знову дозволено
+ReadOnlyNote	Лише читання. Вимкніть, щоб редагувати
+CtxSpaces	Пробіли й табуляції
+CtxBookmarks	Закладки
+StatusSelection	(виділено: символів {0}, рядків {1})
+SetAutoCloseTitle.Text	Закривати дужки й лапки
+SetAutoCloseDesc.Text	У коді після ( [ { або " одразу додається закривна
+SetSmartHighlightTitle.Text	Підсвічувати збіги
+SetSmartHighlightDesc.Text	Виділене слово підсвічується всюди; пара дужок біля курсора позначається
+SetWatchFilesTitle.Text	Стежити за змінами з інших програм
+SetWatchFilesDesc.Text	Файл, змінений деінде, перечитується сам; якщо є незбережені правки, Vellum спершу запитає
+ShortcutNewLine	Новий рядок нижче / вище
+ShortcutBookmarkJump	Наступна / попередня закладка
+CmdReopenClosed	Повернути закриту вкладку
+TabRename	Перейменувати файл…
+TabOpenWith	Відкрити в іншій програмі…
+TabSaveCopy	Зберегти копію…
+TabFileInfo	Відомості про файл
+CopySuffix	копія
+RenameTitle	Перейменувати файл
+RenameConfirm	Перейменувати
+RenameInvalid	У назві є символи, які Windows не дозволяє: \ / : * ? " < > |
+RenameExists	Файл з такою назвою вже існує
+RenameError	Не вдалося перейменувати на {0}
+InfoPath	Розташування
+InfoSize	Розмір
+InfoCreated	Створено
+InfoModified	Змінено
+InfoEncoding	Кодування
+InfoLineEnding	Перенесення рядків
+InfoLines	Рядків
+InfoWords	Слів
+InfoChars	Символів
+InfoLanguage	Підсвічування
+SizeBytes	{0} байт
+SizeKb	{0} КБ
+SizeMb	{0} МБ
+ReloadedExternal	Перечитано: файл змінили поза Vellum
+ExternalTitle	{0} змінено поза Vellum
+ExternalText	Інша програма зберегла цей файл, а тут є незбережені правки. Завантажити нову версію і відкинути свої правки чи залишити свої?
+ExternalReload	Завантажити нову
+ExternalKeep	Залишити мої
+SettingsClose.TT	Закрити налаштування (Esc)
+AboutTagline.Text	Спокійний скляний блокнот для тексту, нотаток і коду.
+AboutPrivacyNote.Text	Працює без інтернету. Нічого не збирає: ваш текст лишається на вашому комп'ютері.
+AboutWebsite	Сайт Vellum
+AboutRate	Оцінити Vellum
+AboutSupport	Підтримати проєкт
+AboutSupportDesc	Vellum безкоштовний; донат допомагає робити його кращим
+AboutContact	Написати нам
+AboutBug	Повідомити про проблему
+AboutBugDesc	Відкриває лист із уже вказаною версією
+AboutPrivacy	Політика конфіденційності
+AboutPrivacyDesc	Що Vellum робить (і чого не робить) з даними
+AboutStudio	Інші застосунки Wesky
+MenuLibrary.Text	Нотатки
+MenuHistory.Text	Історія версій
+LibraryNew.TT	Нова нотатка
+LibraryClose.TT	Закрити (Esc)
+LibraryClose.AN	Закрити
+LibrarySearch.PlaceholderText	Пошук у нотатках
+LibraryEmptyTrash.Content	Очистити кошик
+HistoryTitle.Text	Історія версій
+HistoryClose.TT	Закрити (Esc)
+HistoryClose.AN	Закрити
+HistoryShowChanges.OnContent	Що змінилося
+HistoryShowChanges.OffContent	Що змінилося
+HistoryEmpty.Text	Версій поки немає. Vellum зберігає версію кожні кілька хвилин, поки ви пишете, і під час кожного збереження.
+HistoryHint.Text	Червоним показано те, чого вже немає в тексті, зеленим те, що додано потім.
+HistoryCopy.Content	Копіювати
+HistoryRestore.Content	Повернути цю версію
+SetSectionNotes.Text	Нотатки та історія
+SetLibraryTitle.Text	Бібліотека нотаток
+SetLibraryDesc.Text	Кожна нова вкладка стає нотаткою: вона зберігається сама й лишається в бібліотеці після закриття (Ctrl+Shift+L).
+SetHistoryTitle.Text	Історія версій
+SetHistoryDesc.Text	Зберігає попередні версії нотаток: можна переглянути або повернути (Ctrl+Shift+H).
+SetFileHistoryTitle.Text	Історія і для файлів
+SetFileHistoryDesc.Text	Зберігає версії й тих файлів, які ви зберігаєте у Vellum.
+SetClearHistoryTitle.Text	Очистити історію
+SetClearHistoryDesc.Text	Видаляє всі збережені версії. Нотатки залишаються.
+SetClearHistoryButton.Content	Очистити
+NoteUntitled	Нова нотатка
+LibraryTitleText	Нотатки
+LibraryMeta	{0} · слів: {1}
+LibraryTrash	Кошик
+LibraryTrashCount	Кошик ({0})
+LibraryEmptyTrashText	Кошик порожній. Видалені нотатки зберігаються тут 30 днів.
+LibraryNothingFound	Нічого не знайдено.
+LibraryEmptyText	Нотаток поки немає. Кожна нова вкладка стає нотаткою, просто почніть писати. Теги ставте прямо в тексті: #ідеї.
+LibraryAllTags	Усі
+LibraryYesterday	Учора
+LibraryRestore	Відновити
+LibraryDeleteForever	Видалити назавжди
+LibraryOpen	Відкрити
+LibraryEmptyTrashYes	Очистити кошик
+LibraryEmptyTrashConfirm	Видалити всі нотатки з кошика назавжди?
+LibraryOff	Бібліотеку нотаток вимкнено в налаштуваннях.
+NotePin	Закріпити
+NoteUnpin	Відкріпити
+NoteHistory	Історія версій…
+NoteExport	Зберегти у файл…
+NoteDelete	Видалити нотатку
+NoteSaved	Нотатку збережено
+NoteEmpty	Нотатка порожня
+HistoryToday	Сьогодні, {0}
+HistoryYesterday	Учора, {0}
+HistoryLines	Рядків: {0}
+HistorySame	Як зараз
+HistoryChanges	Відтоді: +{0} / −{1} рядків
+HistoryRestored	Версію повернено. Ctrl+Z скасує.
+HistoryOff	Історію версій вимкнено в налаштуваннях.
+HistoryUntitled	Спершу збережіть файл: історія ведеться для нотаток і збережених файлів.
+HistoryFilesOff	Історію для файлів вимкнено в налаштуваннях.
+CmdLibrary	Бібліотека нотаток
+CmdHistory	Історія версій
+SetClearHistorySize	Видаляє всі збережені версії ({0}). Нотатки залишаються.
+SetClearHistoryConfirm	Видалити всі збережені версії? Самі нотатки й файли залишаться як є.
+SetClearHistoryYes	Очистити історію
+NoteLockedSnippet	Захищена паролем
+HistoryLocked	Нотатки під паролем не мають історії версій.
+LockOpenTitle	Відкрити «{0}»
+LockOpenText	Нотатку захищено. Введіть пароль, щоб відкрити її.
+LockOpenButton	Відкрити
+LockWrongPassword	Неправильний пароль.
+LockSetTitle	Захистити нотатку паролем
+LockSetText	Нотатку буде зашифровано на диску. Якщо забути пароль, відновити її не зможе ніхто, навіть ми. Попередні версії нотатки буде видалено.
+LockSetButton	Захистити
+LockDone	Нотатку захищено паролем
+LockRemoveTitle	Зняти пароль
+LockRemoveText	Введіть пароль ще раз, щоб знову зберігати нотатку без шифрування.
+LockRemoveButton	Зняти пароль
+LockRemoved	Пароль знято
+LockPassword	Пароль
+LockPasswordAgain	Повторіть пароль
+LockMismatch	Паролі не збігаються.
+LockNote	Захистити паролем…
+LockRemove	Зняти пароль…
+ExportPdf	Експорт у PDF…
+ExportHtml	Експорт у HTML…
+ExportDone	Експортовано: {0}
+ExportFailed	Не вдалося підготувати сторінку для експорту.
+MenuExport.Text	Експорт
+MenuExportPdf.Text	PDF…
+MenuExportHtml.Text	HTML-сторінка…
+MenuMini.Text	Міні-вікно
+CaptionMini.TT	Повернути звичайне вікно
+CaptionMiniName	Повернути звичайне вікно
+MiniOff	Міні-вікно вимкнено в налаштуваннях.
+CmdMini	Міні-вікно поверх усіх (увімк. / вимк.)
+CmdExportPdf	Експорт у PDF
+CmdExportHtml	Експорт у HTML
+TrayOpen	Відкрити Vellum
+TrayNewNote	Нова нотатка
+TrayExit	Вийти
+SetSectionTray.Text	Трей
+SetTrayTitle.Text	Значок біля годинника
+SetTrayDesc.Text	Відкривайте Vellum або нову нотатку із системного трею.
+SetCloseToTrayTitle.Text	Закривати в трей
+SetCloseToTrayDesc.Text	Хрестик ховає вікно, а Vellum лишається біля годинника. Щоб закрити повністю, виберіть «Вийти» в меню.
+SetStartupTitle.Text	Запускати разом з Windows
+SetStartupDesc.Text	Запускається тихо: у треї або згорнутим.
+SetStartupNote	Запускається тихо: у треї або згорнутим.
+SetStartupBlocked	Вимкнено в Диспетчері завдань → Автозавантаження. Увімкніть там.
+SetStartupPolicy	Заборонено політикою вашої організації.
+SetQuickNoteTitle.Text	Швидка нотатка: Ctrl+Alt+N
+SetQuickNoteDesc.Text	З будь-якої програми відкриває Vellum з новою нотаткою.
+SetQuickNoteNote	З будь-якої програми відкриває Vellum з новою нотаткою.
+SetQuickNoteTaken	Ctrl+Alt+N вже зайняте іншою програмою.
+SetMiniTitle.Text	Міні-вікно
+SetMiniDesc.Text	Маленьке вікно поверх інших: Ctrl+Shift+M.
+SetNoteLocksTitle.Text	Нотатки під паролем
+SetNoteLocksDesc.Text	Захист нотатки з меню вкладки. Шифрування AES-256.
+SetExportTitle.Text	Експорт у PDF і HTML
+SetExportDesc.Text	У головному меню, меню вкладки та палітрі команд.
+ShortcutQuickNote	Швидка нотатка з будь-якої програми

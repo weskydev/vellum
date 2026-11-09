@@ -1,0 +1,506 @@
+UntitledTab	Senza titolo
+StatusPosition	Riga {0}, col. {1}
+StatusCounts	{0} parole · {1} caratteri
+MenuButton.TT	Menu
+MenuNewTab.Text	Nuova scheda
+MenuOpen.Text	Apri…
+MenuSave.Text	Salva
+MenuSaveAs.Text	Salva con nome…
+MenuCloseTab.Text	Chiudi scheda
+MenuExit.Text	Esci
+SaveChangesTitle	Salvare le modifiche a {0}?
+SaveChangesText	Se non salvi, le modifiche andranno perse.
+ButtonSave	Salva
+ButtonDontSave	Non salvare
+ButtonCancel	Annulla
+ButtonOk	OK
+ErrorOpenTitle	Impossibile aprire {0}
+ErrorSaveTitle	Impossibile salvare {0}
+FileTypeText	Documento di testo
+MenuSettings.Text	Impostazioni
+SettingsTab	Impostazioni
+SettingsHeader.Text	Impostazioni
+SetSectionAppearance.Text	Aspetto
+SetThemeTitle.Text	Tema
+SetThemeDesc.Text	Chiaro, scuro o come Windows
+SetThemeSystem.Content	Usa impostazione di sistema
+SetThemeLight.Content	Chiaro
+SetThemeDark.Content	Scuro
+SetAccentTitle.Text	Colore principale
+SetAccentDesc.Text	Per evidenziazioni, selezione e la tinta del vetro
+Accent_violet	Viola Vellum
+Accent_mint	Menta
+Accent_amber	Ambra
+Accent_rose	Rosa
+Accent_ocean	Oceano
+Accent_graphite	Grafite
+Accent_system	Colore principale di Windows
+SetBackdropTitle.Text	Sfondo della finestra
+SetBackdropDesc.Text	Il vetro sfoca ciò che sta dietro la finestra, Mica prende il colore dello sfondo del desktop
+SetBackdropAcrylic.Content	Vetro
+SetBackdropMica.Content	Mica
+SetBackdropSolid.Content	Tinta unita
+SetGlassTitle.Text	Trasparenza del vetro
+SetGlassDesc.Text	Quanto si vede lo sfondo
+SetSectionEditor.Text	Editor
+SetFontTitle.Text	Carattere
+SetFontDesc.Text	Scegli un carattere o scrivi il nome di qualsiasi carattere installato
+SetWrapTitle.Text	A capo automatico
+SetWrapDesc.Text	Le righe lunghe si adattano alla larghezza della finestra
+SetStatusTitle.Text	Barra di stato
+SetStatusDesc.Text	Riga, colonna, conteggio parole e codifica in basso
+SetSpellTitle.Text	Controllo ortografico
+SetSpellDesc.Text	Sottolinea le parole scritte male
+SetSectionFiles.Text	File
+SetSessionTitle.Text	Ripristina le schede all’avvio
+SetSessionDesc.Text	Riapre le schede e il testo non salvato al prossimo avvio
+SetAutoSaveTitle.Text	Salvataggio automatico
+SetAutoSaveDesc.Text	I file aperti si salvano da soli poco dopo che scrivi
+SetSectionLanguage.Text	Lingua
+SetLanguageTitle.Text	Lingua dell’app
+SetLanguageDesc.Text	Per impostazione predefinita Vellum segue la lingua di Windows
+SetLanguageSystem.Content	Lingua di Windows
+SetRestartBar.Message	Riavvia Vellum per cambiare lingua. Le schede resteranno aperte.
+SetRestartButton.Content	Riavvia
+SetSectionAbout.Text	Informazioni
+SetVersion	Versione {0} · di Wesky
+FindReplaceToggle.TT	Mostra sostituzione
+FindMatchCase.TT	Maiuscole/minuscole
+FindWholeWord.TT	Parola intera
+FindRegex.TT	Espressione regolare
+FindPrevious.TT	Risultato precedente (Maiusc+F3)
+FindNext.TT	Risultato successivo (F3)
+FindClose.TT	Chiudi (Esc)
+FindBox.PlaceholderText	Trova
+ReplaceBox.PlaceholderText	Sostituisci con
+ReplaceOne.Content	Sostituisci
+ReplaceAll.Content	Sostituisci tutto
+FindCount	{0} di {1}
+FindTotal	{0} trovati
+FindNoResults	Nessun risultato
+FindRegexError	Schema non valido
+ReplacedCount	Sostituiti: {0}
+PaletteBox.PlaceholderText	Scrivi un comando, oppure : e un numero di riga
+PaletteGoToLine	Vai alla riga {0}
+MenuFind.Text	Trova
+MenuReplace.Text	Sostituisci
+MenuPalette.Text	Tavolozza comandi
+CmdPalette	Tavolozza comandi
+CmdNewTab	Nuova scheda
+CmdOpen	Apri…
+CmdSave	Salva
+CmdSaveAs	Salva con nome…
+CmdCloseTab	Chiudi scheda
+CmdFind	Trova
+CmdReplace	Sostituisci
+CmdFindNextPrev	Risultato successivo / precedente
+CmdGoToLine	Vai alla riga…
+CmdSettings	Impostazioni
+CmdWrapOn	Attiva a capo automatico
+CmdWrapOff	Disattiva a capo automatico
+CmdStatusOn	Mostra barra di stato
+CmdStatusOff	Nascondi barra di stato
+CmdZoomIn	Aumenta zoom
+CmdZoomOut	Riduci zoom
+CmdZoomReset	Reimposta zoom
+CmdZoom	Aumenta / riduci / reimposta zoom
+CmdThemeSystem	Tema: sistema
+CmdThemeLight	Tema: chiaro
+CmdThemeDark	Tema: scuro
+CmdAccent	Colore: {0}
+CmdBackdropAcrylic	Sfondo: vetro
+CmdBackdropMica	Sfondo: Mica
+CmdBackdropSolid	Sfondo: tinta unita
+CmdSwitchTab	Vai alla scheda: {0}
+CmdSwitchTabs	Cambia scheda
+SetSectionShortcuts.Text	Scorciatoie da tastiera
+PreviewButton.TT	Anteprima Markdown (Ctrl+Maiusc+V)
+LanguageButton.TT	Evidenziazione per questa scheda
+StatusCountsGoal	{0} / {1} parole · {2} caratteri
+SyntaxPlain	Testo semplice
+PreviewOff	Anteprima
+PreviewSplit	Affiancata
+PreviewFull	Solo anteprima
+CtxUndo	Annulla
+CtxRedo	Ripeti
+CtxCut	Taglia
+CtxCopy	Copia
+CtxPaste	Incolla
+CtxSelectAll	Seleziona tutto
+CmdPreview	Anteprima Markdown
+CmdZenOn	Modalità zen
+CmdZenOff	Esci dalla modalità zen
+CmdFocusOn	Attiva modalità concentrazione
+CmdFocusOff	Disattiva modalità concentrazione
+CmdTypewriterOn	Attiva modalità macchina da scrivere
+CmdTypewriterOff	Disattiva modalità macchina da scrivere
+CmdReadableOn	Colonna di testo stretta
+CmdReadableOff	Testo a tutta larghezza
+CmdMarkdownOn	Attiva formattazione Markdown
+CmdMarkdownOff	Disattiva formattazione Markdown
+CmdSyntaxOn	Attiva evidenziazione del codice
+CmdSyntaxOff	Disattiva evidenziazione del codice
+CmdSyntax	Evidenziazione: {0}
+CmdUndoRedo	Annulla / ripeti
+SetLineSpacingTitle.Text	Interlinea
+SetLineSpacingDesc.Text	Più aria tra le righe rende i testi lunghi più facili da leggere
+SetReadableTitle.Text	Colonna di testo stretta
+SetReadableDesc.Text	In una finestra larga le righe mantengono una larghezza comoda da leggere
+SetSectionWriting.Text	Scrittura e codice
+SetMarkdownTitle.Text	Formattazione Markdown
+SetMarkdownDesc.Text	Titoli, grassetto e codice appaiono formattati mentre scrivi nei file .md
+SetPreviewTitle.Text	Anteprima Markdown
+SetPreviewDesc.Text	Un pulsante nella barra di stato e Ctrl+Maiusc+V mostrano la pagina finita
+SetSyntaxTitle.Text	Evidenziazione del codice
+SetSyntaxDesc.Text	Colori per codice, JSON, XML, log e altro, in base al tipo di file
+SetMonoTitle.Text	Carattere a spaziatura fissa per il codice
+SetMonoDesc.Text	I file di codice usano Cascadia Mono per allineare le colonne
+SetFocusTitle.Text	Modalità concentrazione
+SetFocusDesc.Text	Tutto tranne il paragrafo corrente si attenua
+SetTypewriterTitle.Text	Macchina da scrivere
+SetTypewriterDesc.Text	La riga che scrivi resta al centro della finestra
+SetGoalTitle.Text	Obiettivo di parole
+SetGoalDesc.Text	Mostra i progressi nella barra di stato; 0 lo disattiva
+HelpButton.TT	Guida rapida Markdown
+LineEndingButton.TT	Fine riga
+EncodingButton.TT	Codifica
+HelpClose.TT	Chiudi (Esc)
+ToolDuplicateLine	Duplica riga
+ToolDeleteLine	Elimina riga
+ToolMoveLineUp	Sposta riga su
+ToolMoveLineDown	Sposta riga giù
+ToolSortAsc	Ordina righe A → Z
+ToolSortDesc	Ordina righe Z → A
+ToolRemoveDuplicates	Rimuovi righe duplicate
+ToolRemoveEmpty	Rimuovi righe vuote
+ToolTrimTrailing	Rimuovi spazi a fine riga
+ToolJoinLines	Unisci righe
+ToolReverseLines	Inverti ordine delle righe
+ToolUpper	MAIUSCOLO
+ToolLower	minuscolo
+ToolTitle	Ogni Parola Maiuscola
+ToolSentence	Maiuscola a inizio frase
+ToolInvert	iNVERTI mAIUSCOLE
+ToolComment	Commenta / rimuovi commento
+ToolDateTime	Inserisci data e ora
+ToolBase64Encode	Codifica in Base64
+ToolBase64Decode	Decodifica da Base64
+ToolUrlEncode	Codifica per URL
+ToolUrlDecode	Decodifica URL
+ToolSearchWeb	Cerca sul web
+ToolNothingChanged	Niente da cambiare
+ToolNoComments	Questo linguaggio non ha commenti
+ToolSelectFirst	Seleziona prima del testo
+ToolCannotDecode	Impossibile decodificare la selezione
+CtxLines	Righe
+CtxCase	Maiuscole e minuscole
+CtxConvert	Converti
+EolWindows	Windows (CRLF)
+EolUnix	Unix / macOS (LF)
+EolMac	Mac classico (CR)
+EncSaveAs	Salva con codifica
+EncReopen	Riapri con codifica
+EncLossTitle	Alcuni caratteri andranno persi
+EncLossText	{0} non può salvare alcuni caratteri di questo testo. Verranno salvati come "?". Convertire comunque?
+EncLossConfirm	Converti
+ReloadTitle	Ricaricare il file?
+ReloadText	Le modifiche non salvate in questa scheda andranno perse.
+ReloadConfirm	Ricarica
+HelpTitle.Text	Guida rapida Markdown
+HelpSubtitle.Text	Segni semplici che diventano formattazione. Funziona nei file .md.
+HelpYouType.Text	SCRIVI
+HelpYouGet.Text	OTTIENI
+HelpTips.Text	Ctrl+Maiusc+V mostra l’anteprima. Invio continua gli elenchi, Tab li annida. Immagine: ![didascalia](file.png o un link).
+HelpMdHeadings	Titoli
+HelpMdHeadingsSample	# Titolo 1\n## Titolo 2\n### Titolo 3
+HelpMdEmphasis	Grassetto e corsivo
+HelpMdEmphasisSample	**grassetto**, *corsivo*, ***entrambi***
+HelpMdStrike	Barrato
+HelpMdStrikeSample	~~non più valido~~
+HelpMdCode	Codice nella riga
+HelpMdCodeSample	Esegui `git status`
+HelpMdLink	Link
+HelpMdBullets	Elenco
+HelpMdBulletsSample	- Mele\n- Pere\n  - Voce annidata
+HelpMdNumbers	Elenco numerato
+HelpMdNumbersSample	1. Primo\n2. Secondo
+HelpMdTasks	Elenco attività
+HelpMdTasksSample	- [x] Fatto\n- [ ] Da fare
+HelpMdQuote	Citazione
+HelpMdQuoteSample	> Scrivi ogni giorno.
+HelpMdCodeBlock	Blocco di codice
+HelpMdTable	Tabella
+HelpMdTableSample	| Voce | Prezzo |\n|------|--------|\n| Tè   | 3      |
+HelpMdRule	Separatore
+HelpMdRuleSample	Sopra\n\n---\n\nSotto
+MenuRecent.Text	File recenti
+MenuRecentClear	Cancella elenco
+MenuSaveAll.Text	Salva tutto
+MenuTopmost.Text	Sempre in primo piano
+MenuZen.Text	Modalità zen
+MenuMarkdownHelp.Text	Guida rapida Markdown
+MenuCloseAll.Text	Chiudi tutte le schede
+TabClose	Chiudi
+TabCloseOthers	Chiudi le altre schede
+TabCloseRight	Chiudi le schede a destra
+TabCloseSaved	Chiudi le schede salvate
+TabCloseAll	Chiudi tutte le schede
+TabCopyPath	Copia percorso completo
+TabCopyName	Copia nome del file
+TabOpenFolder	Apri cartella
+TabReload	Ricarica dal disco
+CmdSaveAll	Salva tutto
+CmdOpenRecent	Apri recente: {0}
+CmdTopmost	Sempre in primo piano (sì / no)
+CmdMarkdownHelp	Guida rapida Markdown
+CmdLineNumbersOn	Mostra numeri di riga
+CmdLineNumbersOff	Nascondi numeri di riga
+CmdLineBandOn	Evidenzia riga corrente
+CmdLineBandOff	Non evidenziare la riga corrente
+SetSectionEditing.Text	Codice e modifica
+SetLineNumbersTitle.Text	Numeri di riga
+SetLineNumbersDesc.Text	Numeri nel margine sinistro
+SetLineBandTitle.Text	Evidenzia riga corrente
+SetLineBandDesc.Text	Una fascia leggera del colore principale dietro la riga del cursore
+SetTabSizeTitle.Text	Tasto Tab
+SetTabSizeDesc.Text	Cosa inserisce Tab. Con più righe selezionate, Tab e Maiusc+Tab le spostano.
+SetTabChar.Content	Carattere di tabulazione
+SetTab2.Content	2 spazi
+SetTab4.Content	4 spazi
+SetTab8.Content	8 spazi
+SetAutoIndentTitle.Text	Invio intelligente
+SetAutoIndentDesc.Text	Una nuova riga mantiene il rientro; gli elenchi Markdown continuano da soli
+SetSearchEngineTitle.Text	Ricerca web
+SetSearchEngineDesc.Text	Dove Ctrl+E cerca il testo selezionato
+SetExitLastTitle.Text	Chiudi Vellum con l’ultima scheda
+SetExitLastDesc.Text	Altrimenti si apre una nuova scheda vuota
+SetNewEncodingTitle.Text	Codifica per i nuovi file
+SetNewEncodingDesc.Text	I file aperti mantengono la loro; si può cambiare in qualsiasi momento dalla barra di stato
+SetNewEolTitle.Text	Fine riga per i nuovi file
+SetNewEolDesc.Text	Le app di Windows si aspettano CRLF; Linux, macOS e la maggior parte degli strumenti di codice usano LF
+EolWindowsItem.Content	Windows (CRLF)
+EolUnixItem.Content	Unix / macOS (LF)
+EolMacItem.Content	Mac classico (CR)
+ShortcutMoveLines	Sposta righe su / giù
+ShortcutCase	Maiuscolo / minuscolo
+ShortcutIndent	Aumenta / riduci rientro
+CaptionMinimize.TT	Riduci a icona
+CaptionMaximize.TT	Ingrandisci
+CaptionClose.TT	Chiudi
+CaptionMaximizeName	Ingrandisci
+CaptionRestoreName	Ripristina
+Accent_lavender	Lavanda
+Accent_indigo	Indaco
+Accent_sky	Cielo
+Accent_teal	Verde acqua
+Accent_sage	Salvia
+Accent_lime	Lime
+Accent_sand	Sabbia
+Accent_coral	Corallo
+Accent_crimson	Cremisi
+Accent_berry	Frutti di bosco
+Accent_slate	Ardesia
+ReadOnlyButton.TT	Sola lettura. Clicca per consentire la modifica
+ToolLineAbove	Inserisci riga sopra
+ToolLineBelow	Inserisci riga sotto
+ToolSortNumAsc	Ordina per numero 0 → 9
+ToolSortNumDesc	Ordina per numero 9 → 0
+ToolShuffle	Mescola righe
+ToolRemoveConsecutive	Rimuovi righe ripetute consecutive
+ToolTrimLeading	Rimuovi spazi a inizio riga
+ToolTrimBoth	Rimuovi spazi alle due estremità
+ToolTabsToSpaces	Tabulazioni → spazi
+ToolSpacesToTabs	Spazi di rientro → tabulazioni
+ToolRandomCase	mAiUsCoLe CaSuAlI
+ToolFormatJson	Formatta JSON
+ToolMinifyJson	Compatta JSON
+ToolHashMd5	Copia hash MD5
+ToolHashSha1	Copia hash SHA-1
+ToolHashSha256	Copia hash SHA-256
+ToolHashSha512	Copia hash SHA-512
+ToolHashCopied	{0} copiato negli appunti
+ToolNotJson	Non è un JSON valido
+ToolBookmark	Aggiungi / rimuovi segnalibro
+ToolBookmarkNext	Segnalibro successivo
+ToolBookmarkPrev	Segnalibro precedente
+ToolBookmarkClear	Rimuovi tutti i segnalibri
+ToolMatchingBracket	Vai alla parentesi corrispondente
+ToolReadOnly	Sola lettura
+BookmarksNone	Ancora nessun segnalibro. Ctrl+F2 ne aggiunge uno
+BracketNone	Nessuna parentesi vicino al cursore
+ReadOnlyOn	Sola lettura: il testo è bloccato
+ReadOnlyOff	Modifica di nuovo consentita
+ReadOnlyNote	Sola lettura. Disattivala per modificare
+CtxSpaces	Spazi e tabulazioni
+CtxBookmarks	Segnalibri
+StatusSelection	({0} caratteri, {1} righe selezionati)
+SetAutoCloseTitle.Text	Chiudi parentesi e virgolette
+SetAutoCloseDesc.Text	Nel codice, scrivere ( [ { o " aggiunge il carattere di chiusura
+SetSmartHighlightTitle.Text	Evidenzia le occorrenze
+SetSmartHighlightDesc.Text	Una parola selezionata si illumina ovunque; la coppia di parentesi al cursore viene segnata
+SetWatchFilesTitle.Text	Segui le modifiche di altri programmi
+SetWatchFilesDesc.Text	Un file cambiato altrove si ricarica da solo; se ci sono modifiche non salvate, Vellum chiede prima
+ShortcutNewLine	Nuova riga sotto / sopra
+ShortcutBookmarkJump	Segnalibro successivo / precedente
+CmdReopenClosed	Riapri scheda chiusa
+TabRename	Rinomina file…
+TabOpenWith	Apri con un’altra app…
+TabSaveCopy	Salva una copia…
+TabFileInfo	Informazioni sul file
+CopySuffix	copia
+RenameTitle	Rinomina file
+RenameConfirm	Rinomina
+RenameInvalid	Il nome contiene caratteri non ammessi da Windows: \ / : * ? " < > |
+RenameExists	Esiste già un file con questo nome
+RenameError	Impossibile rinominare in {0}
+InfoPath	Percorso
+InfoSize	Dimensione
+InfoCreated	Creato
+InfoModified	Modificato
+InfoEncoding	Codifica
+InfoLineEnding	Fine riga
+InfoLines	Righe
+InfoWords	Parole
+InfoChars	Caratteri
+InfoLanguage	Evidenziazione
+SizeBytes	{0} byte
+SizeKb	{0} KB
+SizeMb	{0} MB
+ReloadedExternal	Ricaricato: il file è stato modificato fuori da Vellum
+ExternalTitle	{0} è stato modificato fuori da Vellum
+ExternalText	Un altro programma ha salvato questo file mentre qui hai modifiche non salvate. Caricare la nuova versione e scartare le tue modifiche, o tenere le tue?
+ExternalReload	Carica la nuova versione
+ExternalKeep	Tieni le mie
+SettingsClose.TT	Chiudi impostazioni (Esc)
+AboutTagline.Text	Un blocco note di vetro, tranquillo, per testo, appunti e codice.
+AboutPrivacyNote.Text	Funziona offline. Non raccoglie nulla: il tuo testo resta sul tuo computer.
+AboutWebsite	Sito di Vellum
+AboutRate	Valuta Vellum
+AboutSupport	Sostieni il progetto
+AboutSupportDesc	Vellum è gratuito; una donazione aiuta a migliorarlo
+AboutContact	Scrivici
+AboutBug	Segnala un problema
+AboutBugDesc	Apre un’e-mail con la versione già indicata
+AboutPrivacy	Informativa sulla privacy
+AboutPrivacyDesc	Cosa fa (e non fa) Vellum con i dati
+AboutStudio	Altro da Wesky
+MenuLibrary.Text	Note
+MenuHistory.Text	Cronologia versioni
+LibraryNew.TT	Nuova nota
+LibraryClose.TT	Chiudi (Esc)
+LibraryClose.AN	Chiudi
+LibrarySearch.PlaceholderText	Cerca nelle note
+LibraryEmptyTrash.Content	Svuota cestino
+HistoryTitle.Text	Cronologia versioni
+HistoryClose.TT	Chiudi (Esc)
+HistoryClose.AN	Chiudi
+HistoryShowChanges.OnContent	Cosa è cambiato
+HistoryShowChanges.OffContent	Cosa è cambiato
+HistoryEmpty.Text	Ancora nessuna versione. Vellum ne conserva una ogni pochi minuti mentre scrivi e a ogni salvataggio.
+HistoryHint.Text	Rosso: non presente nel testo attuale. Verde: aggiunto dopo.
+HistoryCopy.Content	Copia
+HistoryRestore.Content	Ripristina questa versione
+SetSectionNotes.Text	Note e cronologia
+SetLibraryTitle.Text	Libreria delle note
+SetLibraryDesc.Text	Le nuove schede sono note: si salvano da sole e restano nella libreria dopo la chiusura (Ctrl+Maiusc+L).
+SetHistoryTitle.Text	Cronologia versioni
+SetHistoryDesc.Text	Conserva le versioni precedenti delle note da vedere o ripristinare (Ctrl+Maiusc+H).
+SetFileHistoryTitle.Text	Cronologia anche per i file
+SetFileHistoryDesc.Text	Conserva anche le versioni dei file che salvi in Vellum.
+SetClearHistoryTitle.Text	Cancella cronologia
+SetClearHistoryDesc.Text	Elimina tutte le versioni salvate. Le note restano.
+SetClearHistoryButton.Content	Cancella
+NoteUntitled	Nuova nota
+LibraryTitleText	Note
+LibraryMeta	{0} · {1} parole
+LibraryTrash	Cestino
+LibraryTrashCount	Cestino ({0})
+LibraryEmptyTrashText	Il cestino è vuoto. Le note eliminate restano qui per 30 giorni.
+LibraryNothingFound	Nessun risultato.
+LibraryEmptyText	Ancora nessuna nota. Ogni nuova scheda è una nota: inizia a scrivere. Aggiungi #tag direttamente nel testo.
+LibraryAllTags	Tutte
+LibraryYesterday	Ieri
+LibraryRestore	Ripristina
+LibraryDeleteForever	Elimina definitivamente
+LibraryOpen	Apri
+LibraryEmptyTrashYes	Svuota cestino
+LibraryEmptyTrashConfirm	Eliminare definitivamente tutte le note nel cestino?
+LibraryOff	La libreria delle note è disattivata nelle impostazioni.
+NotePin	Fissa
+NoteUnpin	Sblocca
+NoteHistory	Cronologia versioni…
+NoteExport	Salva come file…
+NoteDelete	Elimina nota
+NoteSaved	Nota salvata
+NoteEmpty	La nota è vuota
+HistoryToday	Oggi, {0}
+HistoryYesterday	Ieri, {0}
+HistoryLines	{0} righe
+HistorySame	Uguale ad adesso
+HistoryChanges	Da allora: +{0} / −{1} righe
+HistoryRestored	Versione ripristinata. Ctrl+Z la annulla.
+HistoryOff	La cronologia versioni è disattivata nelle impostazioni.
+HistoryUntitled	Salva prima il file: la cronologia riguarda note e file salvati.
+HistoryFilesOff	La cronologia dei file è disattivata nelle impostazioni.
+CmdLibrary	Libreria delle note
+CmdHistory	Cronologia versioni
+SetClearHistorySize	Elimina tutte le versioni salvate ({0}). Le note restano.
+SetClearHistoryConfirm	Eliminare tutte le versioni salvate? Note e file restano come sono.
+SetClearHistoryYes	Cancella cronologia
+NoteLockedSnippet	Protetta da password
+HistoryLocked	Le note protette non hanno cronologia delle versioni.
+LockOpenTitle	Apri «{0}»
+LockOpenText	Questa nota è protetta. Digita la password per aprirla.
+LockOpenButton	Apri
+LockWrongPassword	Password errata.
+LockSetTitle	Proteggi la nota con una password
+LockSetText	La nota sarà cifrata sul disco. Se dimentichi la password, non potrà essere recuperata, nemmeno da noi. Le versioni precedenti verranno eliminate.
+LockSetButton	Proteggi
+LockDone	Nota protetta con password
+LockRemoveTitle	Rimuovi la password
+LockRemoveText	Digita di nuovo la password per salvare la nota senza cifratura.
+LockRemoveButton	Rimuovi password
+LockRemoved	Password rimossa
+LockPassword	Password
+LockPasswordAgain	Ripeti la password
+LockMismatch	Le password non coincidono.
+LockNote	Proteggi con password…
+LockRemove	Rimuovi la password…
+ExportPdf	Esporta in PDF…
+ExportHtml	Esporta in HTML…
+ExportDone	Esportato: {0}
+ExportFailed	Impossibile preparare la pagina per l’esportazione.
+MenuExport.Text	Esporta
+MenuExportPdf.Text	PDF…
+MenuExportHtml.Text	Pagina HTML…
+MenuMini.Text	Mini finestra
+CaptionMini.TT	Torna alla finestra completa
+CaptionMiniName	Torna alla finestra completa
+MiniOff	La mini finestra è disattivata nelle impostazioni.
+CmdMini	Mini finestra in primo piano (on / off)
+CmdExportPdf	Esporta in PDF
+CmdExportHtml	Esporta in HTML
+TrayOpen	Apri Vellum
+TrayNewNote	Nuova nota
+TrayExit	Esci
+SetSectionTray.Text	Area di notifica
+SetTrayTitle.Text	Icona accanto all’orologio
+SetTrayDesc.Text	Apri Vellum o inizia una nota dall’area di notifica.
+SetCloseToTrayTitle.Text	Chiudi nell’area di notifica
+SetCloseToTrayDesc.Text	Chiudendo la finestra Vellum resta accanto all’orologio. «Esci» nel menu lo chiude.
+SetStartupTitle.Text	Avvia con Windows
+SetStartupDesc.Text	Si avvia in silenzio: nell’area di notifica o ridotto.
+SetStartupNote	Si avvia in silenzio: nell’area di notifica o ridotto.
+SetStartupBlocked	Disattivato in Gestione attività → App di avvio. Riattivalo da lì.
+SetStartupPolicy	Non consentito dalla tua organizzazione.
+SetQuickNoteTitle.Text	Nota rapida: Ctrl+Alt+N
+SetQuickNoteDesc.Text	Da qualsiasi app, apre Vellum con una nuova nota.
+SetQuickNoteNote	Da qualsiasi app, apre Vellum con una nuova nota.
+SetQuickNoteTaken	Ctrl+Alt+N è già usato da un’altra app.
+SetMiniTitle.Text	Mini finestra
+SetMiniDesc.Text	Una piccola finestra sopra le altre: Ctrl+Maiusc+M.
+SetNoteLocksTitle.Text	Note con password
+SetNoteLocksDesc.Text	Proteggi una nota dal menu della sua scheda. Cifratura AES-256.
+SetExportTitle.Text	Esporta in PDF e HTML
+SetExportDesc.Text	Nel menu principale, nel menu della scheda e nella tavolozza dei comandi.
+ShortcutQuickNote	Nota rapida da qualsiasi app

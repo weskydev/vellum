@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+    x:Class="Vellum.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <ResourceDictionary Source="ms-appx:///Styles/Theme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Vellum Violet accent (#7C6CFF) and its lighter/darker shades used by all controls -->
+            <Color x:Key="SystemAccentColor">#7C6CFF</Color>
+            <Color x:Key="SystemAccentColorLight1">#9587FF</Color>
+            <Color x:Key="SystemAccentColorLight2">#AEA4FF</Color>
+            <Color x:Key="SystemAccentColorLight3">#C8C1FF</Color>
+            <Color x:Key="SystemAccentColorDark1">#6A59F0</Color>
+            <Color x:Key="SystemAccentColorDark2">#5544D6</Color>
+            <Color x:Key="SystemAccentColorDark3">#3F31B0</Color>
+
+            <SolidColorBrush x:Key="VellumAccentBrush" Color="#7C6CFF" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

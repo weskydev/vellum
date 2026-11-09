@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Vellum.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Vellum.Controls"
+    Title="Vellum">
+
+    <Grid x:Name="Root" KeyboardAcceleratorPlacementMode="Hidden" AllowDrop="True">
+        <Grid.KeyboardAccelerators>
+            <KeyboardAccelerator Modifiers="Control" Key="T" Invoked="NewTab_Invoked" />
+            <KeyboardAccelerator Modifiers="Control" Key="N" Invoked="NewTab_Invoked" />
+            <KeyboardAccelerator Modifiers="Control" Key="O" Invoked="Open_Invoked" />
+            <KeyboardAccelerator Modifiers="Control" Key="S" Invoked="Save_Invoked" />
+            <KeyboardAccelerator Modifiers="Control,Shift" Key="S" Invoked="SaveAs_Invoked" />
+            <KeyboardAccelerator Modifiers="Control" Key="W" Invoked="CloseTab_Invoked" />
+        </Grid.KeyboardAccelerators>
+
+        <!-- Tabs live in the title bar; the selected tab and its editor form one glass sheet -->
+        <TabView
+            x:Name="Tabs"
+            VerticalAlignment="Stretch"
+            Padding="4,0,0,0"
+            IsAddTabButtonVisible="True"
+            TabWidthMode="Equal"
+            CanReorderTabs="True"
+            CanDragTabs="False"
+            CloseButtonOverlayMode="OnPointerOver"
+            AllowDropTabs="False"
+            AddTabButtonClick="Tabs_AddTabButtonClick"
+            TabCloseRequested="Tabs_TabCloseRequested"
+            SelectionChanged="Tabs_SelectionChanged"
+            TabItemsChanged="Tabs_TabItemsChanged">
+
+            <TabView.TabStripHeader>
+                <!-- Main menu, left of the tabs -->
+                <Button
+                    x:Name="MenuButton"
+                    x:Uid="MenuButton"
+                    Margin="6,0,4,0"
+                    Padding="10,7"
+                    VerticalAlignment="Center"
+                    Background="Transparent"
+                    BorderThickness="0">
+                    <FontIcon Glyph="&#xE700;" FontSize="15" />
+                    <Button.Flyout>
+                        <MenuFlyout x:Name="MainMenu" Placement="BottomEdgeAlignedLeft" Opening="MainMenu_Opening">
+                            <MenuFlyoutItem x:Uid="MenuNewTab" Click="NewTab_Click" KeyboardAcceleratorTextOverride="Ctrl+T">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE710;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuOpen" Click="Open_Click" KeyboardAcceleratorTextOverride="Ctrl+O">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE8E5;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuSave" Click="Save_Click" KeyboardAcceleratorTextOverride="Ctrl+S">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE74E;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Name="LibraryMenuItem" x:Uid="MenuLibrary" Click="Library_Click" KeyboardAcceleratorTextOverride="Ctrl+Shift+L">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE70B;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutSubItem x:Name="RecentMenu" x:Uid="MenuRecent">
+                                <MenuFlyoutSubItem.Icon><FontIcon Glyph="&#xE81C;" /></MenuFlyoutSubItem.Icon>
+                            </MenuFlyoutSubItem>
+                            <MenuFlyoutItem x:Uid="MenuSaveAs" Click="SaveAs_Click" KeyboardAcceleratorTextOverride="Ctrl+Shift+S">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE792;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuSaveAll" Click="SaveAll_Click" KeyboardAcceleratorTextOverride="Ctrl+Alt+S">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xEA35;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutSubItem x:Name="ExportMenu" x:Uid="MenuExport">
+                                <MenuFlyoutSubItem.Icon><FontIcon Glyph="&#xEDE1;" /></MenuFlyoutSubItem.Icon>
+                                <MenuFlyoutItem x:Uid="MenuExportPdf" Click="ExportPdf_Click">
+                                    <MenuFlyoutItem.Icon><FontIcon Glyph="&#xEA90;" /></MenuFlyoutItem.Icon>
+                                </MenuFlyoutItem>
+                                <MenuFlyoutItem x:Uid="MenuExportHtml" Click="ExportHtml_Click">
+                                    <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE774;" /></MenuFlyoutItem.Icon>
+                                </MenuFlyoutItem>
+                            </MenuFlyoutSubItem>
+                            <MenuFlyoutItem x:Name="HistoryMenuItem" x:Uid="MenuHistory" Click="History_Click" KeyboardAcceleratorTextOverride="Ctrl+Shift+H">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE81C;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutSeparator />
+                            <MenuFlyoutItem x:Uid="MenuFind" Click="Find_Click" KeyboardAcceleratorTextOverride="Ctrl+F">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE721;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuReplace" Click="Replace_Click" KeyboardAcceleratorTextOverride="Ctrl+H">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE8EE;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuPalette" Click="Palette_Click" KeyboardAcceleratorTextOverride="Ctrl+Shift+P">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE945;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutSeparator />
+                            <ToggleMenuFlyoutItem x:Name="TopmostItem" x:Uid="MenuTopmost" Click="Topmost_Click">
+                                <ToggleMenuFlyoutItem.Icon><FontIcon Glyph="&#xE718;" /></ToggleMenuFlyoutItem.Icon>
+                            </ToggleMenuFlyoutItem>
+                            <ToggleMenuFlyoutItem x:Name="MiniItem" x:Uid="MenuMini" Click="Mini_Click" KeyboardAcceleratorTextOverride="Ctrl+Shift+M">
+                                <ToggleMenuFlyoutItem.Icon><FontIcon Glyph="&#xE944;" /></ToggleMenuFlyoutItem.Icon>
+                            </ToggleMenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuZen" Click="Zen_Click" KeyboardAcceleratorTextOverride="F11">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE740;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuMarkdownHelp" Click="MarkdownHelp_Click">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE897;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutSeparator />
+                            <MenuFlyoutItem x:Uid="MenuSettings" Click="Settings_Click" KeyboardAcceleratorTextOverride="Ctrl+,">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE713;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutSeparator />
+                            <MenuFlyoutItem x:Uid="MenuCloseTab" Click="CloseTab_Click" KeyboardAcceleratorTextOverride="Ctrl+W">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE711;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuCloseAll" Click="CloseAll_Click">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE8BB;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                            <MenuFlyoutItem x:Uid="MenuExit" Click="Exit_Click">
+                                <MenuFlyoutItem.Icon><FontIcon Glyph="&#xE7E8;" /></MenuFlyoutItem.Icon>
+                            </MenuFlyoutItem>
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </Button>
+            </TabView.TabStripHeader>
+
+            <TabView.TabStripFooter>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <!-- Empty space after the tabs: drag the window here -->
+                    <Grid x:Name="DragRegion" Background="Transparent" />
+                    <!-- Vellum's own window buttons -->
+                    <StackPanel x:Name="CaptionButtons" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Top">
+                        <Button x:Name="MiniButton" x:Uid="CaptionMini" Style="{StaticResource CaptionButtonStyle}" Click="Mini_Click" Visibility="Collapsed" />
+                        <Button x:Name="MinimizeButton" x:Uid="CaptionMinimize" Style="{StaticResource CaptionButtonStyle}" Click="Minimize_Click" />
+                        <Button x:Name="MaximizeButton" x:Uid="CaptionMaximize" Style="{StaticResource CaptionButtonStyle}" Click="Maximize_Click" />
+                        <Button x:Name="CloseButton" x:Uid="CaptionClose" Style="{StaticResource CaptionCloseButtonStyle}" Click="CloseWindow_Click" />
+                    </StackPanel>
+                </Grid>
+            </TabView.TabStripFooter>
+        </TabView>
+
+        <!-- Notes library: a side panel that slides in from the left -->
+        <Grid x:Name="LibraryLayer" Visibility="Collapsed" KeyDown="LibraryLayer_KeyDown">
+            <Border Background="#26000000" Tapped="LibraryBackdrop_Tapped" />
+            <Border x:Name="LibraryHost" Style="{StaticResource FloatingPanelStyle}"
+                    HorizontalAlignment="Left" Margin="8,8,0,8" Width="380">
+                <controls:LibraryPanel x:Name="Library" />
+            </Border>
+        </Grid>
+
+        <!-- Version history of the current note or file -->
+        <Grid x:Name="HistoryLayer" Visibility="Collapsed" KeyDown="HistoryLayer_KeyDown">
+            <Border Background="#40000000" Tapped="HistoryBackdrop_Tapped" />
+            <Border x:Name="HistoryHost" Style="{StaticResource FloatingPanelStyle}"
+                    HorizontalAlignment="Center" VerticalAlignment="Center" Margin="24" MaxWidth="1040" MaxHeight="760">
+                <controls:HistoryPanel x:Name="History" />
+            </Border>
+        </Grid>
+
+        <!-- Settings: a side panel that slides in from the right, like in Notepads -->
+        <Grid x:Name="SettingsLayer" Visibility="Collapsed" KeyDown="SettingsLayer_KeyDown">
+            <Border Background="#40000000" Tapped="SettingsBackdrop_Tapped" />
+            <Border x:Name="SettingsPanel" Style="{StaticResource FloatingPanelStyle}"
+                    HorizontalAlignment="Right" Margin="0,8,8,8" Width="760" />
+        </Grid>
+
+        <!-- Ctrl+Shift+P: floats above everything -->
+        <controls:CommandPalette x:Name="Palette" />
+
+        <!-- Markdown cheat sheet -->
+        <controls:MarkdownHelp x:Name="Help" />
+    </Grid>
+</Window>

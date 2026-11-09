@@ -1,0 +1,506 @@
+UntitledTab	Adsız
+StatusPosition	Satır {0}, Sütun {1}
+StatusCounts	{0} sözcük · {1} karakter
+MenuButton.TT	Menü
+MenuNewTab.Text	Yeni sekme
+MenuOpen.Text	Aç…
+MenuSave.Text	Kaydet
+MenuSaveAs.Text	Farklı kaydet…
+MenuCloseTab.Text	Sekmeyi kapat
+MenuExit.Text	Çıkış
+SaveChangesTitle	{0} dosyasındaki değişiklikler kaydedilsin mi?
+SaveChangesText	Kaydetmezseniz değişiklikleriniz kaybolur.
+ButtonSave	Kaydet
+ButtonDontSave	Kaydetme
+ButtonCancel	İptal
+ButtonOk	Tamam
+ErrorOpenTitle	{0} açılamadı
+ErrorSaveTitle	{0} kaydedilemedi
+FileTypeText	Metin belgesi
+MenuSettings.Text	Ayarlar
+SettingsTab	Ayarlar
+SettingsHeader.Text	Ayarlar
+SetSectionAppearance.Text	Görünüm
+SetThemeTitle.Text	Tema
+SetThemeDesc.Text	Açık, koyu ya da Windows ile aynı
+SetThemeSystem.Content	Sistem ayarını kullan
+SetThemeLight.Content	Açık
+SetThemeDark.Content	Koyu
+SetAccentTitle.Text	Vurgu rengi
+SetAccentDesc.Text	Vurgular, seçim ve cam tonu için
+Accent_violet	Vellum moru
+Accent_mint	Nane
+Accent_amber	Kehribar
+Accent_rose	Gül
+Accent_ocean	Okyanus
+Accent_graphite	Grafit
+Accent_system	Windows vurgu rengi
+SetBackdropTitle.Text	Pencere arka planı
+SetBackdropDesc.Text	Cam, pencerenin arkasını bulanıklaştırır; Mica duvar kâğıdınızın rengini alır
+SetBackdropAcrylic.Content	Cam
+SetBackdropMica.Content	Mica
+SetBackdropSolid.Content	Düz
+SetGlassTitle.Text	Cam saydamlığı
+SetGlassDesc.Text	Arka planın ne kadar görüneceği
+SetSectionEditor.Text	Düzenleyici
+SetFontTitle.Text	Yazı tipi
+SetFontDesc.Text	Bir yazı tipi seçin ya da yüklü herhangi bir yazı tipinin adını yazın
+SetWrapTitle.Text	Sözcük kaydırma
+SetWrapDesc.Text	Uzun satırlar pencere genişliğine sığar
+SetStatusTitle.Text	Durum çubuğu
+SetStatusDesc.Text	Altta satır, sütun, sözcük sayısı ve kodlama
+SetSpellTitle.Text	Yazım denetimi
+SetSpellDesc.Text	Yanlış yazılan sözcüklerin altını çiz
+SetSectionFiles.Text	Dosyalar
+SetSessionTitle.Text	Başlangıçta sekmeleri geri yükle
+SetSessionDesc.Text	Bir sonraki açılışta sekmelerinizi ve kaydedilmemiş metni geri getirir
+SetAutoSaveTitle.Text	Otomatik kaydet
+SetAutoSaveDesc.Text	Açık dosyalar yazmayı bıraktıktan kısa süre sonra kendiliğinden kaydedilir
+SetSectionLanguage.Text	Dil
+SetLanguageTitle.Text	Uygulama dili
+SetLanguageDesc.Text	Varsayılan olarak Vellum Windows dilini kullanır
+SetLanguageSystem.Content	Windows dili
+SetRestartBar.Message	Dili değiştirmek için Vellum’u yeniden başlatın. Sekmeleriniz açık kalır.
+SetRestartButton.Content	Yeniden başlat
+SetSectionAbout.Text	Hakkında
+SetVersion	Sürüm {0} · Wesky
+FindReplaceToggle.TT	Değiştirmeyi göster
+FindMatchCase.TT	Büyük/küçük harf eşleştir
+FindWholeWord.TT	Tam sözcük
+FindRegex.TT	Normal ifade
+FindPrevious.TT	Önceki sonuç (Shift+F3)
+FindNext.TT	Sonraki sonuç (F3)
+FindClose.TT	Kapat (Esc)
+FindBox.PlaceholderText	Bul
+ReplaceBox.PlaceholderText	Şununla değiştir
+ReplaceOne.Content	Değiştir
+ReplaceAll.Content	Tümünü değiştir
+FindCount	{0} / {1}
+FindTotal	{0} bulundu
+FindNoResults	Sonuç yok
+FindRegexError	Geçersiz desen
+ReplacedCount	Değiştirildi: {0}
+PaletteBox.PlaceholderText	Bir komut yazın ya da : ve satır numarası
+PaletteGoToLine	{0}. satıra git
+MenuFind.Text	Bul
+MenuReplace.Text	Değiştir
+MenuPalette.Text	Komut paleti
+CmdPalette	Komut paleti
+CmdNewTab	Yeni sekme
+CmdOpen	Aç…
+CmdSave	Kaydet
+CmdSaveAs	Farklı kaydet…
+CmdCloseTab	Sekmeyi kapat
+CmdFind	Bul
+CmdReplace	Değiştir
+CmdFindNextPrev	Sonraki / önceki sonuç
+CmdGoToLine	Satıra git…
+CmdSettings	Ayarlar
+CmdWrapOn	Sözcük kaydırmayı aç
+CmdWrapOff	Sözcük kaydırmayı kapat
+CmdStatusOn	Durum çubuğunu göster
+CmdStatusOff	Durum çubuğunu gizle
+CmdZoomIn	Yakınlaştır
+CmdZoomOut	Uzaklaştır
+CmdZoomReset	Yakınlaştırmayı sıfırla
+CmdZoom	Yakınlaştır / uzaklaştır / sıfırla
+CmdThemeSystem	Tema: sistem
+CmdThemeLight	Tema: açık
+CmdThemeDark	Tema: koyu
+CmdAccent	Vurgu: {0}
+CmdBackdropAcrylic	Arka plan: cam
+CmdBackdropMica	Arka plan: Mica
+CmdBackdropSolid	Arka plan: düz
+CmdSwitchTab	Sekmeye geç: {0}
+CmdSwitchTabs	Sekmeler arasında geç
+SetSectionShortcuts.Text	Klavye kısayolları
+PreviewButton.TT	Markdown önizleme (Ctrl+Shift+V)
+LanguageButton.TT	Bu sekme için vurgulama
+StatusCountsGoal	{0} / {1} sözcük · {2} karakter
+SyntaxPlain	Düz metin
+PreviewOff	Önizleme
+PreviewSplit	Yan yana
+PreviewFull	Yalnızca önizleme
+CtxUndo	Geri al
+CtxRedo	Yinele
+CtxCut	Kes
+CtxCopy	Kopyala
+CtxPaste	Yapıştır
+CtxSelectAll	Tümünü seç
+CmdPreview	Markdown önizleme
+CmdZenOn	Zen modu
+CmdZenOff	Zen modundan çık
+CmdFocusOn	Odak modunu aç
+CmdFocusOff	Odak modunu kapat
+CmdTypewriterOn	Daktilo modunu aç
+CmdTypewriterOff	Daktilo modunu kapat
+CmdReadableOn	Dar metin sütunu
+CmdReadableOff	Tam genişlikte metin
+CmdMarkdownOn	Markdown biçimlendirmeyi aç
+CmdMarkdownOff	Markdown biçimlendirmeyi kapat
+CmdSyntaxOn	Kod vurgulamayı aç
+CmdSyntaxOff	Kod vurgulamayı kapat
+CmdSyntax	Vurgulama: {0}
+CmdUndoRedo	Geri al / yinele
+SetLineSpacingTitle.Text	Satır aralığı
+SetLineSpacingDesc.Text	Satırlar arasında daha fazla boşluk uzun metinleri okumayı kolaylaştırır
+SetReadableTitle.Text	Dar metin sütunu
+SetReadableDesc.Text	Geniş pencerede satırlar rahat okunur bir genişlikte kalır
+SetSectionWriting.Text	Yazı ve kod
+SetMarkdownTitle.Text	Markdown biçimlendirme
+SetMarkdownDesc.Text	.md dosyalarında başlıklar, kalın yazı ve kod yazarken biçimlenir
+SetPreviewTitle.Text	Markdown önizleme
+SetPreviewDesc.Text	Durum çubuğundaki düğme ve Ctrl+Shift+V hazır sayfayı gösterir
+SetSyntaxTitle.Text	Kod vurgulama
+SetSyntaxDesc.Text	Dosya türüne göre kod, JSON, XML, günlükler ve daha fazlası için renkler
+SetMonoTitle.Text	Kod için eş aralıklı yazı tipi
+SetMonoDesc.Text	Kod dosyaları sütunların hizalanması için Cascadia Mono kullanır
+SetFocusTitle.Text	Odak modu
+SetFocusDesc.Text	Geçerli paragraf dışında her şey soluklaşır
+SetTypewriterTitle.Text	Daktilo
+SetTypewriterDesc.Text	Yazdığınız satır pencerenin ortasında kalır
+SetGoalTitle.Text	Sözcük hedefi
+SetGoalDesc.Text	İlerlemeyi durum çubuğunda gösterir; 0 kapatır
+HelpButton.TT	Markdown kopya kâğıdı
+LineEndingButton.TT	Satır sonları
+EncodingButton.TT	Kodlama
+HelpClose.TT	Kapat (Esc)
+ToolDuplicateLine	Satırı çoğalt
+ToolDeleteLine	Satırı sil
+ToolMoveLineUp	Satırı yukarı taşı
+ToolMoveLineDown	Satırı aşağı taşı
+ToolSortAsc	Satırları sırala A → Z
+ToolSortDesc	Satırları sırala Z → A
+ToolRemoveDuplicates	Yinelenen satırları kaldır
+ToolRemoveEmpty	Boş satırları kaldır
+ToolTrimTrailing	Satır sonundaki boşlukları kaldır
+ToolJoinLines	Satırları birleştir
+ToolReverseLines	Satır sırasını ters çevir
+ToolUpper	BÜYÜK HARF
+ToolLower	küçük harf
+ToolTitle	Her Sözcük Büyük Harfle
+ToolSentence	Cümle başı büyük harf
+ToolInvert	bÜYÜK/kÜÇÜK hARFİ tERS çEVİR
+ToolComment	Yorum yap / yorumu kaldır
+ToolDateTime	Tarih ve saat ekle
+ToolBase64Encode	Base64 olarak kodla
+ToolBase64Decode	Base64’ten çöz
+ToolUrlEncode	URL için kodla
+ToolUrlDecode	URL’yi çöz
+ToolSearchWeb	Web’de ara
+ToolNothingChanged	Değiştirilecek bir şey yok
+ToolNoComments	Bu dilde yorum yok
+ToolSelectFirst	Önce metin seçin
+ToolCannotDecode	Seçim çözülemedi
+CtxLines	Satırlar
+CtxCase	Büyük/küçük harf
+CtxConvert	Dönüştür
+EolWindows	Windows (CRLF)
+EolUnix	Unix / macOS (LF)
+EolMac	Eski Mac (CR)
+EncSaveAs	Kodlamayla kaydet
+EncReopen	Kodlamayla yeniden aç
+EncLossTitle	Bazı karakterler kaybolacak
+EncLossText	{0} bu metindeki bazı karakterleri kaydedemiyor. Bunlar "?" olarak kaydedilecek. Yine de dönüştürülsün mü?
+EncLossConfirm	Dönüştür
+ReloadTitle	Dosya yeniden yüklensin mi?
+ReloadText	Bu sekmedeki kaydedilmemiş değişiklikler kaybolacak.
+ReloadConfirm	Yeniden yükle
+HelpTitle.Text	Markdown kopya kâğıdı
+HelpSubtitle.Text	Biçimlendirmeye dönüşen basit işaretler. .md dosyalarında çalışır.
+HelpYouType.Text	YAZDIĞINIZ
+HelpYouGet.Text	SONUÇ
+HelpTips.Text	Ctrl+Shift+V önizlemeyi gösterir. Enter listeleri sürdürür, Tab iç içe yapar. Görsel: ![açıklama](dosya.png ya da bağlantı).
+HelpMdHeadings	Başlıklar
+HelpMdHeadingsSample	# Başlık 1\n## Başlık 2\n### Başlık 3
+HelpMdEmphasis	Kalın ve italik
+HelpMdEmphasisSample	**kalın**, *italik*, ***ikisi de***
+HelpMdStrike	Üstü çizili
+HelpMdStrikeSample	~~artık geçerli değil~~
+HelpMdCode	Satır içi kod
+HelpMdCodeSample	`git status` komutunu çalıştırın
+HelpMdLink	Bağlantı
+HelpMdBullets	Liste
+HelpMdBulletsSample	- Elmalar\n- Armutlar\n  - İç içe öğe
+HelpMdNumbers	Numaralı liste
+HelpMdNumbersSample	1. Birinci\n2. İkinci
+HelpMdTasks	Görev listesi
+HelpMdTasksSample	- [x] Bitti\n- [ ] Yapılacak
+HelpMdQuote	Alıntı
+HelpMdQuoteSample	> Her gün yazın.
+HelpMdCodeBlock	Kod bloğu
+HelpMdTable	Tablo
+HelpMdTableSample	| Ürün | Fiyat |\n|------|-------|\n| Çay  | 3     |
+HelpMdRule	Ayırıcı
+HelpMdRuleSample	Üstte\n\n---\n\nAltta
+MenuRecent.Text	Son dosyalar
+MenuRecentClear	Listeyi temizle
+MenuSaveAll.Text	Tümünü kaydet
+MenuTopmost.Text	Her zaman üstte
+MenuZen.Text	Zen modu
+MenuMarkdownHelp.Text	Markdown kopya kâğıdı
+MenuCloseAll.Text	Tüm sekmeleri kapat
+TabClose	Kapat
+TabCloseOthers	Diğer sekmeleri kapat
+TabCloseRight	Sağdaki sekmeleri kapat
+TabCloseSaved	Kaydedilmiş sekmeleri kapat
+TabCloseAll	Tüm sekmeleri kapat
+TabCopyPath	Tam yolu kopyala
+TabCopyName	Dosya adını kopyala
+TabOpenFolder	Klasörü aç
+TabReload	Diskten yeniden yükle
+CmdSaveAll	Tümünü kaydet
+CmdOpenRecent	Son dosyayı aç: {0}
+CmdTopmost	Her zaman üstte (aç / kapat)
+CmdMarkdownHelp	Markdown kopya kâğıdı
+CmdLineNumbersOn	Satır numaralarını göster
+CmdLineNumbersOff	Satır numaralarını gizle
+CmdLineBandOn	Geçerli satırı vurgula
+CmdLineBandOff	Geçerli satırı vurgulamayı bırak
+SetSectionEditing.Text	Kod ve düzenleme
+SetLineNumbersTitle.Text	Satır numaraları
+SetLineNumbersDesc.Text	Sol kenarda numaralar
+SetLineBandTitle.Text	Geçerli satırı vurgula
+SetLineBandDesc.Text	İmlecin olduğu satırın arkasında vurgu renginizde yumuşak bir şerit
+SetTabSizeTitle.Text	Tab tuşu
+SetTabSizeDesc.Text	Tab’ın ne eklediği. Birden çok satır seçiliyken Tab ve Shift+Tab onları kaydırır.
+SetTabChar.Content	Sekme karakteri
+SetTab2.Content	2 boşluk
+SetTab4.Content	4 boşluk
+SetTab8.Content	8 boşluk
+SetAutoIndentTitle.Text	Akıllı Enter
+SetAutoIndentDesc.Text	Yeni satır girintiyi korur; Markdown listeleri kendiliğinden sürer
+SetSearchEngineTitle.Text	Web araması
+SetSearchEngineDesc.Text	Ctrl+E’nin seçili metni nerede arayacağı
+SetExitLastTitle.Text	Son sekmeyle Vellum’u kapat
+SetExitLastDesc.Text	Aksi halde yeni boş bir sekme açılır
+SetNewEncodingTitle.Text	Yeni dosyaların kodlaması
+SetNewEncodingDesc.Text	Açılan dosyalar kendi kodlamasını korur; durum çubuğundan istediğiniz zaman değiştirebilirsiniz
+SetNewEolTitle.Text	Yeni dosyaların satır sonları
+SetNewEolDesc.Text	Windows uygulamaları CRLF bekler; Linux, macOS ve çoğu kod aracı LF kullanır
+EolWindowsItem.Content	Windows (CRLF)
+EolUnixItem.Content	Unix / macOS (LF)
+EolMacItem.Content	Eski Mac (CR)
+ShortcutMoveLines	Satırları yukarı / aşağı taşı
+ShortcutCase	Büyük / küçük harf
+ShortcutIndent	Girintiyi artır / azalt
+CaptionMinimize.TT	Simge durumuna küçült
+CaptionMaximize.TT	Ekranı kapla
+CaptionClose.TT	Kapat
+CaptionMaximizeName	Ekranı kapla
+CaptionRestoreName	Önceki boyut
+Accent_lavender	Lavanta
+Accent_indigo	Çivit
+Accent_sky	Gök
+Accent_teal	Deniz mavisi
+Accent_sage	Adaçayı
+Accent_lime	Misket limonu
+Accent_sand	Kum
+Accent_coral	Mercan
+Accent_crimson	Kızıl
+Accent_berry	Böğürtlen
+Accent_slate	Arduvaz
+ReadOnlyButton.TT	Salt okunur. Düzenlemeye izin vermek için tıklayın
+ToolLineAbove	Üste satır ekle
+ToolLineBelow	Alta satır ekle
+ToolSortNumAsc	Sayıya göre sırala 0 → 9
+ToolSortNumDesc	Sayıya göre sırala 9 → 0
+ToolShuffle	Satırları karıştır
+ToolRemoveConsecutive	Art arda tekrarlanan satırları kaldır
+ToolTrimLeading	Satır başındaki boşlukları kaldır
+ToolTrimBoth	İki uçtaki boşlukları kaldır
+ToolTabsToSpaces	Sekmeler → boşluklar
+ToolSpacesToTabs	Girinti boşlukları → sekmeler
+ToolRandomCase	rAsTgElE hArF
+ToolFormatJson	JSON’u biçimlendir
+ToolMinifyJson	JSON’u sıkıştır
+ToolHashMd5	MD5 karmasını kopyala
+ToolHashSha1	SHA-1 karmasını kopyala
+ToolHashSha256	SHA-256 karmasını kopyala
+ToolHashSha512	SHA-512 karmasını kopyala
+ToolHashCopied	{0} panoya kopyalandı
+ToolNotJson	Bu geçerli bir JSON değil
+ToolBookmark	Yer işareti ekle / kaldır
+ToolBookmarkNext	Sonraki yer işareti
+ToolBookmarkPrev	Önceki yer işareti
+ToolBookmarkClear	Tüm yer işaretlerini kaldır
+ToolMatchingBracket	Eşleşen paranteze git
+ToolReadOnly	Salt okunur
+BookmarksNone	Henüz yer işareti yok. Ctrl+F2 bir tane ekler
+BracketNone	İmlecin yakınında parantez yok
+ReadOnlyOn	Salt okunur: metin kilitli
+ReadOnlyOff	Düzenlemeye yeniden izin verildi
+ReadOnlyNote	Salt okunur. Düzenlemek için kapatın
+CtxSpaces	Boşluklar ve sekmeler
+CtxBookmarks	Yer işaretleri
+StatusSelection	({0} karakter, {1} satır seçili)
+SetAutoCloseTitle.Text	Parantez ve tırnakları kapat
+SetAutoCloseDesc.Text	Kodda ( [ { ya da " yazınca kapanış karakteri eklenir
+SetSmartHighlightTitle.Text	Eşleşmeleri vurgula
+SetSmartHighlightDesc.Text	Seçilen sözcük her yerde parlar; imleçteki parantez çifti işaretlenir
+SetWatchFilesTitle.Text	Diğer programlardaki değişiklikleri izle
+SetWatchFilesDesc.Text	Başka yerde değişen dosya kendiliğinden yeniden yüklenir; kaydedilmemiş değişiklik varsa Vellum önce sorar
+ShortcutNewLine	Alta / üste yeni satır
+ShortcutBookmarkJump	Sonraki / önceki yer işareti
+CmdReopenClosed	Kapatılan sekmeyi yeniden aç
+TabRename	Dosyayı yeniden adlandır…
+TabOpenWith	Başka bir uygulamayla aç…
+TabSaveCopy	Kopyasını kaydet…
+TabFileInfo	Dosya bilgisi
+CopySuffix	kopya
+RenameTitle	Dosyayı yeniden adlandır
+RenameConfirm	Yeniden adlandır
+RenameInvalid	Ad, Windows’un izin vermediği karakterler içeriyor: \ / : * ? " < > |
+RenameExists	Bu adda bir dosya zaten var
+RenameError	{0} olarak yeniden adlandırılamadı
+InfoPath	Konum
+InfoSize	Boyut
+InfoCreated	Oluşturulma
+InfoModified	Değiştirilme
+InfoEncoding	Kodlama
+InfoLineEnding	Satır sonları
+InfoLines	Satırlar
+InfoWords	Sözcükler
+InfoChars	Karakterler
+InfoLanguage	Vurgulama
+SizeBytes	{0} bayt
+SizeKb	{0} KB
+SizeMb	{0} MB
+ReloadedExternal	Yeniden yüklendi: dosya Vellum dışında değiştirildi
+ExternalTitle	{0}, Vellum dışında değiştirildi
+ExternalText	Siz burada kaydedilmemiş değişiklikler yaparken başka bir program bu dosyayı kaydetti. Yeni sürüm yüklenip değişiklikleriniz atılsın mı, yoksa sizinkiler mi kalsın?
+ExternalReload	Yeni sürümü yükle
+ExternalKeep	Benimkileri koru
+SettingsClose.TT	Ayarları kapat (Esc)
+AboutTagline.Text	Metin, not ve kod için sakin bir cam not defteri.
+AboutPrivacyNote.Text	Çevrimdışı çalışır. Hiçbir şey toplamaz: metniniz bilgisayarınızda kalır.
+AboutWebsite	Vellum web sitesi
+AboutRate	Vellum’u değerlendir
+AboutSupport	Projeyi destekle
+AboutSupportDesc	Vellum ücretsizdir; bağış onu geliştirmeye yardım eder
+AboutContact	Bize yazın
+AboutBug	Sorun bildir
+AboutBugDesc	Sürümü önceden yazılmış bir e-posta açar
+AboutPrivacy	Gizlilik politikası
+AboutPrivacyDesc	Vellum’un verilerle ne yaptığı (ve yapmadığı)
+AboutStudio	Wesky’den daha fazlası
+MenuLibrary.Text	Notlar
+MenuHistory.Text	Sürüm geçmişi
+LibraryNew.TT	Yeni not
+LibraryClose.TT	Kapat (Esc)
+LibraryClose.AN	Kapat
+LibrarySearch.PlaceholderText	Notlarda ara
+LibraryEmptyTrash.Content	Çöpü boşalt
+HistoryTitle.Text	Sürüm geçmişi
+HistoryClose.TT	Kapat (Esc)
+HistoryClose.AN	Kapat
+HistoryShowChanges.OnContent	Neler değişti
+HistoryShowChanges.OffContent	Neler değişti
+HistoryEmpty.Text	Henüz sürüm yok. Vellum, siz yazarken birkaç dakikada bir ve her kaydettiğinizde bir sürüm saklar.
+HistoryHint.Text	Kırmızı: şimdiki metinde yok. Yeşil: sonradan eklendi.
+HistoryCopy.Content	Kopyala
+HistoryRestore.Content	Bu sürümü geri yükle
+SetSectionNotes.Text	Notlar ve geçmiş
+SetLibraryTitle.Text	Not kitaplığı
+SetLibraryDesc.Text	Yeni sekmeler nottur: kendiliğinden kaydedilir ve kapatıldıktan sonra kitaplıkta kalır (Ctrl+Shift+L).
+SetHistoryTitle.Text	Sürüm geçmişi
+SetHistoryDesc.Text	Notların önceki sürümlerini görmek ya da geri yüklemek için saklar (Ctrl+Shift+H).
+SetFileHistoryTitle.Text	Dosyalar için de geçmiş
+SetFileHistoryDesc.Text	Vellum’da kaydettiğiniz dosyaların sürümlerini de saklar.
+SetClearHistoryTitle.Text	Geçmişi temizle
+SetClearHistoryDesc.Text	Kaydedilen tüm sürümleri siler. Notlar kalır.
+SetClearHistoryButton.Content	Temizle
+NoteUntitled	Yeni not
+LibraryTitleText	Notlar
+LibraryMeta	{0} · {1} sözcük
+LibraryTrash	Çöp
+LibraryTrashCount	Çöp ({0})
+LibraryEmptyTrashText	Çöp boş. Silinen notlar burada 30 gün kalır.
+LibraryNothingFound	Hiçbir şey bulunamadı.
+LibraryEmptyText	Henüz not yok. Her yeni sekme bir nottur: yazmaya başlayın. #etiketleri doğrudan metne ekleyin.
+LibraryAllTags	Tümü
+LibraryYesterday	Dün
+LibraryRestore	Geri yükle
+LibraryDeleteForever	Kalıcı olarak sil
+LibraryOpen	Aç
+LibraryEmptyTrashYes	Çöpü boşalt
+LibraryEmptyTrashConfirm	Çöpteki tüm notlar kalıcı olarak silinsin mi?
+LibraryOff	Not kitaplığı ayarlarda kapalı.
+NotePin	Sabitle
+NoteUnpin	Sabitlemeyi kaldır
+NoteHistory	Sürüm geçmişi…
+NoteExport	Dosya olarak kaydet…
+NoteDelete	Notu sil
+NoteSaved	Not kaydedildi
+NoteEmpty	Not boş
+HistoryToday	Bugün, {0}
+HistoryYesterday	Dün, {0}
+HistoryLines	{0} satır
+HistorySame	Şimdikiyle aynı
+HistoryChanges	O zamandan beri: +{0} / −{1} satır
+HistoryRestored	Sürüm geri yüklendi. Ctrl+Z geri alır.
+HistoryOff	Sürüm geçmişi ayarlarda kapalı.
+HistoryUntitled	Önce dosyayı kaydedin: geçmiş notlar ve kaydedilmiş dosyalar içindir.
+HistoryFilesOff	Dosya geçmişi ayarlarda kapalı.
+CmdLibrary	Not kitaplığı
+CmdHistory	Sürüm geçmişi
+SetClearHistorySize	Kaydedilen tüm sürümleri siler ({0}). Notlar kalır.
+SetClearHistoryConfirm	Kaydedilen tüm sürümler silinsin mi? Notlar ve dosyalar olduğu gibi kalır.
+SetClearHistoryYes	Geçmişi temizle
+NoteLockedSnippet	Parolayla korunuyor
+HistoryLocked	Parolalı notların sürüm geçmişi yoktur.
+LockOpenTitle	“{0}” notunu aç
+LockOpenText	Bu not korunuyor. Açmak için parolasını yazın.
+LockOpenButton	Aç
+LockWrongPassword	Parola yanlış.
+LockSetTitle	Notu parolayla koru
+LockSetText	Not diskte şifrelenecek. Parolayı unutursanız not kurtarılamaz, biz bile kurtaramayız. Önceki sürümleri silinecek.
+LockSetButton	Koru
+LockDone	Not parolayla korundu
+LockRemoveTitle	Parolayı kaldır
+LockRemoveText	Notu şifresiz saklamak için parolayı bir kez daha yazın.
+LockRemoveButton	Parolayı kaldır
+LockRemoved	Parola kaldırıldı
+LockPassword	Parola
+LockPasswordAgain	Parolayı tekrarlayın
+LockMismatch	Parolalar eşleşmiyor.
+LockNote	Parolayla koru…
+LockRemove	Parolayı kaldır…
+ExportPdf	PDF olarak dışa aktar…
+ExportHtml	HTML olarak dışa aktar…
+ExportDone	Dışa aktarıldı: {0}
+ExportFailed	Sayfa dışa aktarma için hazırlanamadı.
+MenuExport.Text	Dışa aktar
+MenuExportPdf.Text	PDF…
+MenuExportHtml.Text	HTML sayfası…
+MenuMini.Text	Mini pencere
+CaptionMini.TT	Tam pencereye dön
+CaptionMiniName	Tam pencereye dön
+MiniOff	Mini pencere ayarlarda kapalı.
+CmdMini	Üstte mini pencere (aç / kapat)
+CmdExportPdf	PDF olarak dışa aktar
+CmdExportHtml	HTML olarak dışa aktar
+TrayOpen	Vellum’u aç
+TrayNewNote	Yeni not
+TrayExit	Çıkış
+SetSectionTray.Text	Bildirim alanı
+SetTrayTitle.Text	Saatin yanında simge
+SetTrayDesc.Text	Vellum’u açın veya bildirim alanından not başlatın.
+SetCloseToTrayTitle.Text	Bildirim alanına kapat
+SetCloseToTrayDesc.Text	Pencereyi kapatınca Vellum saatin yanında çalışmaya devam eder. Menüdeki Çıkış onu kapatır.
+SetStartupTitle.Text	Windows ile başlat
+SetStartupDesc.Text	Sessizce başlar: bildirim alanında veya simge durumunda.
+SetStartupNote	Sessizce başlar: bildirim alanında veya simge durumunda.
+SetStartupBlocked	Görev Yöneticisi → Başlangıç uygulamaları’nda kapalı. Oradan açın.
+SetStartupPolicy	Kuruluşunuz izin vermiyor.
+SetQuickNoteTitle.Text	Hızlı not: Ctrl+Alt+N
+SetQuickNoteDesc.Text	Her uygulamadan Vellum’u yeni bir notla açar.
+SetQuickNoteNote	Her uygulamadan Vellum’u yeni bir notla açar.
+SetQuickNoteTaken	Ctrl+Alt+N başka bir uygulama tarafından kullanılıyor.
+SetMiniTitle.Text	Mini pencere
+SetMiniDesc.Text	Diğerlerinin üstünde küçük bir pencere: Ctrl+Shift+M.
+SetNoteLocksTitle.Text	Parolalı notlar
+SetNoteLocksDesc.Text	Notu sekme menüsünden koruyun. AES-256 ile şifrelenir.
+SetExportTitle.Text	PDF ve HTML olarak dışa aktarma
+SetExportDesc.Text	Ana menüde, sekme menüsünde ve komut paletinde.
+ShortcutQuickNote	Her uygulamadan hızlı not

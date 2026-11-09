@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+    x:Class="Vellum.Controls.EditorView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- One tab: the glass sheet with the text, a floating find panel and a quiet status line -->
+    <Grid Background="{ThemeResource GlassSheetBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Text on the left; Markdown preview on the right (or instead of the text) -->
+        <Grid x:Name="Body">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="EditorColumn" Width="*" />
+                <ColumnDefinition x:Name="PreviewColumn" Width="0" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Under the text: the band that marks the current line -->
+            <Canvas x:Name="Underlay" IsHitTestVisible="False">
+                <Rectangle x:Name="CurrentLineBand" Visibility="Collapsed" RadiusX="4" RadiusY="4" />
+            </Canvas>
+
+            <RichEditBox
+                x:Name="Editor"
+                Style="{StaticResource GlassEditorStyle}"
+                AllowDrop="False"
+                TextChanging="Editor_TextChanging"
+                TextChanged="Editor_TextChanged"
+                SelectionChanged="Editor_SelectionChanged"
+                Paste="Editor_Paste">
+                <RichEditBox.Resources>
+                    <!--
+                        The text box keeps text readable against its background. "Transparent" is
+                        transparent *white*, so in the dark theme it would wash all colors out to white;
+                        transparent black keeps the glass and the colors.
+                    -->
+                    <ResourceDictionary>
+                        <ResourceDictionary.ThemeDictionaries>
+                            <ResourceDictionary x:Key="Dark">
+                                <SolidColorBrush x:Key="TextControlBackground" Color="#00000000" />
+                                <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="#00000000" />
+                                <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="#00000000" />
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="Light">
+                                <SolidColorBrush x:Key="TextControlBackground" Color="#00FFFFFF" />
+                                <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="#00FFFFFF" />
+                                <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="#00FFFFFF" />
+                            </ResourceDictionary>
+                            <ResourceDictionary x:Key="HighContrast">
+                                <SolidColorBrush x:Key="TextControlBackground" Color="{ThemeResource SystemColorWindowColor}" />
+                                <SolidColorBrush x:Key="TextControlBackgroundPointerOver" Color="{ThemeResource SystemColorWindowColor}" />
+                                <SolidColorBrush x:Key="TextControlBackgroundFocused" Color="{ThemeResource SystemColorWindowColor}" />
+                            </ResourceDictionary>
+                        </ResourceDictionary.ThemeDictionaries>
+                        <SolidColorBrush x:Key="TextControlBorderBrush" Color="Transparent" />
+                        <SolidColorBrush x:Key="TextControlBorderBrushPointerOver" Color="Transparent" />
+                        <SolidColorBrush x:Key="TextControlBorderBrushFocused" Color="Transparent" />
+                        <Thickness x:Key="TextControlBorderThemeThickness">0</Thickness>
+                        <Thickness x:Key="TextControlBorderThemeThicknessFocused">0</Thickness>
+                    </ResourceDictionary>
+                </RichEditBox.Resources>
+            </RichEditBox>
+
+            <!-- Line numbers, drawn in the editor's left margin, with a hairline between them and the text -->
+            <Canvas x:Name="Gutter" IsHitTestVisible="False">
+                <Rectangle x:Name="GutterLine" Width="1" Fill="{ThemeResource DividerBrush}" Visibility="Collapsed" />
+            </Canvas>
+
+            <Border
+                x:Name="PreviewHost"
+                Grid.Column="1"
+                Visibility="Collapsed"
+                BorderBrush="{ThemeResource GlassStrokeBrush}"
+                BorderThickness="1,0,0,0" />
+        </Grid>
+
+        <!-- Find / replace (Ctrl+F / Ctrl+H) -->
+        <Border
+            x:Name="FindPanel"
+            KeyDown="FindPanel_KeyDown"
+            Style="{StaticResource FloatingPanelStyle}"
+            Visibility="Collapsed"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="0,10,22,0"
+            Canvas.ZIndex="1"
+            Padding="6">
+            <Grid ColumnSpacing="2" RowSpacing="6">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <ToggleButton x:Name="ReplaceToggle" x:Uid="FindReplaceToggle" Style="{StaticResource IconToggleStyle}" VerticalAlignment="Top" Click="ReplaceToggle_Click">
+                    <FontIcon x:Name="ReplaceChevron" Glyph="&#xE76C;" FontSize="11" />
+                </ToggleButton>
+
+                <TextBox x:Name="FindBox" TabIndex="1" IsSpellCheckEnabled="False" x:Uid="FindBox" Grid.Column="1" Width="250" TextChanged="FindBox_TextChanged" KeyDown="FindBox_KeyDown" />
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal" Spacing="2" Margin="4,0,0,0">
+                    <TextBlock x:Name="MatchInfo" Style="{StaticResource StatusTextStyle}" MinWidth="78" TextAlignment="Center" Margin="2,0" />
+                    <ToggleButton x:Name="MatchCaseToggle" x:Uid="FindMatchCase" Style="{StaticResource IconToggleStyle}" Content="Aa" Click="Option_Click" />
+                    <ToggleButton x:Name="WholeWordToggle" x:Uid="FindWholeWord" Style="{StaticResource IconToggleStyle}" Content="ab" FontWeight="SemiBold" Click="Option_Click" />
+                    <ToggleButton x:Name="RegexToggle" x:Uid="FindRegex" Style="{StaticResource IconToggleStyle}" Content=".*" Click="Option_Click" />
+                    <Button x:Uid="FindPrevious" Style="{StaticResource IconButtonStyle}" Click="FindPrevious_Click">
+                        <FontIcon Glyph="&#xE70E;" FontSize="12" />
+                    </Button>
+                    <Button x:Uid="FindNext" Style="{StaticResource IconButtonStyle}" Click="FindNext_Click">
+                        <FontIcon Glyph="&#xE70D;" FontSize="12" />
+                    </Button>
+                    <Button x:Uid="FindClose" Style="{StaticResource IconButtonStyle}" Click="FindClose_Click">
+                        <FontIcon Glyph="&#xE711;" FontSize="12" />
+                    </Button>
+                </StackPanel>
+
+                <TextBox x:Name="ReplaceBox" TabIndex="2" IsSpellCheckEnabled="False" x:Uid="ReplaceBox" Grid.Row="1" Grid.Column="1" Width="250" Visibility="Collapsed" KeyDown="ReplaceBox_KeyDown" />
+                <StackPanel x:Name="ReplaceButtons" Grid.Row="1" Grid.Column="2" Orientation="Horizontal" Spacing="4" Margin="4,0,0,0" Visibility="Collapsed">
+                    <Button x:Uid="ReplaceOne" Click="ReplaceOne_Click" />
+                    <Button x:Uid="ReplaceAll" Click="ReplaceAll_Click" />
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Status line: a tinted strip under a hairline, groups split by thin separators -->
+        <Grid x:Name="StatusBar" Grid.Row="1" Padding="32,2,16,4" ColumnSpacing="0"
+              Background="{ThemeResource StatusBarBrush}"
+              BorderBrush="{ThemeResource DividerBrush}" BorderThickness="0,1,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="PositionText" Style="{StaticResource StatusTextStyle}" Margin="0,0,12,0" />
+            <Border Grid.Column="1" Style="{StaticResource StatusSeparatorStyle}" />
+            <StackPanel Grid.Column="2" Orientation="Horizontal" Spacing="10" VerticalAlignment="Center" Margin="12,0,0,0">
+                <TextBlock x:Name="CountText" Style="{StaticResource StatusTextStyle}" />
+                <ProgressBar x:Name="GoalBar" Width="64" Maximum="1" VerticalAlignment="Center" Visibility="Collapsed" />
+            </StackPanel>
+            <!-- Read-only lock -->
+            <Button x:Name="ReadOnlyButton" x:Uid="ReadOnlyButton" Grid.Column="3" Style="{StaticResource StatusButtonStyle}" Margin="8,0,0,0" Click="ReadOnlyButton_Click" Visibility="Collapsed">
+                <FontIcon Glyph="&#xE72E;" FontSize="12" Foreground="{ThemeResource VellumAccentBrush}" />
+            </Button>
+
+            <Button x:Name="HelpButton" x:Uid="HelpButton" Grid.Column="5" Style="{StaticResource StatusButtonStyle}" Click="HelpButton_Click" Visibility="Collapsed">
+                <FontIcon Glyph="&#xE897;" FontSize="12" />
+            </Button>
+            <Button x:Name="PreviewButton" x:Uid="PreviewButton" Grid.Column="6" Style="{StaticResource StatusButtonStyle}" Click="PreviewButton_Click" Visibility="Collapsed">
+                <StackPanel Orientation="Horizontal" Spacing="6">
+                    <FontIcon x:Name="PreviewIcon" Glyph="&#xE8A1;" FontSize="12" />
+                    <TextBlock x:Name="PreviewText" />
+                </StackPanel>
+            </Button>
+            <Border Grid.Column="7" Style="{StaticResource StatusSegmentStyle}">
+                <Button x:Name="LanguageButton" x:Uid="LanguageButton" Style="{StaticResource StatusButtonStyle}">
+                    <TextBlock x:Name="LanguageText" />
+                    <Button.Flyout>
+                        <MenuFlyout x:Name="LanguageMenu" Placement="TopEdgeAlignedRight" />
+                    </Button.Flyout>
+                </Button>
+            </Border>
+            <Border Grid.Column="8" Style="{StaticResource StatusSegmentStyle}" Visibility="{x:Bind ZoomText.Visibility, Mode=OneWay}">
+                <TextBlock x:Name="ZoomText" Style="{StaticResource StatusTextStyle}" Margin="8,0" />
+            </Border>
+            <Border Grid.Column="9" Style="{StaticResource StatusSegmentStyle}">
+                <Button x:Name="LineEndingButton" x:Uid="LineEndingButton" Style="{StaticResource StatusButtonStyle}">
+                    <TextBlock x:Name="LineEndingText" />
+                    <Button.Flyout>
+                        <MenuFlyout x:Name="LineEndingMenu" Placement="TopEdgeAlignedRight" />
+                    </Button.Flyout>
+                </Button>
+            </Border>
+            <Border Grid.Column="10" Style="{StaticResource StatusSegmentStyle}">
+                <Button x:Name="EncodingButton" x:Uid="EncodingButton" Style="{StaticResource StatusButtonStyle}">
+                    <TextBlock x:Name="EncodingText" />
+                    <Button.Flyout>
+                        <MenuFlyout x:Name="EncodingMenu" Placement="TopEdgeAlignedRight" />
+                    </Button.Flyout>
+                </Button>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,506 @@
+UntitledTab	Unbenannt
+StatusPosition	Z. {0}, Sp. {1}
+StatusCounts	{0} Wörter · {1} Zeichen
+MenuButton.TT	Menü
+MenuNewTab.Text	Neuer Tab
+MenuOpen.Text	Öffnen…
+MenuSave.Text	Speichern
+MenuSaveAs.Text	Speichern unter…
+MenuCloseTab.Text	Tab schließen
+MenuExit.Text	Beenden
+SaveChangesTitle	Änderungen an {0} speichern?
+SaveChangesText	Wenn du nicht speicherst, gehen deine Änderungen verloren.
+ButtonSave	Speichern
+ButtonDontSave	Nicht speichern
+ButtonCancel	Abbrechen
+ButtonOk	OK
+ErrorOpenTitle	{0} konnte nicht geöffnet werden
+ErrorSaveTitle	{0} konnte nicht gespeichert werden
+FileTypeText	Textdokument
+MenuSettings.Text	Einstellungen
+SettingsTab	Einstellungen
+SettingsHeader.Text	Einstellungen
+SetSectionAppearance.Text	Darstellung
+SetThemeTitle.Text	Design
+SetThemeDesc.Text	Hell, dunkel oder wie in Windows
+SetThemeSystem.Content	Systemeinstellung verwenden
+SetThemeLight.Content	Hell
+SetThemeDark.Content	Dunkel
+SetAccentTitle.Text	Akzentfarbe
+SetAccentDesc.Text	Für Hervorhebungen, Auswahl und die Glastönung
+Accent_violet	Vellum Violett
+Accent_mint	Minze
+Accent_amber	Bernstein
+Accent_rose	Rose
+Accent_ocean	Ozean
+Accent_graphite	Graphit
+Accent_system	Windows-Akzentfarbe
+SetBackdropTitle.Text	Fensterhintergrund
+SetBackdropDesc.Text	Glas zeigt verschwommen, was hinter dem Fenster liegt, Mica übernimmt die Farbe deines Hintergrundbilds
+SetBackdropAcrylic.Content	Glas
+SetBackdropMica.Content	Mica
+SetBackdropSolid.Content	Einfarbig
+SetGlassTitle.Text	Glastransparenz
+SetGlassDesc.Text	Wie stark der Hintergrund durchscheint
+SetSectionEditor.Text	Editor
+SetFontTitle.Text	Schriftart
+SetFontDesc.Text	Wähle eine Schrift oder gib den Namen einer installierten ein
+SetWrapTitle.Text	Zeilenumbruch
+SetWrapDesc.Text	Lange Zeilen an die Fensterbreite anpassen
+SetStatusTitle.Text	Statusleiste
+SetStatusDesc.Text	Zeile, Spalte, Wortzahl und Kodierung unten
+SetSpellTitle.Text	Rechtschreibprüfung
+SetSpellDesc.Text	Falsch geschriebene Wörter unterstreichen
+SetSectionFiles.Text	Dateien
+SetSessionTitle.Text	Tabs beim Start wiederherstellen
+SetSessionDesc.Text	Öffnet deine Tabs und ungespeicherten Text beim nächsten Start wieder
+SetAutoSaveTitle.Text	Dateien automatisch speichern
+SetAutoSaveDesc.Text	Geöffnete Dateien kurz nach dem Tippen von selbst speichern
+SetSectionLanguage.Text	Sprache
+SetLanguageTitle.Text	App-Sprache
+SetLanguageDesc.Text	Standardmäßig folgt Vellum der Windows-Sprache
+SetLanguageSystem.Content	Windows-Sprache verwenden
+SetRestartBar.Message	Starte Vellum neu, um die Sprache zu wechseln. Deine Tabs bleiben offen.
+SetRestartButton.Content	Jetzt neu starten
+SetSectionAbout.Text	Info
+SetVersion	Version {0} · von Wesky
+FindReplaceToggle.TT	Ersetzen anzeigen
+FindMatchCase.TT	Groß-/Kleinschreibung beachten
+FindWholeWord.TT	Ganzes Wort
+FindRegex.TT	Regulärer Ausdruck
+FindPrevious.TT	Vorheriger Treffer (Umschalt+F3)
+FindNext.TT	Nächster Treffer (F3)
+FindClose.TT	Schließen (Esc)
+FindBox.PlaceholderText	Suchen
+ReplaceBox.PlaceholderText	Ersetzen durch
+ReplaceOne.Content	Ersetzen
+ReplaceAll.Content	Alle ersetzen
+FindCount	{0} von {1}
+FindTotal	{0} gefunden
+FindNoResults	Keine Treffer
+FindRegexError	Ungültiges Muster
+ReplacedCount	Ersetzt: {0}
+PaletteBox.PlaceholderText	Befehl eingeben oder : und eine Zeilennummer
+PaletteGoToLine	Gehe zu Zeile {0}
+MenuFind.Text	Suchen
+MenuReplace.Text	Ersetzen
+MenuPalette.Text	Befehlspalette
+CmdPalette	Befehlspalette
+CmdNewTab	Neuer Tab
+CmdOpen	Öffnen…
+CmdSave	Speichern
+CmdSaveAs	Speichern unter…
+CmdCloseTab	Tab schließen
+CmdFind	Suchen
+CmdReplace	Ersetzen
+CmdFindNextPrev	Nächster / vorheriger Treffer
+CmdGoToLine	Gehe zu Zeile…
+CmdSettings	Einstellungen
+CmdWrapOn	Zeilenumbruch einschalten
+CmdWrapOff	Zeilenumbruch ausschalten
+CmdStatusOn	Statusleiste anzeigen
+CmdStatusOff	Statusleiste ausblenden
+CmdZoomIn	Vergrößern
+CmdZoomOut	Verkleinern
+CmdZoomReset	Zoom zurücksetzen
+CmdZoom	Vergrößern / verkleinern / zurücksetzen
+CmdThemeSystem	Design: System
+CmdThemeLight	Design: hell
+CmdThemeDark	Design: dunkel
+CmdAccent	Akzent: {0}
+CmdBackdropAcrylic	Hintergrund: Glas
+CmdBackdropMica	Hintergrund: Mica
+CmdBackdropSolid	Hintergrund: einfarbig
+CmdSwitchTab	Zu Tab: {0}
+CmdSwitchTabs	Tabs wechseln
+SetSectionShortcuts.Text	Tastenkombinationen
+PreviewButton.TT	Markdown-Vorschau (Strg+Umschalt+V)
+LanguageButton.TT	Hervorhebung für diesen Tab
+StatusCountsGoal	{0} / {1} Wörter · {2} Zeichen
+SyntaxPlain	Nur Text
+PreviewOff	Vorschau
+PreviewSplit	Nebeneinander
+PreviewFull	Nur Vorschau
+CtxUndo	Rückgängig
+CtxRedo	Wiederholen
+CtxCut	Ausschneiden
+CtxCopy	Kopieren
+CtxPaste	Einfügen
+CtxSelectAll	Alles auswählen
+CmdPreview	Markdown-Vorschau
+CmdZenOn	Zen-Modus
+CmdZenOff	Zen-Modus verlassen
+CmdFocusOn	Fokusmodus einschalten
+CmdFocusOff	Fokusmodus ausschalten
+CmdTypewriterOn	Schreibmaschinenmodus einschalten
+CmdTypewriterOff	Schreibmaschinenmodus ausschalten
+CmdReadableOn	Schmale Textspalte
+CmdReadableOff	Text in voller Breite
+CmdMarkdownOn	Markdown-Formatierung einschalten
+CmdMarkdownOff	Markdown-Formatierung ausschalten
+CmdSyntaxOn	Code-Hervorhebung einschalten
+CmdSyntaxOff	Code-Hervorhebung ausschalten
+CmdSyntax	Hervorhebung: {0}
+CmdUndoRedo	Rückgängig / wiederholen
+SetLineSpacingTitle.Text	Zeilenabstand
+SetLineSpacingDesc.Text	Mehr Luft zwischen den Zeilen macht lange Texte leichter lesbar
+SetReadableTitle.Text	Schmale Textspalte
+SetReadableDesc.Text	Hält Zeilen in breiten Fenstern auf angenehmer Lesebreite
+SetSectionWriting.Text	Schreiben und Code
+SetMarkdownTitle.Text	Markdown-Formatierung
+SetMarkdownDesc.Text	Überschriften, Fett und Code erscheinen schon beim Tippen formatiert, in .md-Dateien
+SetPreviewTitle.Text	Markdown-Vorschau
+SetPreviewDesc.Text	Ein Knopf in der Statusleiste und Strg+Umschalt+V zeigen die fertige Seite
+SetSyntaxTitle.Text	Code-Hervorhebung
+SetSyntaxDesc.Text	Farben für Code, JSON, XML, Logs und mehr, passend zum Dateityp
+SetMonoTitle.Text	Festbreitenschrift für Code
+SetMonoDesc.Text	Code-Dateien nutzen Cascadia Mono, damit Spalten bündig sind
+SetFocusTitle.Text	Fokusmodus
+SetFocusDesc.Text	Alles außer dem Absatz, an dem du schreibst, tritt zurück
+SetTypewriterTitle.Text	Schreibmaschine
+SetTypewriterDesc.Text	Die Zeile, an der du schreibst, bleibt in der Fenstermitte
+SetGoalTitle.Text	Wortziel
+SetGoalDesc.Text	Zeigt den Fortschritt in der Statusleiste; 0 schaltet es aus
+HelpButton.TT	Markdown-Spickzettel
+LineEndingButton.TT	Zeilenumbrüche
+EncodingButton.TT	Kodierung
+HelpClose.TT	Schließen (Esc)
+ToolDuplicateLine	Zeile duplizieren
+ToolDeleteLine	Zeile löschen
+ToolMoveLineUp	Zeile nach oben
+ToolMoveLineDown	Zeile nach unten
+ToolSortAsc	Zeilen sortieren A → Z
+ToolSortDesc	Zeilen sortieren Z → A
+ToolRemoveDuplicates	Doppelte Zeilen entfernen
+ToolRemoveEmpty	Leere Zeilen entfernen
+ToolTrimTrailing	Leerzeichen am Zeilenende entfernen
+ToolJoinLines	Zeilen verbinden
+ToolReverseLines	Zeilenreihenfolge umkehren
+ToolUpper	GROSSBUCHSTABEN
+ToolLower	kleinbuchstaben
+ToolTitle	Jedes Wort Groß
+ToolSentence	Satzanfang groß
+ToolInvert	gROSS-/kLEIN tAUSCHEN
+ToolComment	Auskommentieren / einkommentieren
+ToolDateTime	Datum und Uhrzeit einfügen
+ToolBase64Encode	In Base64 kodieren
+ToolBase64Decode	Aus Base64 dekodieren
+ToolUrlEncode	Für URL kodieren
+ToolUrlDecode	URL dekodieren
+ToolSearchWeb	Im Web suchen
+ToolNothingChanged	Nichts zu ändern
+ToolNoComments	Diese Sprache hat keine Kommentare
+ToolSelectFirst	Markiere zuerst etwas Text
+ToolCannotDecode	Auswahl konnte nicht dekodiert werden
+CtxLines	Zeilen
+CtxCase	Groß-/Kleinschreibung
+CtxConvert	Umwandeln
+EolWindows	Windows (CRLF)
+EolUnix	Unix / macOS (LF)
+EolMac	Altes Mac (CR)
+EncSaveAs	In Kodierung speichern
+EncReopen	In Kodierung neu öffnen
+EncLossTitle	Einige Zeichen gehen verloren
+EncLossText	{0} kann einige Zeichen dieses Textes nicht speichern. Sie werden als „?“ gespeichert. Trotzdem umwandeln?
+EncLossConfirm	Umwandeln
+ReloadTitle	Datei neu laden?
+ReloadText	Ungespeicherte Änderungen in diesem Tab gehen verloren.
+ReloadConfirm	Neu laden
+HelpTitle.Text	Markdown-Spickzettel
+HelpSubtitle.Text	Einfache Zeichen, die zu Formatierung werden. Funktioniert in .md-Dateien.
+HelpYouType.Text	DU TIPPST
+HelpYouGet.Text	DU BEKOMMST
+HelpTips.Text	Strg+Umschalt+V zeigt die Vorschau. Enter setzt Listen fort, Tab rückt sie ein. Bild: ![Beschriftung](datei.png oder ein Link).
+HelpMdHeadings	Überschriften
+HelpMdHeadingsSample	# Überschrift 1\n## Überschrift 2\n### Überschrift 3
+HelpMdEmphasis	Fett und kursiv
+HelpMdEmphasisSample	**fett**, *kursiv*, ***beides***
+HelpMdStrike	Durchgestrichen
+HelpMdStrikeSample	~~stimmt nicht mehr~~
+HelpMdCode	Code in einer Zeile
+HelpMdCodeSample	Führe `git status` aus
+HelpMdLink	Link
+HelpMdBullets	Liste
+HelpMdBulletsSample	- Äpfel\n- Birnen\n  - Unterpunkt
+HelpMdNumbers	Nummerierte Liste
+HelpMdNumbersSample	1. Erstens\n2. Zweitens
+HelpMdTasks	Checkliste
+HelpMdTasksSample	- [x] Erledigt\n- [ ] Zu tun
+HelpMdQuote	Zitat
+HelpMdQuoteSample	> Schreib jeden Tag.
+HelpMdCodeBlock	Codeblock
+HelpMdTable	Tabelle
+HelpMdTableSample	| Artikel | Preis |\n|---------|-------|\n| Tee     | 3     |
+HelpMdRule	Trennlinie
+HelpMdRuleSample	Oben\n\n---\n\nUnten
+MenuRecent.Text	Zuletzt geöffnet
+MenuRecentClear	Liste leeren
+MenuSaveAll.Text	Alle speichern
+MenuTopmost.Text	Immer im Vordergrund
+MenuZen.Text	Zen-Modus
+MenuMarkdownHelp.Text	Markdown-Spickzettel
+MenuCloseAll.Text	Alle Tabs schließen
+TabClose	Schließen
+TabCloseOthers	Andere Tabs schließen
+TabCloseRight	Tabs rechts schließen
+TabCloseSaved	Gespeicherte Tabs schließen
+TabCloseAll	Alle Tabs schließen
+TabCopyPath	Vollständigen Pfad kopieren
+TabCopyName	Dateinamen kopieren
+TabOpenFolder	Enthaltenden Ordner öffnen
+TabReload	Vom Datenträger neu laden
+CmdSaveAll	Alle speichern
+CmdOpenRecent	Zuletzt geöffnet: {0}
+CmdTopmost	Immer im Vordergrund (an / aus)
+CmdMarkdownHelp	Markdown-Spickzettel
+CmdLineNumbersOn	Zeilennummern anzeigen
+CmdLineNumbersOff	Zeilennummern ausblenden
+CmdLineBandOn	Aktuelle Zeile hervorheben
+CmdLineBandOff	Aktuelle Zeile nicht hervorheben
+SetSectionEditing.Text	Code und Bearbeitung
+SetLineNumbersTitle.Text	Zeilennummern
+SetLineNumbersDesc.Text	Nummern am linken Rand
+SetLineBandTitle.Text	Aktuelle Zeile hervorheben
+SetLineBandDesc.Text	Ein sanftes Band in deiner Akzentfarbe hinter der Zeile mit dem Cursor
+SetTabSizeTitle.Text	Tab-Taste
+SetTabSizeDesc.Text	Was Tab einfügt. Sind mehrere Zeilen markiert, verschieben Tab und Umschalt+Tab sie.
+SetTabChar.Content	Tabulatorzeichen
+SetTab2.Content	2 Leerzeichen
+SetTab4.Content	4 Leerzeichen
+SetTab8.Content	8 Leerzeichen
+SetAutoIndentTitle.Text	Intelligentes Enter
+SetAutoIndentDesc.Text	Neue Zeilen behalten den Einzug; Markdown-Listen gehen von selbst weiter
+SetSearchEngineTitle.Text	Websuche
+SetSearchEngineDesc.Text	Wo Strg+E den markierten Text nachschlägt
+SetExitLastTitle.Text	Vellum mit dem letzten Tab schließen
+SetExitLastDesc.Text	Sonst öffnet sich ein neuer leerer Tab
+SetNewEncodingTitle.Text	Kodierung für neue Dateien
+SetNewEncodingDesc.Text	Geöffnete Dateien behalten ihre eigene; jederzeit in der Statusleiste änderbar
+SetNewEolTitle.Text	Zeilenumbrüche für neue Dateien
+SetNewEolDesc.Text	Windows-Apps erwarten CRLF; Linux, macOS und die meisten Code-Tools nutzen LF
+EolWindowsItem.Content	Windows (CRLF)
+EolUnixItem.Content	Unix / macOS (LF)
+EolMacItem.Content	Altes Mac (CR)
+ShortcutMoveLines	Zeilen nach oben / unten
+ShortcutCase	Groß- / Kleinbuchstaben
+ShortcutIndent	Zeilen einrücken / ausrücken
+CaptionMinimize.TT	Minimieren
+CaptionMaximize.TT	Maximieren
+CaptionClose.TT	Schließen
+CaptionMaximizeName	Maximieren
+CaptionRestoreName	Wiederherstellen
+Accent_lavender	Lavendel
+Accent_indigo	Indigo
+Accent_sky	Himmel
+Accent_teal	Petrol
+Accent_sage	Salbei
+Accent_lime	Limette
+Accent_sand	Sand
+Accent_coral	Koralle
+Accent_crimson	Karmesin
+Accent_berry	Beere
+Accent_slate	Schiefer
+ReadOnlyButton.TT	Schreibgeschützt. Klicken, um Bearbeiten zu erlauben
+ToolLineAbove	Zeile darüber einfügen
+ToolLineBelow	Zeile darunter einfügen
+ToolSortNumAsc	Nach Zahl sortieren 0 → 9
+ToolSortNumDesc	Nach Zahl sortieren 9 → 0
+ToolShuffle	Zeilen mischen
+ToolRemoveConsecutive	Direkt wiederholte Zeilen entfernen
+ToolTrimLeading	Leerzeichen am Zeilenanfang entfernen
+ToolTrimBoth	Leerzeichen an beiden Enden entfernen
+ToolTabsToSpaces	Tabs → Leerzeichen
+ToolSpacesToTabs	Einzugs-Leerzeichen → Tabs
+ToolRandomCase	zUfÄlLiGe sChReIbUnG
+ToolFormatJson	JSON formatieren
+ToolMinifyJson	JSON komprimieren
+ToolHashMd5	MD5-Hash kopieren
+ToolHashSha1	SHA-1-Hash kopieren
+ToolHashSha256	SHA-256-Hash kopieren
+ToolHashSha512	SHA-512-Hash kopieren
+ToolHashCopied	{0} in die Zwischenablage kopiert
+ToolNotJson	Das ist kein gültiges JSON
+ToolBookmark	Lesezeichen setzen / entfernen
+ToolBookmarkNext	Nächstes Lesezeichen
+ToolBookmarkPrev	Vorheriges Lesezeichen
+ToolBookmarkClear	Alle Lesezeichen entfernen
+ToolMatchingBracket	Zur passenden Klammer
+ToolReadOnly	Schreibgeschützt
+BookmarksNone	Noch keine Lesezeichen. Strg+F2 fügt eins hinzu
+BracketNone	Keine Klammer neben dem Cursor
+ReadOnlyOn	Schreibgeschützt: der Text ist gesperrt
+ReadOnlyOff	Bearbeiten wieder erlaubt
+ReadOnlyNote	Schreibgeschützt. Zum Bearbeiten ausschalten
+CtxSpaces	Leerzeichen und Tabs
+CtxBookmarks	Lesezeichen
+StatusSelection	({0} Zeichen, {1} Zeilen markiert)
+SetAutoCloseTitle.Text	Klammern und Anführungszeichen schließen
+SetAutoCloseDesc.Text	Im Code fügt ( [ { oder " das schließende Zeichen hinzu
+SetSmartHighlightTitle.Text	Treffer hervorheben
+SetSmartHighlightDesc.Text	Ein markiertes Wort leuchtet überall auf; das Klammerpaar am Cursor wird markiert
+SetWatchFilesTitle.Text	Änderungen anderer Programme verfolgen
+SetWatchFilesDesc.Text	Eine anderswo geänderte Datei lädt sich neu; bei ungespeicherten Änderungen fragt Vellum zuerst
+ShortcutNewLine	Neue Zeile darunter / darüber
+ShortcutBookmarkJump	Nächstes / vorheriges Lesezeichen
+CmdReopenClosed	Geschlossenen Tab wieder öffnen
+TabRename	Datei umbenennen…
+TabOpenWith	Mit anderer App öffnen…
+TabSaveCopy	Kopie speichern…
+TabFileInfo	Dateiinfo
+CopySuffix	Kopie
+RenameTitle	Datei umbenennen
+RenameConfirm	Umbenennen
+RenameInvalid	Der Name enthält Zeichen, die Windows nicht erlaubt: \ / : * ? " < > |
+RenameExists	Eine Datei mit diesem Namen gibt es schon
+RenameError	Umbenennen in {0} nicht möglich
+InfoPath	Ort
+InfoSize	Größe
+InfoCreated	Erstellt
+InfoModified	Geändert
+InfoEncoding	Kodierung
+InfoLineEnding	Zeilenumbrüche
+InfoLines	Zeilen
+InfoWords	Wörter
+InfoChars	Zeichen
+InfoLanguage	Hervorhebung
+SizeBytes	{0} Bytes
+SizeKb	{0} KB
+SizeMb	{0} MB
+ReloadedExternal	Neu geladen: die Datei wurde außerhalb von Vellum geändert
+ExternalTitle	{0} wurde außerhalb von Vellum geändert
+ExternalText	Ein anderes Programm hat diese Datei gespeichert, während du hier ungespeicherte Änderungen hast. Neue Version laden und deine Änderungen verwerfen oder deine behalten?
+ExternalReload	Neue Version laden
+ExternalKeep	Meine behalten
+SettingsClose.TT	Einstellungen schließen (Esc)
+AboutTagline.Text	Ein ruhiger Glas-Editor für Text, Notizen und Code.
+AboutPrivacyNote.Text	Funktioniert offline. Sammelt nichts: dein Text bleibt auf deinem Computer.
+AboutWebsite	Vellum-Website
+AboutRate	Vellum bewerten
+AboutSupport	Projekt unterstützen
+AboutSupportDesc	Vellum ist kostenlos; eine Spende hilft, es besser zu machen
+AboutContact	Schreib uns
+AboutBug	Problem melden
+AboutBugDesc	Öffnet eine E-Mail mit eingetragener Version
+AboutPrivacy	Datenschutzerklärung
+AboutPrivacyDesc	Was Vellum mit Daten macht (und was nicht)
+AboutStudio	Mehr von Wesky
+MenuLibrary.Text	Notizen
+MenuHistory.Text	Versionsverlauf
+LibraryNew.TT	Neue Notiz
+LibraryClose.TT	Schließen (Esc)
+LibraryClose.AN	Schließen
+LibrarySearch.PlaceholderText	Notizen durchsuchen
+LibraryEmptyTrash.Content	Papierkorb leeren
+HistoryTitle.Text	Versionsverlauf
+HistoryClose.TT	Schließen (Esc)
+HistoryClose.AN	Schließen
+HistoryShowChanges.OnContent	Was sich geändert hat
+HistoryShowChanges.OffContent	Was sich geändert hat
+HistoryEmpty.Text	Noch keine Versionen. Vellum speichert alle paar Minuten beim Schreiben und bei jedem Speichern eine.
+HistoryHint.Text	Rot: nicht mehr im aktuellen Text. Grün: seitdem hinzugefügt.
+HistoryCopy.Content	Kopieren
+HistoryRestore.Content	Diese Version wiederherstellen
+SetSectionNotes.Text	Notizen und Verlauf
+SetLibraryTitle.Text	Notizbibliothek
+SetLibraryDesc.Text	Neue Tabs sind Notizen: Sie speichern sich selbst und bleiben nach dem Schließen in der Bibliothek (Strg+Umschalt+L).
+SetHistoryTitle.Text	Versionsverlauf
+SetHistoryDesc.Text	Bewahrt frühere Versionen von Notizen zum Ansehen oder Wiederherstellen auf (Strg+Umschalt+H).
+SetFileHistoryTitle.Text	Verlauf auch für Dateien
+SetFileHistoryDesc.Text	Bewahrt auch Versionen von Dateien auf, die du in Vellum speicherst.
+SetClearHistoryTitle.Text	Verlauf löschen
+SetClearHistoryDesc.Text	Löscht alle gespeicherten Versionen. Notizen bleiben.
+SetClearHistoryButton.Content	Löschen
+NoteUntitled	Neue Notiz
+LibraryTitleText	Notizen
+LibraryMeta	{0} · {1} Wörter
+LibraryTrash	Papierkorb
+LibraryTrashCount	Papierkorb ({0})
+LibraryEmptyTrashText	Der Papierkorb ist leer. Gelöschte Notizen bleiben hier 30 Tage.
+LibraryNothingFound	Nichts gefunden.
+LibraryEmptyText	Noch keine Notizen. Jeder neue Tab ist eine Notiz: einfach lostippen. #Tags direkt in den Text schreiben.
+LibraryAllTags	Alle
+LibraryYesterday	Gestern
+LibraryRestore	Wiederherstellen
+LibraryDeleteForever	Endgültig löschen
+LibraryOpen	Öffnen
+LibraryEmptyTrashYes	Papierkorb leeren
+LibraryEmptyTrashConfirm	Alle Notizen im Papierkorb endgültig löschen?
+LibraryOff	Die Notizbibliothek ist in den Einstellungen ausgeschaltet.
+NotePin	Anheften
+NoteUnpin	Lösen
+NoteHistory	Versionsverlauf…
+NoteExport	Als Datei speichern…
+NoteDelete	Notiz löschen
+NoteSaved	Notiz gespeichert
+NoteEmpty	Die Notiz ist leer
+HistoryToday	Heute, {0}
+HistoryYesterday	Gestern, {0}
+HistoryLines	{0} Zeilen
+HistorySame	Wie jetzt
+HistoryChanges	Seitdem: +{0} / −{1} Zeilen
+HistoryRestored	Version wiederhergestellt. Strg+Z macht es rückgängig.
+HistoryOff	Der Versionsverlauf ist in den Einstellungen ausgeschaltet.
+HistoryUntitled	Speichere die Datei zuerst: Der Verlauf gilt für Notizen und gespeicherte Dateien.
+HistoryFilesOff	Der Verlauf für Dateien ist in den Einstellungen ausgeschaltet.
+CmdLibrary	Notizbibliothek
+CmdHistory	Versionsverlauf
+SetClearHistorySize	Löscht alle gespeicherten Versionen ({0}). Notizen bleiben.
+SetClearHistoryConfirm	Alle gespeicherten Versionen löschen? Notizen und Dateien bleiben, wie sie sind.
+SetClearHistoryYes	Verlauf löschen
+NoteLockedSnippet	Mit Passwort geschützt
+HistoryLocked	Notizen mit Passwort haben keinen Versionsverlauf.
+LockOpenTitle	„{0}“ öffnen
+LockOpenText	Diese Notiz ist geschützt. Gib ihr Passwort ein, um sie zu öffnen.
+LockOpenButton	Öffnen
+LockWrongPassword	Falsches Passwort.
+LockSetTitle	Notiz mit Passwort schützen
+LockSetText	Die Notiz wird auf dem Datenträger verschlüsselt. Vergisst du das Passwort, lässt sie sich nicht wiederherstellen, auch nicht von uns. Ältere Versionen werden gelöscht.
+LockSetButton	Schützen
+LockDone	Notiz mit Passwort geschützt
+LockRemoveTitle	Passwort entfernen
+LockRemoveText	Gib das Passwort noch einmal ein, um die Notiz wieder unverschlüsselt zu speichern.
+LockRemoveButton	Passwort entfernen
+LockRemoved	Passwort entfernt
+LockPassword	Passwort
+LockPasswordAgain	Passwort wiederholen
+LockMismatch	Die Passwörter stimmen nicht überein.
+LockNote	Mit Passwort schützen…
+LockRemove	Passwort entfernen…
+ExportPdf	Als PDF exportieren…
+ExportHtml	Als HTML exportieren…
+ExportDone	Exportiert: {0}
+ExportFailed	Die Seite konnte nicht für den Export vorbereitet werden.
+MenuExport.Text	Exportieren
+MenuExportPdf.Text	PDF…
+MenuExportHtml.Text	HTML-Seite…
+MenuMini.Text	Mini-Fenster
+CaptionMini.TT	Zurück zum großen Fenster
+CaptionMiniName	Zurück zum großen Fenster
+MiniOff	Das Mini-Fenster ist in den Einstellungen aus.
+CmdMini	Mini-Fenster im Vordergrund (an / aus)
+CmdExportPdf	Als PDF exportieren
+CmdExportHtml	Als HTML exportieren
+TrayOpen	Vellum öffnen
+TrayNewNote	Neue Notiz
+TrayExit	Beenden
+SetSectionTray.Text	Infobereich
+SetTrayTitle.Text	Symbol neben der Uhr
+SetTrayDesc.Text	Öffne Vellum oder beginne eine Notiz aus dem Infobereich.
+SetCloseToTrayTitle.Text	In den Infobereich schließen
+SetCloseToTrayDesc.Text	Beim Schließen läuft Vellum neben der Uhr weiter. „Beenden“ im Menü schließt es ganz.
+SetStartupTitle.Text	Mit Windows starten
+SetStartupDesc.Text	Startet leise: im Infobereich oder minimiert.
+SetStartupNote	Startet leise: im Infobereich oder minimiert.
+SetStartupBlocked	Im Task-Manager unter Autostart deaktiviert. Dort wieder einschalten.
+SetStartupPolicy	Von deiner Organisation nicht erlaubt.
+SetQuickNoteTitle.Text	Schnellnotiz: Strg+Alt+N
+SetQuickNoteDesc.Text	Öffnet Vellum aus jeder App mit einer neuen Notiz.
+SetQuickNoteNote	Öffnet Vellum aus jeder App mit einer neuen Notiz.
+SetQuickNoteTaken	Strg+Alt+N wird schon von einer anderen App verwendet.
+SetMiniTitle.Text	Mini-Fenster
+SetMiniDesc.Text	Ein kleines Fenster über allen anderen: Strg+Umschalt+M.
+SetNoteLocksTitle.Text	Notizen mit Passwort
+SetNoteLocksDesc.Text	Schütze eine Notiz über ihr Tab-Menü. Verschlüsselt mit AES-256.
+SetExportTitle.Text	Export als PDF und HTML
+SetExportDesc.Text	Im Hauptmenü, im Tab-Menü und in der Befehlspalette.
+ShortcutQuickNote	Schnellnotiz aus jeder App

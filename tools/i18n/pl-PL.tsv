@@ -1,0 +1,506 @@
+UntitledTab	Bez tytułu
+StatusPosition	Wiersz {0}, kol. {1}
+StatusCounts	Słowa: {0} · znaki: {1}
+MenuButton.TT	Menu
+MenuNewTab.Text	Nowa karta
+MenuOpen.Text	Otwórz…
+MenuSave.Text	Zapisz
+MenuSaveAs.Text	Zapisz jako…
+MenuCloseTab.Text	Zamknij kartę
+MenuExit.Text	Zakończ
+SaveChangesTitle	Zapisać zmiany w {0}?
+SaveChangesText	Jeśli nie zapiszesz, zmiany zostaną utracone.
+ButtonSave	Zapisz
+ButtonDontSave	Nie zapisuj
+ButtonCancel	Anuluj
+ButtonOk	OK
+ErrorOpenTitle	Nie można otworzyć {0}
+ErrorSaveTitle	Nie można zapisać {0}
+FileTypeText	Dokument tekstowy
+MenuSettings.Text	Ustawienia
+SettingsTab	Ustawienia
+SettingsHeader.Text	Ustawienia
+SetSectionAppearance.Text	Wygląd
+SetThemeTitle.Text	Motyw
+SetThemeDesc.Text	Jasny, ciemny lub jak w Windows
+SetThemeSystem.Content	Ustawienie systemowe
+SetThemeLight.Content	Jasny
+SetThemeDark.Content	Ciemny
+SetAccentTitle.Text	Kolor akcentu
+SetAccentDesc.Text	Dla wyróżnień, zaznaczenia i odcienia szkła
+Accent_violet	Fiolet Vellum
+Accent_mint	Mięta
+Accent_amber	Bursztyn
+Accent_rose	Róż
+Accent_ocean	Ocean
+Accent_graphite	Grafit
+Accent_system	Kolor akcentu Windows
+SetBackdropTitle.Text	Tło okna
+SetBackdropDesc.Text	Szkło rozmywa to, co jest za oknem, a Mica bierze kolor z tapety
+SetBackdropAcrylic.Content	Szkło
+SetBackdropMica.Content	Mica
+SetBackdropSolid.Content	Jednolite
+SetGlassTitle.Text	Przezroczystość szkła
+SetGlassDesc.Text	Jak bardzo widać tło
+SetSectionEditor.Text	Edytor
+SetFontTitle.Text	Czcionka
+SetFontDesc.Text	Wybierz czcionkę lub wpisz nazwę dowolnej zainstalowanej
+SetWrapTitle.Text	Zawijanie wierszy
+SetWrapDesc.Text	Długie wiersze mieszczą się w szerokości okna
+SetStatusTitle.Text	Pasek stanu
+SetStatusDesc.Text	Wiersz, kolumna, liczba słów i kodowanie na dole
+SetSpellTitle.Text	Sprawdzanie pisowni
+SetSpellDesc.Text	Podkreślaj błędnie napisane słowa
+SetSectionFiles.Text	Pliki
+SetSessionTitle.Text	Przywracaj karty przy starcie
+SetSessionDesc.Text	Przy następnym uruchomieniu otwiera karty i niezapisany tekst
+SetAutoSaveTitle.Text	Autozapis
+SetAutoSaveDesc.Text	Otwarte pliki zapisują się same chwilę po pisaniu
+SetSectionLanguage.Text	Język
+SetLanguageTitle.Text	Język aplikacji
+SetLanguageDesc.Text	Domyślnie Vellum używa języka Windows
+SetLanguageSystem.Content	Język Windows
+SetRestartBar.Message	Uruchom Vellum ponownie, aby zmienić język. Karty pozostaną otwarte.
+SetRestartButton.Content	Uruchom ponownie
+SetSectionAbout.Text	O aplikacji
+SetVersion	Wersja {0} · Wesky
+FindReplaceToggle.TT	Pokaż zamianę
+FindMatchCase.TT	Uwzględniaj wielkość liter
+FindWholeWord.TT	Całe słowo
+FindRegex.TT	Wyrażenie regularne
+FindPrevious.TT	Poprzedni wynik (Shift+F3)
+FindNext.TT	Następny wynik (F3)
+FindClose.TT	Zamknij (Esc)
+FindBox.PlaceholderText	Znajdź
+ReplaceBox.PlaceholderText	Zamień na
+ReplaceOne.Content	Zamień
+ReplaceAll.Content	Zamień wszystko
+FindCount	{0} z {1}
+FindTotal	Znaleziono: {0}
+FindNoResults	Brak wyników
+FindRegexError	Nieprawidłowy wzorzec
+ReplacedCount	Zamieniono: {0}
+PaletteBox.PlaceholderText	Wpisz polecenie albo : i numer wiersza
+PaletteGoToLine	Przejdź do wiersza {0}
+MenuFind.Text	Znajdź
+MenuReplace.Text	Zamień
+MenuPalette.Text	Paleta poleceń
+CmdPalette	Paleta poleceń
+CmdNewTab	Nowa karta
+CmdOpen	Otwórz…
+CmdSave	Zapisz
+CmdSaveAs	Zapisz jako…
+CmdCloseTab	Zamknij kartę
+CmdFind	Znajdź
+CmdReplace	Zamień
+CmdFindNextPrev	Następny / poprzedni wynik
+CmdGoToLine	Przejdź do wiersza…
+CmdSettings	Ustawienia
+CmdWrapOn	Włącz zawijanie wierszy
+CmdWrapOff	Wyłącz zawijanie wierszy
+CmdStatusOn	Pokaż pasek stanu
+CmdStatusOff	Ukryj pasek stanu
+CmdZoomIn	Powiększ
+CmdZoomOut	Pomniejsz
+CmdZoomReset	Resetuj powiększenie
+CmdZoom	Powiększ / pomniejsz / resetuj
+CmdThemeSystem	Motyw: systemowy
+CmdThemeLight	Motyw: jasny
+CmdThemeDark	Motyw: ciemny
+CmdAccent	Akcent: {0}
+CmdBackdropAcrylic	Tło: szkło
+CmdBackdropMica	Tło: Mica
+CmdBackdropSolid	Tło: jednolite
+CmdSwitchTab	Przejdź do karty: {0}
+CmdSwitchTabs	Przełącz karty
+SetSectionShortcuts.Text	Skróty klawiszowe
+PreviewButton.TT	Podgląd Markdown (Ctrl+Shift+V)
+LanguageButton.TT	Podświetlanie dla tej karty
+StatusCountsGoal	Słowa: {0} / {1} · znaki: {2}
+SyntaxPlain	Zwykły tekst
+PreviewOff	Podgląd
+PreviewSplit	Obok siebie
+PreviewFull	Tylko podgląd
+CtxUndo	Cofnij
+CtxRedo	Ponów
+CtxCut	Wytnij
+CtxCopy	Kopiuj
+CtxPaste	Wklej
+CtxSelectAll	Zaznacz wszystko
+CmdPreview	Podgląd Markdown
+CmdZenOn	Tryb zen
+CmdZenOff	Wyjdź z trybu zen
+CmdFocusOn	Włącz tryb skupienia
+CmdFocusOff	Wyłącz tryb skupienia
+CmdTypewriterOn	Włącz tryb maszyny do pisania
+CmdTypewriterOff	Wyłącz tryb maszyny do pisania
+CmdReadableOn	Wąska kolumna tekstu
+CmdReadableOff	Tekst na całą szerokość
+CmdMarkdownOn	Włącz formatowanie Markdown
+CmdMarkdownOff	Wyłącz formatowanie Markdown
+CmdSyntaxOn	Włącz podświetlanie kodu
+CmdSyntaxOff	Wyłącz podświetlanie kodu
+CmdSyntax	Podświetlanie: {0}
+CmdUndoRedo	Cofnij / ponów
+SetLineSpacingTitle.Text	Odstęp między wierszami
+SetLineSpacingDesc.Text	Więcej miejsca między wierszami ułatwia czytanie długich tekstów
+SetReadableTitle.Text	Wąska kolumna tekstu
+SetReadableDesc.Text	W szerokim oknie wiersze zachowują wygodną do czytania szerokość
+SetSectionWriting.Text	Pisanie i kod
+SetMarkdownTitle.Text	Formatowanie Markdown
+SetMarkdownDesc.Text	Nagłówki, pogrubienie i kod są sformatowane już podczas pisania w plikach .md
+SetPreviewTitle.Text	Podgląd Markdown
+SetPreviewDesc.Text	Przycisk na pasku stanu i Ctrl+Shift+V pokazują gotową stronę
+SetSyntaxTitle.Text	Podświetlanie kodu
+SetSyntaxDesc.Text	Kolory dla kodu, JSON, XML, logów i innych, zależnie od typu pliku
+SetMonoTitle.Text	Czcionka o stałej szerokości dla kodu
+SetMonoDesc.Text	Pliki kodu używają Cascadia Mono, aby kolumny się wyrównywały
+SetFocusTitle.Text	Tryb skupienia
+SetFocusDesc.Text	Wszystko poza bieżącym akapitem przygasa
+SetTypewriterTitle.Text	Maszyna do pisania
+SetTypewriterDesc.Text	Wiersz, który piszesz, zostaje na środku okna
+SetGoalTitle.Text	Cel słów
+SetGoalDesc.Text	Pokazuje postęp na pasku stanu; 0 wyłącza
+HelpButton.TT	Ściągawka Markdown
+LineEndingButton.TT	Końce wierszy
+EncodingButton.TT	Kodowanie
+HelpClose.TT	Zamknij (Esc)
+ToolDuplicateLine	Duplikuj wiersz
+ToolDeleteLine	Usuń wiersz
+ToolMoveLineUp	Przesuń wiersz w górę
+ToolMoveLineDown	Przesuń wiersz w dół
+ToolSortAsc	Sortuj wiersze A → Z
+ToolSortDesc	Sortuj wiersze Z → A
+ToolRemoveDuplicates	Usuń zduplikowane wiersze
+ToolRemoveEmpty	Usuń puste wiersze
+ToolTrimTrailing	Usuń spacje na końcu wierszy
+ToolJoinLines	Połącz wiersze
+ToolReverseLines	Odwróć kolejność wierszy
+ToolUpper	WIELKIE LITERY
+ToolLower	małe litery
+ToolTitle	Każde Słowo Wielką Literą
+ToolSentence	Wielka litera na początku zdania
+ToolInvert	oDWRÓĆ wIELKOŚĆ lITER
+ToolComment	Zakomentuj / odkomentuj
+ToolDateTime	Wstaw datę i godzinę
+ToolBase64Encode	Koduj do Base64
+ToolBase64Decode	Dekoduj z Base64
+ToolUrlEncode	Koduj do URL
+ToolUrlDecode	Dekoduj URL
+ToolSearchWeb	Szukaj w internecie
+ToolNothingChanged	Nie ma nic do zmiany
+ToolNoComments	Ten język nie ma komentarzy
+ToolSelectFirst	Najpierw zaznacz tekst
+ToolCannotDecode	Nie można zdekodować zaznaczenia
+CtxLines	Wiersze
+CtxCase	Wielkość liter
+CtxConvert	Konwertuj
+EolWindows	Windows (CRLF)
+EolUnix	Unix / macOS (LF)
+EolMac	Stary Mac (CR)
+EncSaveAs	Zapisz z kodowaniem
+EncReopen	Otwórz ponownie z kodowaniem
+EncLossTitle	Niektóre znaki zostaną utracone
+EncLossText	{0} nie może zapisać niektórych znaków tego tekstu. Zostaną zapisane jako „?”. Mimo to konwertować?
+EncLossConfirm	Konwertuj
+ReloadTitle	Wczytać plik ponownie?
+ReloadText	Niezapisane zmiany w tej karcie zostaną utracone.
+ReloadConfirm	Wczytaj ponownie
+HelpTitle.Text	Ściągawka Markdown
+HelpSubtitle.Text	Proste znaki, które stają się formatowaniem. Działa w plikach .md.
+HelpYouType.Text	PISZESZ
+HelpYouGet.Text	OTRZYMUJESZ
+HelpTips.Text	Ctrl+Shift+V pokazuje podgląd. Enter kontynuuje listy, Tab je zagnieżdża. Obraz: ![podpis](plik.png lub link).
+HelpMdHeadings	Nagłówki
+HelpMdHeadingsSample	# Nagłówek 1\n## Nagłówek 2\n### Nagłówek 3
+HelpMdEmphasis	Pogrubienie i kursywa
+HelpMdEmphasisSample	**pogrubienie**, *kursywa*, ***oba***
+HelpMdStrike	Przekreślenie
+HelpMdStrikeSample	~~już nieaktualne~~
+HelpMdCode	Kod w wierszu
+HelpMdCodeSample	Uruchom `git status`
+HelpMdLink	Link
+HelpMdBullets	Lista
+HelpMdBulletsSample	- Jabłka\n- Gruszki\n  - Element zagnieżdżony
+HelpMdNumbers	Lista numerowana
+HelpMdNumbersSample	1. Pierwszy\n2. Drugi
+HelpMdTasks	Lista zadań
+HelpMdTasksSample	- [x] Zrobione\n- [ ] Do zrobienia
+HelpMdQuote	Cytat
+HelpMdQuoteSample	> Pisz codziennie.
+HelpMdCodeBlock	Blok kodu
+HelpMdTable	Tabela
+HelpMdTableSample	| Pozycja | Cena |\n|---------|------|\n| Herbata | 3    |
+HelpMdRule	Separator
+HelpMdRuleSample	Powyżej\n\n---\n\nPoniżej
+MenuRecent.Text	Ostatnie pliki
+MenuRecentClear	Wyczyść listę
+MenuSaveAll.Text	Zapisz wszystko
+MenuTopmost.Text	Zawsze na wierzchu
+MenuZen.Text	Tryb zen
+MenuMarkdownHelp.Text	Ściągawka Markdown
+MenuCloseAll.Text	Zamknij wszystkie karty
+TabClose	Zamknij
+TabCloseOthers	Zamknij pozostałe karty
+TabCloseRight	Zamknij karty po prawej
+TabCloseSaved	Zamknij zapisane karty
+TabCloseAll	Zamknij wszystkie karty
+TabCopyPath	Kopiuj pełną ścieżkę
+TabCopyName	Kopiuj nazwę pliku
+TabOpenFolder	Otwórz folder
+TabReload	Wczytaj ponownie z dysku
+CmdSaveAll	Zapisz wszystko
+CmdOpenRecent	Otwórz ostatni: {0}
+CmdTopmost	Zawsze na wierzchu (wł. / wył.)
+CmdMarkdownHelp	Ściągawka Markdown
+CmdLineNumbersOn	Pokaż numery wierszy
+CmdLineNumbersOff	Ukryj numery wierszy
+CmdLineBandOn	Wyróżniaj bieżący wiersz
+CmdLineBandOff	Nie wyróżniaj bieżącego wiersza
+SetSectionEditing.Text	Kod i edycja
+SetLineNumbersTitle.Text	Numery wierszy
+SetLineNumbersDesc.Text	Numery na lewym marginesie
+SetLineBandTitle.Text	Wyróżniaj bieżący wiersz
+SetLineBandDesc.Text	Delikatny pas w kolorze akcentu za wierszem z kursorem
+SetTabSizeTitle.Text	Klawisz Tab
+SetTabSizeDesc.Text	Co wstawia Tab. Przy zaznaczeniu kilku wierszy Tab i Shift+Tab je przesuwają.
+SetTabChar.Content	Znak tabulacji
+SetTab2.Content	2 spacje
+SetTab4.Content	4 spacje
+SetTab8.Content	8 spacji
+SetAutoIndentTitle.Text	Inteligentny Enter
+SetAutoIndentDesc.Text	Nowy wiersz zachowuje wcięcie; listy Markdown kontynuują się same
+SetSearchEngineTitle.Text	Wyszukiwanie w internecie
+SetSearchEngineDesc.Text	Gdzie Ctrl+E szuka zaznaczonego tekstu
+SetExitLastTitle.Text	Zamknij Vellum z ostatnią kartą
+SetExitLastDesc.Text	W przeciwnym razie otworzy się nowa pusta karta
+SetNewEncodingTitle.Text	Kodowanie nowych plików
+SetNewEncodingDesc.Text	Otwarte pliki zachowują swoje; można je zmienić w dowolnej chwili na pasku stanu
+SetNewEolTitle.Text	Końce wierszy nowych plików
+SetNewEolDesc.Text	Aplikacje Windows oczekują CRLF; Linux, macOS i większość narzędzi programistycznych używa LF
+EolWindowsItem.Content	Windows (CRLF)
+EolUnixItem.Content	Unix / macOS (LF)
+EolMacItem.Content	Stary Mac (CR)
+ShortcutMoveLines	Przesuń wiersze w górę / dół
+ShortcutCase	Wielkie / małe litery
+ShortcutIndent	Zwiększ / zmniejsz wcięcie
+CaptionMinimize.TT	Minimalizuj
+CaptionMaximize.TT	Maksymalizuj
+CaptionClose.TT	Zamknij
+CaptionMaximizeName	Maksymalizuj
+CaptionRestoreName	Przywróć
+Accent_lavender	Lawenda
+Accent_indigo	Indygo
+Accent_sky	Niebo
+Accent_teal	Morski
+Accent_sage	Szałwia
+Accent_lime	Limonka
+Accent_sand	Piasek
+Accent_coral	Koral
+Accent_crimson	Karmazyn
+Accent_berry	Jagoda
+Accent_slate	Łupek
+ReadOnlyButton.TT	Tylko do odczytu. Kliknij, aby zezwolić na edycję
+ToolLineAbove	Wstaw wiersz powyżej
+ToolLineBelow	Wstaw wiersz poniżej
+ToolSortNumAsc	Sortuj według liczb 0 → 9
+ToolSortNumDesc	Sortuj według liczb 9 → 0
+ToolShuffle	Wymieszaj wiersze
+ToolRemoveConsecutive	Usuń powtórzone kolejne wiersze
+ToolTrimLeading	Usuń spacje na początku wierszy
+ToolTrimBoth	Usuń spacje z obu stron
+ToolTabsToSpaces	Tabulacje → spacje
+ToolSpacesToTabs	Spacje wcięcia → tabulacje
+ToolRandomCase	lOsOwA wIeLkOśĆ
+ToolFormatJson	Formatuj JSON
+ToolMinifyJson	Kompaktuj JSON
+ToolHashMd5	Kopiuj skrót MD5
+ToolHashSha1	Kopiuj skrót SHA-1
+ToolHashSha256	Kopiuj skrót SHA-256
+ToolHashSha512	Kopiuj skrót SHA-512
+ToolHashCopied	{0} skopiowano do schowka
+ToolNotJson	To nie jest poprawny JSON
+ToolBookmark	Dodaj / usuń zakładkę
+ToolBookmarkNext	Następna zakładka
+ToolBookmarkPrev	Poprzednia zakładka
+ToolBookmarkClear	Usuń wszystkie zakładki
+ToolMatchingBracket	Przejdź do pasującego nawiasu
+ToolReadOnly	Tylko do odczytu
+BookmarksNone	Brak zakładek. Ctrl+F2 dodaje zakładkę
+BracketNone	Brak nawiasu przy kursorze
+ReadOnlyOn	Tylko do odczytu: tekst jest zablokowany
+ReadOnlyOff	Edycja znów dozwolona
+ReadOnlyNote	Tylko do odczytu. Wyłącz, aby edytować
+CtxSpaces	Spacje i tabulacje
+CtxBookmarks	Zakładki
+StatusSelection	(zaznaczono znaki: {0}, wiersze: {1})
+SetAutoCloseTitle.Text	Zamykaj nawiasy i cudzysłowy
+SetAutoCloseDesc.Text	W kodzie wpisanie ( [ { lub " dodaje znak zamykający
+SetSmartHighlightTitle.Text	Wyróżniaj wystąpienia
+SetSmartHighlightDesc.Text	Zaznaczone słowo podświetla się wszędzie; para nawiasów przy kursorze jest oznaczona
+SetWatchFilesTitle.Text	Śledź zmiany z innych programów
+SetWatchFilesDesc.Text	Plik zmieniony gdzie indziej wczytuje się sam; przy niezapisanych zmianach Vellum najpierw zapyta
+ShortcutNewLine	Nowy wiersz poniżej / powyżej
+ShortcutBookmarkJump	Następna / poprzednia zakładka
+CmdReopenClosed	Otwórz ponownie zamkniętą kartę
+TabRename	Zmień nazwę pliku…
+TabOpenWith	Otwórz w innej aplikacji…
+TabSaveCopy	Zapisz kopię…
+TabFileInfo	Informacje o pliku
+CopySuffix	kopia
+RenameTitle	Zmień nazwę pliku
+RenameConfirm	Zmień nazwę
+RenameInvalid	Nazwa zawiera znaki niedozwolone w Windows: \ / : * ? " < > |
+RenameExists	Plik o tej nazwie już istnieje
+RenameError	Nie można zmienić nazwy na {0}
+InfoPath	Lokalizacja
+InfoSize	Rozmiar
+InfoCreated	Utworzono
+InfoModified	Zmodyfikowano
+InfoEncoding	Kodowanie
+InfoLineEnding	Końce wierszy
+InfoLines	Wiersze
+InfoWords	Słowa
+InfoChars	Znaki
+InfoLanguage	Podświetlanie
+SizeBytes	{0} B
+SizeKb	{0} KB
+SizeMb	{0} MB
+ReloadedExternal	Wczytano ponownie: plik zmieniono poza Vellum
+ExternalTitle	{0} zmieniono poza Vellum
+ExternalText	Inny program zapisał ten plik, a Ty masz tu niezapisane zmiany. Wczytać nową wersję i odrzucić swoje zmiany, czy zachować swoje?
+ExternalReload	Wczytaj nową wersję
+ExternalKeep	Zachowaj moje
+SettingsClose.TT	Zamknij ustawienia (Esc)
+AboutTagline.Text	Spokojny szklany notatnik do tekstu, notatek i kodu.
+AboutPrivacyNote.Text	Działa offline. Niczego nie zbiera: Twój tekst zostaje na Twoim komputerze.
+AboutWebsite	Strona Vellum
+AboutRate	Oceń Vellum
+AboutSupport	Wesprzyj projekt
+AboutSupportDesc	Vellum jest darmowy; darowizna pomaga go ulepszać
+AboutContact	Napisz do nas
+AboutBug	Zgłoś problem
+AboutBugDesc	Otwiera e-mail z już podaną wersją
+AboutPrivacy	Polityka prywatności
+AboutPrivacyDesc	Co Vellum robi (i czego nie robi) z danymi
+AboutStudio	Więcej od Wesky
+MenuLibrary.Text	Notatki
+MenuHistory.Text	Historia wersji
+LibraryNew.TT	Nowa notatka
+LibraryClose.TT	Zamknij (Esc)
+LibraryClose.AN	Zamknij
+LibrarySearch.PlaceholderText	Szukaj w notatkach
+LibraryEmptyTrash.Content	Opróżnij kosz
+HistoryTitle.Text	Historia wersji
+HistoryClose.TT	Zamknij (Esc)
+HistoryClose.AN	Zamknij
+HistoryShowChanges.OnContent	Co się zmieniło
+HistoryShowChanges.OffContent	Co się zmieniło
+HistoryEmpty.Text	Nie ma jeszcze wersji. Vellum zachowuje jedną co kilka minut podczas pisania i przy każdym zapisie.
+HistoryHint.Text	Czerwone: brak w obecnym tekście. Zielone: dodane później.
+HistoryCopy.Content	Kopiuj
+HistoryRestore.Content	Przywróć tę wersję
+SetSectionNotes.Text	Notatki i historia
+SetLibraryTitle.Text	Biblioteka notatek
+SetLibraryDesc.Text	Nowe karty to notatki: zapisują się same i zostają w bibliotece po zamknięciu (Ctrl+Shift+L).
+SetHistoryTitle.Text	Historia wersji
+SetHistoryDesc.Text	Zachowuje poprzednie wersje notatek do podglądu lub przywrócenia (Ctrl+Shift+H).
+SetFileHistoryTitle.Text	Historia także dla plików
+SetFileHistoryDesc.Text	Zachowuje też wersje plików zapisywanych w Vellum.
+SetClearHistoryTitle.Text	Wyczyść historię
+SetClearHistoryDesc.Text	Usuwa wszystkie zapisane wersje. Notatki zostają.
+SetClearHistoryButton.Content	Wyczyść
+NoteUntitled	Nowa notatka
+LibraryTitleText	Notatki
+LibraryMeta	{0} · słowa: {1}
+LibraryTrash	Kosz
+LibraryTrashCount	Kosz ({0})
+LibraryEmptyTrashText	Kosz jest pusty. Usunięte notatki zostają tu przez 30 dni.
+LibraryNothingFound	Nic nie znaleziono.
+LibraryEmptyText	Nie ma jeszcze notatek. Każda nowa karta to notatka: zacznij pisać. Dodawaj #tagi wprost w tekście.
+LibraryAllTags	Wszystkie
+LibraryYesterday	Wczoraj
+LibraryRestore	Przywróć
+LibraryDeleteForever	Usuń na zawsze
+LibraryOpen	Otwórz
+LibraryEmptyTrashYes	Opróżnij kosz
+LibraryEmptyTrashConfirm	Usunąć na zawsze wszystkie notatki z kosza?
+LibraryOff	Biblioteka notatek jest wyłączona w ustawieniach.
+NotePin	Przypnij
+NoteUnpin	Odepnij
+NoteHistory	Historia wersji…
+NoteExport	Zapisz jako plik…
+NoteDelete	Usuń notatkę
+NoteSaved	Notatka zapisana
+NoteEmpty	Notatka jest pusta
+HistoryToday	Dziś, {0}
+HistoryYesterday	Wczoraj, {0}
+HistoryLines	Wiersze: {0}
+HistorySame	Tak samo jak teraz
+HistoryChanges	Od tego czasu: +{0} / −{1} wierszy
+HistoryRestored	Wersja przywrócona. Ctrl+Z cofa.
+HistoryOff	Historia wersji jest wyłączona w ustawieniach.
+HistoryUntitled	Najpierw zapisz plik: historia dotyczy notatek i zapisanych plików.
+HistoryFilesOff	Historia plików jest wyłączona w ustawieniach.
+CmdLibrary	Biblioteka notatek
+CmdHistory	Historia wersji
+SetClearHistorySize	Usuwa wszystkie zapisane wersje ({0}). Notatki zostają.
+SetClearHistoryConfirm	Usunąć wszystkie zapisane wersje? Notatki i pliki zostaną bez zmian.
+SetClearHistoryYes	Wyczyść historię
+NoteLockedSnippet	Chroniona hasłem
+HistoryLocked	Notatki z hasłem nie mają historii wersji.
+LockOpenTitle	Otwórz „{0}”
+LockOpenText	Ta notatka jest chroniona. Wpisz hasło, aby ją otworzyć.
+LockOpenButton	Otwórz
+LockWrongPassword	Nieprawidłowe hasło.
+LockSetTitle	Chroń notatkę hasłem
+LockSetText	Notatka zostanie zaszyfrowana na dysku. Jeśli zapomnisz hasła, nie da się jej odzyskać, nawet nam. Jej wcześniejsze wersje zostaną usunięte.
+LockSetButton	Chroń
+LockDone	Notatka chroniona hasłem
+LockRemoveTitle	Usuń hasło
+LockRemoveText	Wpisz hasło jeszcze raz, aby znów przechowywać notatkę bez szyfrowania.
+LockRemoveButton	Usuń hasło
+LockRemoved	Hasło usunięte
+LockPassword	Hasło
+LockPasswordAgain	Powtórz hasło
+LockMismatch	Hasła nie są zgodne.
+LockNote	Chroń hasłem…
+LockRemove	Usuń hasło…
+ExportPdf	Eksportuj do PDF…
+ExportHtml	Eksportuj do HTML…
+ExportDone	Wyeksportowano: {0}
+ExportFailed	Nie udało się przygotować strony do eksportu.
+MenuExport.Text	Eksportuj
+MenuExportPdf.Text	PDF…
+MenuExportHtml.Text	Strona HTML…
+MenuMini.Text	Mini okno
+CaptionMini.TT	Wróć do pełnego okna
+CaptionMiniName	Wróć do pełnego okna
+MiniOff	Mini okno jest wyłączone w ustawieniach.
+CmdMini	Mini okno na wierzchu (wł. / wył.)
+CmdExportPdf	Eksportuj do PDF
+CmdExportHtml	Eksportuj do HTML
+TrayOpen	Otwórz Vellum
+TrayNewNote	Nowa notatka
+TrayExit	Zakończ
+SetSectionTray.Text	Zasobnik
+SetTrayTitle.Text	Ikona obok zegara
+SetTrayDesc.Text	Otwieraj Vellum lub zaczynaj notatkę z zasobnika systemowego.
+SetCloseToTrayTitle.Text	Zamykaj do zasobnika
+SetCloseToTrayDesc.Text	Zamknięcie okna zostawia Vellum obok zegara. „Zakończ” w menu zamyka go.
+SetStartupTitle.Text	Uruchamiaj z Windows
+SetStartupDesc.Text	Uruchamia się po cichu: w zasobniku lub zminimalizowany.
+SetStartupNote	Uruchamia się po cichu: w zasobniku lub zminimalizowany.
+SetStartupBlocked	Wyłączone w Menedżerze zadań → Aplikacje autostartu. Włącz je tam.
+SetStartupPolicy	Niedozwolone przez Twoją organizację.
+SetQuickNoteTitle.Text	Szybka notatka: Ctrl+Alt+N
+SetQuickNoteDesc.Text	Z dowolnej aplikacji otwiera Vellum z nową notatką.
+SetQuickNoteNote	Z dowolnej aplikacji otwiera Vellum z nową notatką.
+SetQuickNoteTaken	Ctrl+Alt+N jest już używane przez inną aplikację.
+SetMiniTitle.Text	Mini okno
+SetMiniDesc.Text	Małe okno nad pozostałymi: Ctrl+Shift+M.
+SetNoteLocksTitle.Text	Notatki z hasłem
+SetNoteLocksDesc.Text	Chroń notatkę z menu jej karty. Szyfrowanie AES-256.
+SetExportTitle.Text	Eksport do PDF i HTML
+SetExportDesc.Text	W menu głównym, menu karty i palecie poleceń.
+ShortcutQuickNote	Szybka notatka z dowolnej aplikacji

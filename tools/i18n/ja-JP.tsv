@@ -1,0 +1,506 @@
+UntitledTab	無題
+StatusPosition	{0} 行、{1} 列
+StatusCounts	{0} 語 · {1} 文字
+MenuButton.TT	メニュー
+MenuNewTab.Text	新しいタブ
+MenuOpen.Text	開く…
+MenuSave.Text	保存
+MenuSaveAs.Text	名前を付けて保存…
+MenuCloseTab.Text	タブを閉じる
+MenuExit.Text	終了
+SaveChangesTitle	{0} への変更を保存しますか？
+SaveChangesText	保存しないと、変更は失われます。
+ButtonSave	保存
+ButtonDontSave	保存しない
+ButtonCancel	キャンセル
+ButtonOk	OK
+ErrorOpenTitle	{0} を開けませんでした
+ErrorSaveTitle	{0} を保存できませんでした
+FileTypeText	テキスト ドキュメント
+MenuSettings.Text	設定
+SettingsTab	設定
+SettingsHeader.Text	設定
+SetSectionAppearance.Text	外観
+SetThemeTitle.Text	テーマ
+SetThemeDesc.Text	ライト、ダーク、または Windows に合わせる
+SetThemeSystem.Content	システム設定を使う
+SetThemeLight.Content	ライト
+SetThemeDark.Content	ダーク
+SetAccentTitle.Text	アクセント カラー
+SetAccentDesc.Text	強調表示、選択範囲、ガラスの色合いに使います
+Accent_violet	Vellum バイオレット
+Accent_mint	ミント
+Accent_amber	アンバー
+Accent_rose	ローズ
+Accent_ocean	オーシャン
+Accent_graphite	グラファイト
+Accent_system	Windows のアクセント カラー
+SetBackdropTitle.Text	ウィンドウの背景
+SetBackdropDesc.Text	ガラスはウィンドウの後ろをぼかし、Mica は壁紙の色を取り込みます
+SetBackdropAcrylic.Content	ガラス
+SetBackdropMica.Content	Mica
+SetBackdropSolid.Content	単色
+SetGlassTitle.Text	ガラスの透明度
+SetGlassDesc.Text	背景がどれだけ透けるか
+SetSectionEditor.Text	エディター
+SetFontTitle.Text	フォント
+SetFontDesc.Text	フォントを選ぶか、インストール済みのフォント名を入力します
+SetWrapTitle.Text	折り返し
+SetWrapDesc.Text	長い行をウィンドウの幅に合わせます
+SetStatusTitle.Text	ステータス バー
+SetStatusDesc.Text	下部に行、列、語数、エンコードを表示
+SetSpellTitle.Text	スペル チェック
+SetSpellDesc.Text	スペルミスに下線を引く
+SetSectionFiles.Text	ファイル
+SetSessionTitle.Text	起動時にタブを復元
+SetSessionDesc.Text	次回起動時にタブと未保存のテキストを開き直します
+SetAutoSaveTitle.Text	自動保存
+SetAutoSaveDesc.Text	開いているファイルは入力の少し後に自動で保存されます
+SetSectionLanguage.Text	言語
+SetLanguageTitle.Text	アプリの言語
+SetLanguageDesc.Text	既定では Vellum は Windows の言語に従います
+SetLanguageSystem.Content	Windows の言語
+SetRestartBar.Message	言語を切り替えるには Vellum を再起動してください。タブは開いたままです。
+SetRestartButton.Content	再起動
+SetSectionAbout.Text	バージョン情報
+SetVersion	バージョン {0} · Wesky
+FindReplaceToggle.TT	置換を表示
+FindMatchCase.TT	大文字と小文字を区別
+FindWholeWord.TT	単語単位
+FindRegex.TT	正規表現
+FindPrevious.TT	前の結果 (Shift+F3)
+FindNext.TT	次の結果 (F3)
+FindClose.TT	閉じる (Esc)
+FindBox.PlaceholderText	検索
+ReplaceBox.PlaceholderText	置換後の文字列
+ReplaceOne.Content	置換
+ReplaceAll.Content	すべて置換
+FindCount	{0} / {1}
+FindTotal	{0} 件見つかりました
+FindNoResults	結果なし
+FindRegexError	無効なパターン
+ReplacedCount	置換: {0} 件
+PaletteBox.PlaceholderText	コマンドを入力、または : と行番号
+PaletteGoToLine	{0} 行へ移動
+MenuFind.Text	検索
+MenuReplace.Text	置換
+MenuPalette.Text	コマンド パレット
+CmdPalette	コマンド パレット
+CmdNewTab	新しいタブ
+CmdOpen	開く…
+CmdSave	保存
+CmdSaveAs	名前を付けて保存…
+CmdCloseTab	タブを閉じる
+CmdFind	検索
+CmdReplace	置換
+CmdFindNextPrev	次 / 前の結果
+CmdGoToLine	行へ移動…
+CmdSettings	設定
+CmdWrapOn	折り返しをオン
+CmdWrapOff	折り返しをオフ
+CmdStatusOn	ステータス バーを表示
+CmdStatusOff	ステータス バーを非表示
+CmdZoomIn	拡大
+CmdZoomOut	縮小
+CmdZoomReset	ズームをリセット
+CmdZoom	拡大 / 縮小 / リセット
+CmdThemeSystem	テーマ: システム
+CmdThemeLight	テーマ: ライト
+CmdThemeDark	テーマ: ダーク
+CmdAccent	アクセント: {0}
+CmdBackdropAcrylic	背景: ガラス
+CmdBackdropMica	背景: Mica
+CmdBackdropSolid	背景: 単色
+CmdSwitchTab	タブへ移動: {0}
+CmdSwitchTabs	タブを切り替え
+SetSectionShortcuts.Text	キーボード ショートカット
+PreviewButton.TT	Markdown プレビュー (Ctrl+Shift+V)
+LanguageButton.TT	このタブの強調表示
+StatusCountsGoal	{0} / {1} 語 · {2} 文字
+SyntaxPlain	プレーン テキスト
+PreviewOff	プレビュー
+PreviewSplit	左右に並べる
+PreviewFull	プレビューのみ
+CtxUndo	元に戻す
+CtxRedo	やり直し
+CtxCut	切り取り
+CtxCopy	コピー
+CtxPaste	貼り付け
+CtxSelectAll	すべて選択
+CmdPreview	Markdown プレビュー
+CmdZenOn	Zen モード
+CmdZenOff	Zen モードを終了
+CmdFocusOn	フォーカス モードをオン
+CmdFocusOff	フォーカス モードをオフ
+CmdTypewriterOn	タイプライター モードをオン
+CmdTypewriterOff	タイプライター モードをオフ
+CmdReadableOn	狭いテキスト列
+CmdReadableOff	全幅のテキスト
+CmdMarkdownOn	Markdown の書式をオン
+CmdMarkdownOff	Markdown の書式をオフ
+CmdSyntaxOn	コードの強調表示をオン
+CmdSyntaxOff	コードの強調表示をオフ
+CmdSyntax	強調表示: {0}
+CmdUndoRedo	元に戻す / やり直し
+SetLineSpacingTitle.Text	行間
+SetLineSpacingDesc.Text	行間を広げると長い文章が読みやすくなります
+SetReadableTitle.Text	狭いテキスト列
+SetReadableDesc.Text	広いウィンドウでも行を読みやすい幅に保ちます
+SetSectionWriting.Text	執筆とコード
+SetMarkdownTitle.Text	Markdown の書式
+SetMarkdownDesc.Text	.md ファイルでは、見出し・太字・コードが入力中に書式付きで表示されます
+SetPreviewTitle.Text	Markdown プレビュー
+SetPreviewDesc.Text	ステータス バーのボタンと Ctrl+Shift+V で完成したページを表示
+SetSyntaxTitle.Text	コードの強調表示
+SetSyntaxDesc.Text	ファイルの種類に応じて、コード、JSON、XML、ログなどを色分け
+SetMonoTitle.Text	コードに等幅フォントを使う
+SetMonoDesc.Text	コード ファイルは Cascadia Mono で列をそろえます
+SetFocusTitle.Text	フォーカス モード
+SetFocusDesc.Text	今の段落以外を薄く表示します
+SetTypewriterTitle.Text	タイプライター
+SetTypewriterDesc.Text	書いている行がウィンドウの中央に留まります
+SetGoalTitle.Text	語数の目標
+SetGoalDesc.Text	ステータス バーに進み具合を表示します。0 でオフ
+HelpButton.TT	Markdown 早見表
+LineEndingButton.TT	改行コード
+EncodingButton.TT	エンコード
+HelpClose.TT	閉じる (Esc)
+ToolDuplicateLine	行を複製
+ToolDeleteLine	行を削除
+ToolMoveLineUp	行を上へ移動
+ToolMoveLineDown	行を下へ移動
+ToolSortAsc	行を並べ替え A → Z
+ToolSortDesc	行を並べ替え Z → A
+ToolRemoveDuplicates	重複行を削除
+ToolRemoveEmpty	空行を削除
+ToolTrimTrailing	行末の空白を削除
+ToolJoinLines	行を結合
+ToolReverseLines	行の順序を反転
+ToolUpper	大文字
+ToolLower	小文字
+ToolTitle	各単語の先頭を大文字
+ToolSentence	文頭を大文字
+ToolInvert	大文字と小文字を反転
+ToolComment	コメント / コメント解除
+ToolDateTime	日付と時刻を挿入
+ToolBase64Encode	Base64 にエンコード
+ToolBase64Decode	Base64 からデコード
+ToolUrlEncode	URL エンコード
+ToolUrlDecode	URL デコード
+ToolSearchWeb	Web で検索
+ToolNothingChanged	変更するものはありません
+ToolNoComments	この言語にはコメントがありません
+ToolSelectFirst	先にテキストを選択してください
+ToolCannotDecode	選択範囲をデコードできません
+CtxLines	行
+CtxCase	大文字と小文字
+CtxConvert	変換
+EolWindows	Windows (CRLF)
+EolUnix	Unix / macOS (LF)
+EolMac	旧 Mac (CR)
+EncSaveAs	エンコードを指定して保存
+EncReopen	エンコードを指定して開き直す
+EncLossTitle	一部の文字が失われます
+EncLossText	{0} ではこのテキストの一部の文字を保存できません。それらは「?」として保存されます。変換しますか？
+EncLossConfirm	変換
+ReloadTitle	ファイルを再読み込みしますか？
+ReloadText	このタブの未保存の変更は失われます。
+ReloadConfirm	再読み込み
+HelpTitle.Text	Markdown 早見表
+HelpSubtitle.Text	簡単な記号が書式になります。.md ファイルで使えます。
+HelpYouType.Text	入力
+HelpYouGet.Text	結果
+HelpTips.Text	Ctrl+Shift+V でプレビュー。Enter でリストが続き、Tab で入れ子に。画像: ![説明](ファイル.png またはリンク)。
+HelpMdHeadings	見出し
+HelpMdHeadingsSample	# 見出し 1\n## 見出し 2\n### 見出し 3
+HelpMdEmphasis	太字と斜体
+HelpMdEmphasisSample	**太字**、*斜体*、***両方***
+HelpMdStrike	取り消し線
+HelpMdStrikeSample	~~もう有効ではない~~
+HelpMdCode	インライン コード
+HelpMdCodeSample	`git status` を実行
+HelpMdLink	リンク
+HelpMdBullets	リスト
+HelpMdBulletsSample	- りんご\n- 梨\n  - 入れ子の項目
+HelpMdNumbers	番号付きリスト
+HelpMdNumbersSample	1. 1 番目\n2. 2 番目
+HelpMdTasks	タスク リスト
+HelpMdTasksSample	- [x] 完了\n- [ ] 未完了
+HelpMdQuote	引用
+HelpMdQuoteSample	> 毎日書こう。
+HelpMdCodeBlock	コード ブロック
+HelpMdTable	表
+HelpMdTableSample	| 品目 | 価格 |\n|------|------|\n| お茶 | 3    |
+HelpMdRule	区切り線
+HelpMdRuleSample	上\n\n---\n\n下
+MenuRecent.Text	最近使ったファイル
+MenuRecentClear	一覧をクリア
+MenuSaveAll.Text	すべて保存
+MenuTopmost.Text	常に手前に表示
+MenuZen.Text	Zen モード
+MenuMarkdownHelp.Text	Markdown 早見表
+MenuCloseAll.Text	すべてのタブを閉じる
+TabClose	閉じる
+TabCloseOthers	他のタブを閉じる
+TabCloseRight	右側のタブを閉じる
+TabCloseSaved	保存済みのタブを閉じる
+TabCloseAll	すべてのタブを閉じる
+TabCopyPath	フル パスをコピー
+TabCopyName	ファイル名をコピー
+TabOpenFolder	フォルダーを開く
+TabReload	ディスクから再読み込み
+CmdSaveAll	すべて保存
+CmdOpenRecent	最近使ったファイルを開く: {0}
+CmdTopmost	常に手前に表示 (オン / オフ)
+CmdMarkdownHelp	Markdown 早見表
+CmdLineNumbersOn	行番号を表示
+CmdLineNumbersOff	行番号を非表示
+CmdLineBandOn	現在の行を強調表示
+CmdLineBandOff	現在の行の強調表示をやめる
+SetSectionEditing.Text	コードと編集
+SetLineNumbersTitle.Text	行番号
+SetLineNumbersDesc.Text	左余白に番号を表示
+SetLineBandTitle.Text	現在の行を強調表示
+SetLineBandDesc.Text	カーソルのある行の後ろに、アクセント カラーの淡い帯を表示
+SetTabSizeTitle.Text	Tab キー
+SetTabSizeDesc.Text	Tab で挿入する内容。複数行を選択中は Tab と Shift+Tab でインデントを移動します。
+SetTabChar.Content	タブ文字
+SetTab2.Content	スペース 2 個
+SetTab4.Content	スペース 4 個
+SetTab8.Content	スペース 8 個
+SetAutoIndentTitle.Text	スマート Enter
+SetAutoIndentDesc.Text	新しい行はインデントを保ち、Markdown のリストは自動で続きます
+SetSearchEngineTitle.Text	Web 検索
+SetSearchEngineDesc.Text	Ctrl+E で選択したテキストを検索する場所
+SetExitLastTitle.Text	最後のタブで Vellum を閉じる
+SetExitLastDesc.Text	オフにすると新しい空のタブが開きます
+SetNewEncodingTitle.Text	新しいファイルのエンコード
+SetNewEncodingDesc.Text	開いたファイルは元のエンコードを保ちます。ステータス バーからいつでも変更できます
+SetNewEolTitle.Text	新しいファイルの改行コード
+SetNewEolDesc.Text	Windows アプリは CRLF、Linux・macOS と多くの開発ツールは LF を使います
+EolWindowsItem.Content	Windows (CRLF)
+EolUnixItem.Content	Unix / macOS (LF)
+EolMacItem.Content	旧 Mac (CR)
+ShortcutMoveLines	行を上 / 下へ移動
+ShortcutCase	大文字 / 小文字
+ShortcutIndent	インデントを増やす / 減らす
+CaptionMinimize.TT	最小化
+CaptionMaximize.TT	最大化
+CaptionClose.TT	閉じる
+CaptionMaximizeName	最大化
+CaptionRestoreName	元に戻す (縮小)
+Accent_lavender	ラベンダー
+Accent_indigo	インディゴ
+Accent_sky	スカイ
+Accent_teal	ティール
+Accent_sage	セージ
+Accent_lime	ライム
+Accent_sand	サンド
+Accent_coral	コーラル
+Accent_crimson	クリムゾン
+Accent_berry	ベリー
+Accent_slate	スレート
+ReadOnlyButton.TT	読み取り専用。クリックで編集を許可
+ToolLineAbove	上に行を挿入
+ToolLineBelow	下に行を挿入
+ToolSortNumAsc	数値で並べ替え 0 → 9
+ToolSortNumDesc	数値で並べ替え 9 → 0
+ToolShuffle	行をシャッフル
+ToolRemoveConsecutive	連続する重複行を削除
+ToolTrimLeading	行頭の空白を削除
+ToolTrimBoth	両端の空白を削除
+ToolTabsToSpaces	タブ → スペース
+ToolSpacesToTabs	インデントのスペース → タブ
+ToolRandomCase	ランダムな大文字小文字
+ToolFormatJson	JSON を整形
+ToolMinifyJson	JSON を圧縮
+ToolHashMd5	MD5 ハッシュをコピー
+ToolHashSha1	SHA-1 ハッシュをコピー
+ToolHashSha256	SHA-256 ハッシュをコピー
+ToolHashSha512	SHA-512 ハッシュをコピー
+ToolHashCopied	{0} をクリップボードにコピーしました
+ToolNotJson	有効な JSON ではありません
+ToolBookmark	ブックマークの追加 / 削除
+ToolBookmarkNext	次のブックマーク
+ToolBookmarkPrev	前のブックマーク
+ToolBookmarkClear	すべてのブックマークを削除
+ToolMatchingBracket	対応する括弧へ移動
+ToolReadOnly	読み取り専用
+BookmarksNone	ブックマークはまだありません。Ctrl+F2 で追加
+BracketNone	カーソルの近くに括弧がありません
+ReadOnlyOn	読み取り専用: テキストはロックされています
+ReadOnlyOff	編集できるようになりました
+ReadOnlyNote	読み取り専用。編集するにはオフにしてください
+CtxSpaces	スペースとタブ
+CtxBookmarks	ブックマーク
+StatusSelection	({0} 文字、{1} 行を選択)
+SetAutoCloseTitle.Text	括弧と引用符を閉じる
+SetAutoCloseDesc.Text	コードで ( [ { や " を入力すると閉じる文字を追加します
+SetSmartHighlightTitle.Text	同じ語を強調表示
+SetSmartHighlightDesc.Text	選択した語がすべての場所で光り、カーソル位置の括弧の対が示されます
+SetWatchFilesTitle.Text	他のプログラムによる変更を追跡
+SetWatchFilesDesc.Text	別の場所で変更されたファイルは自動で再読み込みされます。未保存の変更がある場合は先に確認します
+ShortcutNewLine	下 / 上に新しい行
+ShortcutBookmarkJump	次 / 前のブックマーク
+CmdReopenClosed	閉じたタブを開き直す
+TabRename	ファイル名を変更…
+TabOpenWith	別のアプリで開く…
+TabSaveCopy	コピーを保存…
+TabFileInfo	ファイル情報
+CopySuffix	コピー
+RenameTitle	ファイル名を変更
+RenameConfirm	名前を変更
+RenameInvalid	名前に Windows で使えない文字が含まれています: \ / : * ? " < > |
+RenameExists	同じ名前のファイルが既にあります
+RenameError	{0} に名前を変更できませんでした
+InfoPath	場所
+InfoSize	サイズ
+InfoCreated	作成日時
+InfoModified	更新日時
+InfoEncoding	エンコード
+InfoLineEnding	改行コード
+InfoLines	行数
+InfoWords	語数
+InfoChars	文字数
+InfoLanguage	強調表示
+SizeBytes	{0} バイト
+SizeKb	{0} KB
+SizeMb	{0} MB
+ReloadedExternal	再読み込みしました: ファイルが Vellum の外で変更されました
+ExternalTitle	{0} が Vellum の外で変更されました
+ExternalText	ここに未保存の変更がある間に、別のプログラムがこのファイルを保存しました。新しいバージョンを読み込んで変更を破棄しますか？ それとも自分の変更を残しますか？
+ExternalReload	新しいバージョンを読み込む
+ExternalKeep	自分の変更を残す
+SettingsClose.TT	設定を閉じる (Esc)
+AboutTagline.Text	テキスト、メモ、コードのための静かなガラスのメモ帳。
+AboutPrivacyNote.Text	オフラインで動作し、何も収集しません。テキストはあなたのパソコンに残ります。
+AboutWebsite	Vellum の Web サイト
+AboutRate	Vellum を評価
+AboutSupport	プロジェクトを支援
+AboutSupportDesc	Vellum は無料です。寄付は改善の力になります
+AboutContact	お問い合わせ
+AboutBug	問題を報告
+AboutBugDesc	バージョンが入力済みのメールを開きます
+AboutPrivacy	プライバシー ポリシー
+AboutPrivacyDesc	Vellum がデータをどう扱うか (扱わないか)
+AboutStudio	Wesky のほかのアプリ
+MenuLibrary.Text	メモ
+MenuHistory.Text	バージョン履歴
+LibraryNew.TT	新しいメモ
+LibraryClose.TT	閉じる (Esc)
+LibraryClose.AN	閉じる
+LibrarySearch.PlaceholderText	メモを検索
+LibraryEmptyTrash.Content	ごみ箱を空にする
+HistoryTitle.Text	バージョン履歴
+HistoryClose.TT	閉じる (Esc)
+HistoryClose.AN	閉じる
+HistoryShowChanges.OnContent	変更点
+HistoryShowChanges.OffContent	変更点
+HistoryEmpty.Text	まだバージョンはありません。書いている間は数分ごとに、また保存するたびに Vellum が保存します。
+HistoryHint.Text	赤: 今のテキストにない部分。緑: その後に追加された部分。
+HistoryCopy.Content	コピー
+HistoryRestore.Content	このバージョンに戻す
+SetSectionNotes.Text	メモと履歴
+SetLibraryTitle.Text	メモ ライブラリ
+SetLibraryDesc.Text	新しいタブはメモになります。自動で保存され、閉じた後もライブラリに残ります (Ctrl+Shift+L)。
+SetHistoryTitle.Text	バージョン履歴
+SetHistoryDesc.Text	メモの以前のバージョンを保存し、表示や復元ができます (Ctrl+Shift+H)。
+SetFileHistoryTitle.Text	ファイルにも履歴を残す
+SetFileHistoryDesc.Text	Vellum で保存したファイルのバージョンも保存します。
+SetClearHistoryTitle.Text	履歴を消去
+SetClearHistoryDesc.Text	保存されたすべてのバージョンを削除します。メモは残ります。
+SetClearHistoryButton.Content	消去
+NoteUntitled	新しいメモ
+LibraryTitleText	メモ
+LibraryMeta	{0} · {1} 語
+LibraryTrash	ごみ箱
+LibraryTrashCount	ごみ箱 ({0})
+LibraryEmptyTrashText	ごみ箱は空です。削除したメモはここに 30 日間残ります。
+LibraryNothingFound	見つかりませんでした。
+LibraryEmptyText	まだメモはありません。新しいタブはすべてメモです。書き始めましょう。#タグ はテキストに直接書けます。
+LibraryAllTags	すべて
+LibraryYesterday	昨日
+LibraryRestore	復元
+LibraryDeleteForever	完全に削除
+LibraryOpen	開く
+LibraryEmptyTrashYes	ごみ箱を空にする
+LibraryEmptyTrashConfirm	ごみ箱のメモをすべて完全に削除しますか？
+LibraryOff	メモ ライブラリは設定でオフになっています。
+NotePin	ピン留め
+NoteUnpin	ピン留めを外す
+NoteHistory	バージョン履歴…
+NoteExport	ファイルとして保存…
+NoteDelete	メモを削除
+NoteSaved	メモを保存しました
+NoteEmpty	メモは空です
+HistoryToday	今日 {0}
+HistoryYesterday	昨日 {0}
+HistoryLines	{0} 行
+HistorySame	現在と同じ
+HistoryChanges	その後: +{0} / −{1} 行
+HistoryRestored	バージョンを復元しました。Ctrl+Z で元に戻せます。
+HistoryOff	バージョン履歴は設定でオフになっています。
+HistoryUntitled	先にファイルを保存してください。履歴はメモと保存済みファイルが対象です。
+HistoryFilesOff	ファイルの履歴は設定でオフになっています。
+CmdLibrary	メモ ライブラリ
+CmdHistory	バージョン履歴
+SetClearHistorySize	保存されたすべてのバージョン ({0}) を削除します。メモは残ります。
+SetClearHistoryConfirm	保存されたすべてのバージョンを削除しますか？ メモとファイルはそのままです。
+SetClearHistoryYes	履歴を消去
+NoteLockedSnippet	パスワードで保護
+HistoryLocked	パスワード付きのメモには版の履歴がありません。
+LockOpenTitle	「{0}」を開く
+LockOpenText	このメモは保護されています。開くにはパスワードを入力してください。
+LockOpenButton	開く
+LockWrongPassword	パスワードが違います。
+LockSetTitle	メモをパスワードで保護
+LockSetText	メモはディスク上で暗号化されます。パスワードを忘れると、私たちでも復元できません。以前の版は削除されます。
+LockSetButton	保護する
+LockDone	メモをパスワードで保護しました
+LockRemoveTitle	パスワードを解除
+LockRemoveText	もう一度パスワードを入力すると、メモは暗号化なしで保存されます。
+LockRemoveButton	解除する
+LockRemoved	パスワードを解除しました
+LockPassword	パスワード
+LockPasswordAgain	パスワードをもう一度
+LockMismatch	パスワードが一致しません。
+LockNote	パスワードで保護…
+LockRemove	パスワードを解除…
+ExportPdf	PDF に書き出す…
+ExportHtml	HTML に書き出す…
+ExportDone	書き出しました: {0}
+ExportFailed	書き出し用のページを準備できませんでした。
+MenuExport.Text	書き出し
+MenuExportPdf.Text	PDF…
+MenuExportHtml.Text	HTML ページ…
+MenuMini.Text	ミニウィンドウ
+CaptionMini.TT	通常のウィンドウに戻す
+CaptionMiniName	通常のウィンドウに戻す
+MiniOff	ミニウィンドウは設定でオフになっています。
+CmdMini	前面のミニウィンドウ（オン / オフ）
+CmdExportPdf	PDF に書き出す
+CmdExportHtml	HTML に書き出す
+TrayOpen	Vellum を開く
+TrayNewNote	新しいメモ
+TrayExit	終了
+SetSectionTray.Text	トレイ
+SetTrayTitle.Text	時計の横のアイコン
+SetTrayDesc.Text	システムトレイから Vellum を開いたり、メモを始めたりできます。
+SetCloseToTrayTitle.Text	閉じるとトレイへ
+SetCloseToTrayDesc.Text	ウィンドウを閉じても Vellum は時計の横で動き続けます。メニューの「終了」で終了します。
+SetStartupTitle.Text	Windows と一緒に起動
+SetStartupDesc.Text	静かに起動します: トレイ内か最小化で。
+SetStartupNote	静かに起動します: トレイ内か最小化で。
+SetStartupBlocked	タスク マネージャー → スタートアップ アプリでオフになっています。そちらでオンにしてください。
+SetStartupPolicy	組織によって許可されていません。
+SetQuickNoteTitle.Text	クイックメモ: Ctrl+Alt+N
+SetQuickNoteDesc.Text	どのアプリからでも、新しいメモで Vellum を開きます。
+SetQuickNoteNote	どのアプリからでも、新しいメモで Vellum を開きます。
+SetQuickNoteTaken	Ctrl+Alt+N は別のアプリで使われています。
+SetMiniTitle.Text	ミニウィンドウ
+SetMiniDesc.Text	他のウィンドウの前に出る小さなウィンドウ: Ctrl+Shift+M。
+SetNoteLocksTitle.Text	パスワード付きのメモ
+SetNoteLocksDesc.Text	タブのメニューからメモを保護。AES-256 で暗号化します。
+SetExportTitle.Text	PDF と HTML への書き出し
+SetExportDesc.Text	メインメニュー、タブのメニュー、コマンドパレットにあります。
+ShortcutQuickNote	どのアプリからでもクイックメモ

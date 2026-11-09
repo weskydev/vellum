@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UntitledTab" xml:space="preserve">
+    <value>Без назви</value>
+  </data>
+  <data name="StatusPosition" xml:space="preserve">
+    <value>Рд {0}, ст {1}</value>
+  </data>
+  <data name="StatusCounts" xml:space="preserve">
+    <value>Слів: {0} · символів: {1}</value>
+  </data>
+  <data name="MenuButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="MenuButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="MenuNewTab.Text" xml:space="preserve">
+    <value>Нова вкладка</value>
+  </data>
+  <data name="MenuOpen.Text" xml:space="preserve">
+    <value>Відкрити…</value>
+  </data>
+  <data name="MenuSave.Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="MenuSaveAs.Text" xml:space="preserve">
+    <value>Зберегти як…</value>
+  </data>
+  <data name="MenuCloseTab.Text" xml:space="preserve">
+    <value>Закрити вкладку</value>
+  </data>
+  <data name="MenuExit.Text" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="SaveChangesTitle" xml:space="preserve">
+    <value>Зберегти зміни в «{0}»?</value>
+  </data>
+  <data name="SaveChangesText" xml:space="preserve">
+    <value>Якщо не зберегти, зміни буде втрачено.</value>
+  </data>
+  <data name="ButtonSave" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="ButtonDontSave" xml:space="preserve">
+    <value>Не зберігати</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="ButtonOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ErrorOpenTitle" xml:space="preserve">
+    <value>Не вдалося відкрити {0}</value>
+  </data>
+  <data name="ErrorSaveTitle" xml:space="preserve">
+    <value>Не вдалося зберегти {0}</value>
+  </data>
+  <data name="FileTypeText" xml:space="preserve">
+    <value>Текстовий документ</value>
+  </data>
+  <data name="MenuSettings.Text" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="SettingsTab" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="SettingsHeader.Text" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="SetSectionAppearance.Text" xml:space="preserve">
+    <value>Вигляд</value>
+  </data>
+  <data name="SetThemeTitle.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="SetThemeDesc.Text" xml:space="preserve">
+    <value>Світла, темна або як у Windows</value>
+  </data>
+  <data name="SetThemeSystem.Content" xml:space="preserve">
+    <value>Як у системі</value>
+  </data>
+  <data name="SetThemeLight.Content" xml:space="preserve">
+    <value>Світла</value>
+  </data>
+  <data name="SetThemeDark.Content" xml:space="preserve">
+    <value>Темна</value>
+  </data>
+  <data name="SetAccentTitle.Text" xml:space="preserve">
+    <value>Колір акценту</value>
+  </data>
+  <data name="SetAccentDesc.Text" xml:space="preserve">
+    <value>Для підсвічування, виділення та відтінку скла</value>
+  </data>
+  <data name="Accent_violet" xml:space="preserve">
+    <value>Фіалковий Vellum</value>
+  </data>
+  <data name="Accent_mint" xml:space="preserve">
+    <value>М'ята</value>
+  </data>
+  <data name="Accent_amber" xml:space="preserve">
+    <value>Бурштин</value>
+  </data>
+  <data name="Accent_rose" xml:space="preserve">
+    <value>Троянда</value>
+  </data>
+  <data name="Accent_ocean" xml:space="preserve">
+    <value>Океан</value>
+  </data>
+  <data name="Accent_graphite" xml:space="preserve">
+    <value>Графіт</value>
+  </data>
+  <data name="Accent_system" xml:space="preserve">
+    <value>Колір акценту Windows</value>
+  </data>
+  <data name="SetBackdropTitle.Text" xml:space="preserve">
+    <value>Тло вікна</value>
+  </data>
+  <data name="SetBackdropDesc.Text" xml:space="preserve">
+    <value>Скло розмиває те, що за вікном, Mica бере колір із шпалер</value>
+  </data>
+  <data name="SetBackdropAcrylic.Content" xml:space="preserve">
+    <value>Скло</value>
+  </data>
+  <data name="SetBackdropMica.Content" xml:space="preserve">
+    <value>Mica</value>
+  </data>
+  <data name="SetBackdropSolid.Content" xml:space="preserve">
+    <value>Суцільне</value>
+  </data>
+  <data name="SetGlassTitle.Text" xml:space="preserve">
+    <value>Прозорість скла</value>
+  </data>
+  <data name="SetGlassDesc.Text" xml:space="preserve">
+    <value>Наскільки просвічує тло</value>
+  </data>
+  <data name="SetSectionEditor.Text" xml:space="preserve">
+    <value>Редактор</value>
+  </data>
+  <data name="SetFontTitle.Text" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="SetFontDesc.Text" xml:space="preserve">
+    <value>Оберіть шрифт або введіть назву будь-якого встановленого</value>
+  </data>
+  <data name="SetWrapTitle.Text" xml:space="preserve">
+    <value>Перенесення рядків</value>
+  </data>
+  <data name="SetWrapDesc.Text" xml:space="preserve">
+    <value>Довгі рядки переносяться за шириною вікна</value>
+  </data>
+  <data name="SetStatusTitle.Text" xml:space="preserve">
+    <value>Рядок стану</value>
+  </data>
+  <data name="SetStatusDesc.Text" xml:space="preserve">
+    <value>Рядок, стовпець, кількість слів і кодування внизу</value>
+  </data>
+  <data name="SetSpellTitle.Text" xml:space="preserve">
+    <value>Перевірка правопису</value>
+  </data>
+  <data name="SetSpellDesc.Text" xml:space="preserve">
+    <value>Підкреслювати слова з помилками</value>
+  </data>
+  <data name="SetSectionFiles.Text" xml:space="preserve">
+    <value>Файли</value>
+  </data>
+  <data name="SetSessionTitle.Text" xml:space="preserve">
+    <value>Відновлювати вкладки під час запуску</value>
+  </data>
+  <data name="SetSessionDesc.Text" xml:space="preserve">
+    <value>Наступного разу Vellum відкриє ваші вкладки й незбережений текст</value>
+  </data>
+  <data name="SetAutoSaveTitle.Text" xml:space="preserve">
+    <value>Автозбереження файлів</value>
+  </data>
+  <data name="SetAutoSaveDesc.Text" xml:space="preserve">
+    <value>Відкриті файли зберігаються самі, щойно ви перестаєте друкувати</value>
+  </data>
+  <data name="SetSectionLanguage.Text" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="SetLanguageTitle.Text" xml:space="preserve">
+    <value>Мова застосунку</value>
+  </data>
+  <data name="SetLanguageDesc.Text" xml:space="preserve">
+    <value>Типово Vellum використовує мову Windows</value>
+  </data>
+  <data name="SetLanguageSystem.Content" xml:space="preserve">
+    <value>Як у Windows</value>
+  </data>
+  <data name="SetRestartBar.Message" xml:space="preserve">
+    <value>Перезапустіть Vellum, щоб змінити мову. Вкладки залишаться відкритими.</value>
+  </data>
+  <data name="SetRestartButton.Content" xml:space="preserve">
+    <value>Перезапустити</value>
+  </data>
+  <data name="SetSectionAbout.Text" xml:space="preserve">
+    <value>Про застосунок</value>
+  </data>
+  <data name="SetVersion" xml:space="preserve">
+    <value>Версія {0} · створено Wesky</value>
+  </data>
+  <data name="FindReplaceToggle.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Показати заміну</value>
+  </data>
+  <data name="FindReplaceToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Показати заміну</value>
+  </data>
+  <data name="FindMatchCase.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Враховувати регістр</value>
+  </data>
+  <data name="FindMatchCase.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Враховувати регістр</value>
+  </data>
+  <data name="FindWholeWord.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ціле слово</value>
+  </data>
+  <data name="FindWholeWord.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ціле слово</value>
+  </data>
+  <data name="FindRegex.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Регулярний вираз</value>
+  </data>
+  <data name="FindRegex.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Регулярний вираз</value>
+  </data>
+  <data name="FindPrevious.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Попередній збіг (Shift+F3)</value>
+  </data>
+  <data name="FindPrevious.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Попередній збіг (Shift+F3)</value>
+  </data>
+  <data name="FindNext.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Наступний збіг (F3)</value>
+  </data>
+  <data name="FindNext.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Наступний збіг (F3)</value>
+  </data>
+  <data name="FindClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Закрити (Esc)</value>
+  </data>
+  <data name="FindClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Закрити (Esc)</value>
+  </data>
+  <data name="FindBox.PlaceholderText" xml:space="preserve">
+    <value>Знайти</value>
+  </data>
+  <data name="ReplaceBox.PlaceholderText" xml:space="preserve">
+    <value>Замінити на</value>
+  </data>
+  <data name="ReplaceOne.Content" xml:space="preserve">
+    <value>Замінити</value>
+  </data>
+  <data name="ReplaceAll.Content" xml:space="preserve">
+    <value>Замінити все</value>
+  </data>
+  <data name="FindCount" xml:space="preserve">
+    <value>{0} з {1}</value>
+  </data>
+  <data name="FindTotal" xml:space="preserve">
+    <value>Знайдено: {0}</value>
+  </data>
+  <data name="FindNoResults" xml:space="preserve">
+    <value>Нічого не знайдено</value>
+  </data>
+  <data name="FindRegexError" xml:space="preserve">
+    <value>Помилка у виразі</value>
+  </data>
+  <data name="ReplacedCount" xml:space="preserve">
+    <value>Замінено: {0}</value>
+  </data>
+  <data name="PaletteBox.PlaceholderText" xml:space="preserve">
+    <value>Введіть команду або : і номер рядка</value>
+  </data>
+  <data name="PaletteGoToLine" xml:space="preserve">
+    <value>Перейти до рядка {0}</value>
+  </data>
+  <data name="MenuFind.Text" xml:space="preserve">
+    <value>Знайти</value>
+  </data>
+  <data name="MenuReplace.Text" xml:space="preserve">
+    <value>Замінити</value>
+  </data>
+  <data name="MenuPalette.Text" xml:space="preserve">
+    <value>Палітра команд</value>
+  </data>
+  <data name="CmdPalette" xml:space="preserve">
+    <value>Палітра команд</value>
+  </data>
+  <data name="CmdNewTab" xml:space="preserve">
+    <value>Нова вкладка</value>
+  </data>
+  <data name="CmdOpen" xml:space="preserve">
+    <value>Відкрити…</value>
+  </data>
+  <data name="CmdSave" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="CmdSaveAs" xml:space="preserve">
+    <value>Зберегти як…</value>
+  </data>
+  <data name="CmdCloseTab" xml:space="preserve">
+    <value>Закрити вкладку</value>
+  </data>
+  <data name="CmdFind" xml:space="preserve">
+    <value>Знайти</value>
+  </data>
+  <data name="CmdReplace" xml:space="preserve">
+    <value>Замінити</value>
+  </data>
+  <data name="CmdFindNextPrev" xml:space="preserve">
+    <value>Наступний / попередній збіг</value>
+  </data>
+  <data name="CmdGoToLine" xml:space="preserve">
+    <value>Перейти до рядка…</value>
+  </data>
+  <data name="CmdSettings" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="CmdWrapOn" xml:space="preserve">
+    <value>Увімкнути перенесення рядків</value>
+  </data>
+  <data name="CmdWrapOff" xml:space="preserve">
+    <value>Вимкнути перенесення рядків</value>
+  </data>
+  <data name="CmdStatusOn" xml:space="preserve">
+    <value>Показати рядок стану</value>
+  </data>
+  <data name="CmdStatusOff" xml:space="preserve">
+    <value>Сховати рядок стану</value>
+  </data>
+  <data name="CmdZoomIn" xml:space="preserve">
+    <value>Збільшити</value>
+  </data>
+  <data name="CmdZoomOut" xml:space="preserve">
+    <value>Зменшити</value>
+  </data>
+  <data name="CmdZoomReset" xml:space="preserve">
+    <value>Скинути масштаб</value>
+  </data>
+  <data name="CmdZoom" xml:space="preserve">
+    <value>Збільшити / зменшити / скинути</value>
+  </data>
+  <data name="CmdThemeSystem" xml:space="preserve">
+    <value>Тема: як у системі</value>
+  </data>
+  <data name="CmdThemeLight" xml:space="preserve">
+    <value>Тема: світла</value>
+  </data>
+  <data name="CmdThemeDark" xml:space="preserve">
+    <value>Тема: темна</value>
+  </data>
+  <data name="CmdAccent" xml:space="preserve">
+    <value>Акцент: {0}</value>
+  </data>
+  <data name="CmdBackdropAcrylic" xml:space="preserve">
+    <value>Тло: скло</value>
+  </data>
+  <data name="CmdBackdropMica" xml:space="preserve">
+    <value>Тло: Mica</value>
+  </data>
+  <data name="CmdBackdropSolid" xml:space="preserve">
+    <value>Тло: суцільне</value>
+  </data>
+  <data name="CmdSwitchTab" xml:space="preserve">
+    <value>До вкладки: {0}</value>
+  </data>
+  <data name="CmdSwitchTabs" xml:space="preserve">
+    <value>Перемикання вкладок</value>
+  </data>
+  <data name="SetSectionShortcuts.Text" xml:space="preserve">
+    <value>Гарячі клавіші</value>
+  </data>
+  <data name="PreviewButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Перегляд Markdown (Ctrl+Shift+V)</value>
+  </data>
+  <data name="PreviewButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Перегляд Markdown (Ctrl+Shift+V)</value>
+  </data>
+  <data name="LanguageButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Підсвічування для цієї вкладки</value>
+  </data>
+  <data name="LanguageButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Підсвічування для цієї вкладки</value>
+  </data>
+  <data name="StatusCountsGoal" xml:space="preserve">
+    <value>Слів: {0} / {1} · символів: {2}</value>
+  </data>
+  <data name="SyntaxPlain" xml:space="preserve">
+    <value>Звичайний текст</value>
+  </data>
+  <data name="PreviewOff" xml:space="preserve">
+    <value>Перегляд</value>
+  </data>
+  <data name="PreviewSplit" xml:space="preserve">
+    <value>Поруч</value>
+  </data>
+  <data name="PreviewFull" xml:space="preserve">
+    <value>Лише перегляд</value>
+  </data>
+  <data name="CtxUndo" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="CtxRedo" xml:space="preserve">
+    <value>Повторити</value>
+  </data>
+  <data name="CtxCut" xml:space="preserve">
+    <value>Вирізати</value>
+  </data>
+  <data name="CtxCopy" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="CtxPaste" xml:space="preserve">
+    <value>Вставити</value>
+  </data>
+  <data name="CtxSelectAll" xml:space="preserve">
+    <value>Виділити все</value>
+  </data>
+  <data name="CmdPreview" xml:space="preserve">
+    <value>Перегляд Markdown</value>
+  </data>
+  <data name="CmdZenOn" xml:space="preserve">
+    <value>Режим дзен</value>
+  </data>
+  <data name="CmdZenOff" xml:space="preserve">
+    <value>Вийти з режиму дзен</value>
+  </data>
+  <data name="CmdFocusOn" xml:space="preserve">
+    <value>Увімкнути режим фокусу</value>
+  </data>
+  <data name="CmdFocusOff" xml:space="preserve">
+    <value>Вимкнути режим фокусу</value>
+  </data>
+  <data name="CmdTypewriterOn" xml:space="preserve">
+    <value>Увімкнути друкарську машинку</value>
+  </data>
+  <data name="CmdTypewriterOff" xml:space="preserve">
+    <value>Вимкнути друкарську машинку</value>
+  </data>
+  <data name="CmdReadableOn" xml:space="preserve">
+    <value>Вузька колонка тексту</value>
+  </data>
+  <data name="CmdReadableOff" xml:space="preserve">
+    <value>Текст на всю ширину</value>
+  </data>
+  <data name="CmdMarkdownOn" xml:space="preserve">
+    <value>Увімкнути оформлення Markdown</value>
+  </data>
+  <data name="CmdMarkdownOff" xml:space="preserve">
+    <value>Вимкнути оформлення Markdown</value>
+  </data>
+  <data name="CmdSyntaxOn" xml:space="preserve">
+    <value>Увімкнути підсвічування коду</value>
+  </data>
+  <data name="CmdSyntaxOff" xml:space="preserve">
+    <value>Вимкнути підсвічування коду</value>
+  </data>
+  <data name="CmdSyntax" xml:space="preserve">
+    <value>Підсвічування: {0}</value>
+  </data>
+  <data name="CmdUndoRedo" xml:space="preserve">
+    <value>Скасувати / повторити</value>
+  </data>
+  <data name="SetLineSpacingTitle.Text" xml:space="preserve">
+    <value>Міжрядковий інтервал</value>
+  </data>
+  <data name="SetLineSpacingDesc.Text" xml:space="preserve">
+    <value>Рядки далі один від одного, довгий текст читається легше</value>
+  </data>
+  <data name="SetReadableTitle.Text" xml:space="preserve">
+    <value>Вузька колонка тексту</value>
+  </data>
+  <data name="SetReadableDesc.Text" xml:space="preserve">
+    <value>У широкому вікні рядки не довші за зручні для читання</value>
+  </data>
+  <data name="SetSectionWriting.Text" xml:space="preserve">
+    <value>Письмо і код</value>
+  </data>
+  <data name="SetMarkdownTitle.Text" xml:space="preserve">
+    <value>Оформлення Markdown</value>
+  </data>
+  <data name="SetMarkdownDesc.Text" xml:space="preserve">
+    <value>Заголовки, жирний і код оформлюються одразу під час набору у файлах .md</value>
+  </data>
+  <data name="SetPreviewTitle.Text" xml:space="preserve">
+    <value>Перегляд Markdown</value>
+  </data>
+  <data name="SetPreviewDesc.Text" xml:space="preserve">
+    <value>Кнопка в рядку стану і Ctrl+Shift+V показують готову сторінку</value>
+  </data>
+  <data name="SetSyntaxTitle.Text" xml:space="preserve">
+    <value>Підсвічування коду</value>
+  </data>
+  <data name="SetSyntaxDesc.Text" xml:space="preserve">
+    <value>Розфарбовує код, JSON, XML, журнали тощо залежно від типу файлу</value>
+  </data>
+  <data name="SetMonoTitle.Text" xml:space="preserve">
+    <value>Моноширинний шрифт для коду</value>
+  </data>
+  <data name="SetMonoDesc.Text" xml:space="preserve">
+    <value>Файли коду показуються шрифтом Cascadia Mono, щоб стовпці збігалися</value>
+  </data>
+  <data name="SetFocusTitle.Text" xml:space="preserve">
+    <value>Режим фокусу</value>
+  </data>
+  <data name="SetFocusDesc.Text" xml:space="preserve">
+    <value>Усе, крім абзацу, який ви пишете, відходить на задній план</value>
+  </data>
+  <data name="SetTypewriterTitle.Text" xml:space="preserve">
+    <value>Друкарська машинка</value>
+  </data>
+  <data name="SetTypewriterDesc.Text" xml:space="preserve">
+    <value>Рядок, який ви пишете, лишається посередині вікна</value>
+  </data>
+  <data name="SetGoalTitle.Text" xml:space="preserve">
+    <value>Мета за словами</value>
+  </data>
+  <data name="SetGoalDesc.Text" xml:space="preserve">
+    <value>Прогрес видно в рядку стану. Щоб вимкнути, поставте 0</value>
+  </data>
+  <data name="HelpButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Шпаргалка з Markdown</value>
+  </data>
+  <data name="HelpButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Шпаргалка з Markdown</value>
+  </data>
+  <data name="LineEndingButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Перенесення рядків</value>
+  </data>
+  <data name="LineEndingButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Перенесення рядків</value>
+  </data>
+  <data name="EncodingButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Кодування</value>
+  </data>
+  <data name="EncodingButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Кодування</value>
+  </data>
+  <data name="HelpClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Закрити (Esc)</value>
+  </data>
+  <data name="HelpClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Закрити (Esc)</value>
+  </data>
+  <data name="ToolDuplicateLine" xml:space="preserve">
+    <value>Дублювати рядок</value>
+  </data>
+  <data name="ToolDeleteLine" xml:space="preserve">
+    <value>Видалити рядок</value>
+  </data>
+  <data name="ToolMoveLineUp" xml:space="preserve">
+    <value>Перемістити рядок вгору</value>
+  </data>
+  <data name="ToolMoveLineDown" xml:space="preserve">
+    <value>Перемістити рядок вниз</value>
+  </data>
+  <data name="ToolSortAsc" xml:space="preserve">
+    <value>Сортувати рядки А → Я</value>
+  </data>
+  <data name="ToolSortDesc" xml:space="preserve">
+    <value>Сортувати рядки Я → А</value>
+  </data>
+  <data name="ToolRemoveDuplicates" xml:space="preserve">
+    <value>Прибрати повтори рядків</value>
+  </data>
+  <data name="ToolRemoveEmpty" xml:space="preserve">
+    <value>Прибрати порожні рядки</value>
+  </data>
+  <data name="ToolTrimTrailing" xml:space="preserve">
+    <value>Прибрати пробіли в кінці рядків</value>
+  </data>
+  <data name="ToolJoinLines" xml:space="preserve">
+    <value>Склеїти рядки</value>
+  </data>
+  <data name="ToolReverseLines" xml:space="preserve">
+    <value>Розвернути порядок рядків</value>
+  </data>
+  <data name="ToolUpper" xml:space="preserve">
+    <value>ВЕЛИКІ ЛІТЕРИ</value>
+  </data>
+  <data name="ToolLower" xml:space="preserve">
+    <value>малі літери</value>
+  </data>
+  <data name="ToolTitle" xml:space="preserve">
+    <value>Кожне Слово З Великої</value>
+  </data>
+  <data name="ToolSentence" xml:space="preserve">
+    <value>Як у реченні</value>
+  </data>
+  <data name="ToolInvert" xml:space="preserve">
+    <value>іНВЕРСІЯ рЕГІСТРУ</value>
+  </data>
+  <data name="ToolComment" xml:space="preserve">
+    <value>Закоментувати / розкоментувати</value>
+  </data>
+  <data name="ToolDateTime" xml:space="preserve">
+    <value>Вставити дату й час</value>
+  </data>
+  <data name="ToolBase64Encode" xml:space="preserve">
+    <value>Закодувати в Base64</value>
+  </data>
+  <data name="ToolBase64Decode" xml:space="preserve">
+    <value>Розкодувати з Base64</value>
+  </data>
+  <data name="ToolUrlEncode" xml:space="preserve">
+    <value>Закодувати для URL</value>
+  </data>
+  <data name="ToolUrlDecode" xml:space="preserve">
+    <value>Розкодувати URL</value>
+  </data>
+  <data name="ToolSearchWeb" xml:space="preserve">
+    <value>Шукати в інтернеті</value>
+  </data>
+  <data name="ToolNothingChanged" xml:space="preserve">
+    <value>Нічого змінювати</value>
+  </data>
+  <data name="ToolNoComments" xml:space="preserve">
+    <value>У цій мові немає коментарів</value>
+  </data>
+  <data name="ToolSelectFirst" xml:space="preserve">
+    <value>Спершу виділіть текст</value>
+  </data>
+  <data name="ToolCannotDecode" xml:space="preserve">
+    <value>Не вдалося розкодувати виділене</value>
+  </data>
+  <data name="CtxLines" xml:space="preserve">
+    <value>Рядки</value>
+  </data>
+  <data name="CtxCase" xml:space="preserve">
+    <value>Регістр</value>
+  </data>
+  <data name="CtxConvert" xml:space="preserve">
+    <value>Перетворити</value>
+  </data>
+  <data name="EolWindows" xml:space="preserve">
+    <value>Windows (CRLF)</value>
+  </data>
+  <data name="EolUnix" xml:space="preserve">
+    <value>Unix / macOS (LF)</value>
+  </data>
+  <data name="EolMac" xml:space="preserve">
+    <value>Старий Mac (CR)</value>
+  </data>
+  <data name="EncSaveAs" xml:space="preserve">
+    <value>Зберегти в кодуванні</value>
+  </data>
+  <data name="EncReopen" xml:space="preserve">
+    <value>Відкрити знову в кодуванні</value>
+  </data>
+  <data name="EncLossTitle" xml:space="preserve">
+    <value>Частину символів буде втрачено</value>
+  </data>
+  <data name="EncLossText" xml:space="preserve">
+    <value>{0} не може зберегти деякі символи цього тексту. Їх буде записано як «?». Все одно перетворити?</value>
+  </data>
+  <data name="EncLossConfirm" xml:space="preserve">
+    <value>Перетворити</value>
+  </data>
+  <data name="ReloadTitle" xml:space="preserve">
+    <value>Перечитати файл?</value>
+  </data>
+  <data name="ReloadText" xml:space="preserve">
+    <value>Незбережені зміни в цій вкладці буде втрачено.</value>
+  </data>
+  <data name="ReloadConfirm" xml:space="preserve">
+    <value>Перечитати</value>
+  </data>
+  <data name="HelpTitle.Text" xml:space="preserve">
+    <value>Шпаргалка з Markdown</value>
+  </data>
+  <data name="HelpSubtitle.Text" xml:space="preserve">
+    <value>Прості позначки, що перетворюються на оформлення. Працює у файлах .md.</value>
+  </data>
+  <data name="HelpYouType.Text" xml:space="preserve">
+    <value>ВИ ПИШЕТЕ</value>
+  </data>
+  <data name="HelpYouGet.Text" xml:space="preserve">
+    <value>ВИ ОТРИМУЄТЕ</value>
+  </data>
+  <data name="HelpTips.Text" xml:space="preserve">
+    <value>Ctrl+Shift+V показує перегляд. Enter продовжує списки, Tab робить вкладені. Картинка: ![підпис](file.png або посилання).</value>
+  </data>
+  <data name="HelpMdHeadings" xml:space="preserve">
+    <value>Заголовки</value>
+  </data>
+  <data name="HelpMdHeadingsSample" xml:space="preserve">
+    <value># Заголовок 1\n## Заголовок 2\n### Заголовок 3</value>
+  </data>
+  <data name="HelpMdEmphasis" xml:space="preserve">
+    <value>Жирний і курсив</value>
+  </data>
+  <data name="HelpMdEmphasisSample" xml:space="preserve">
+    <value>**жирний**, *курсив*, ***обидва***</value>
+  </data>
+  <data name="HelpMdStrike" xml:space="preserve">
+    <value>Закреслений</value>
+  </data>
+  <data name="HelpMdStrikeSample" xml:space="preserve">
+    <value>~~вже неправда~~</value>
+  </data>
+  <data name="HelpMdCode" xml:space="preserve">
+    <value>Код у рядку</value>
+  </data>
+  <data name="HelpMdCodeSample" xml:space="preserve">
+    <value>Виконайте `git status`</value>
+  </data>
+  <data name="HelpMdLink" xml:space="preserve">
+    <value>Посилання</value>
+  </data>
+  <data name="HelpMdBullets" xml:space="preserve">
+    <value>Список</value>
+  </data>
+  <data name="HelpMdBulletsSample" xml:space="preserve">
+    <value>- Яблука\n- Груші\n  - Вкладений пункт</value>
+  </data>
+  <data name="HelpMdNumbers" xml:space="preserve">
+    <value>Нумерований список</value>
+  </data>
+  <data name="HelpMdNumbersSample" xml:space="preserve">
+    <value>1. Перше\n2. Друге</value>
+  </data>
+  <data name="HelpMdTasks" xml:space="preserve">
+    <value>Список справ</value>
+  </data>
+  <data name="HelpMdTasksSample" xml:space="preserve">
+    <value>- [x] Зроблено\n- [ ] Зробити</value>
+  </data>
+  <data name="HelpMdQuote" xml:space="preserve">
+    <value>Цитата</value>
+  </data>
+  <data name="HelpMdQuoteSample" xml:space="preserve">
+    <value>&gt; Пишіть щодня.</value>
+  </data>
+  <data name="HelpMdCodeBlock" xml:space="preserve">
+    <value>Блок коду</value>
+  </data>
+  <data name="HelpMdTable" xml:space="preserve">
+    <value>Таблиця</value>
+  </data>
+  <data name="HelpMdTableSample" xml:space="preserve">
+    <value>| Товар | Ціна |\n|-------|------|\n| Чай   | 3    |</value>
+  </data>
+  <data name="HelpMdRule" xml:space="preserve">
+    <value>Розділювач</value>
+  </data>
+  <data name="HelpMdRuleSample" xml:space="preserve">
+    <value>Вище\n\n---\n\nНижче</value>
+  </data>
+  <data name="MenuRecent.Text" xml:space="preserve">
+    <value>Нещодавні файли</value>
+  </data>
+  <data name="MenuRecentClear" xml:space="preserve">
+    <value>Очистити список</value>
+  </data>
+  <data name="MenuSaveAll.Text" xml:space="preserve">
+    <value>Зберегти все</value>
+  </data>
+  <data name="MenuTopmost.Text" xml:space="preserve">
+    <value>Поверх усіх вікон</value>
+  </data>
+  <data name="MenuZen.Text" xml:space="preserve">
+    <value>Режим дзен</value>
+  </data>
+  <data name="MenuMarkdownHelp.Text" xml:space="preserve">
+    <value>Шпаргалка з Markdown</value>
+  </data>
+  <data name="MenuCloseAll.Text" xml:space="preserve">
+    <value>Закрити всі вкладки</value>
+  </data>
+  <data name="TabClose" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="TabCloseOthers" xml:space="preserve">
+    <value>Закрити інші вкладки</value>
+  </data>
+  <data name="TabCloseRight" xml:space="preserve">
+    <value>Закрити вкладки праворуч</value>
+  </data>
+  <data name="TabCloseSaved" xml:space="preserve">
+    <value>Закрити збережені вкладки</value>
+  </data>
+  <data name="TabCloseAll" xml:space="preserve">
+    <value>Закрити всі вкладки</value>
+  </data>
+  <data name="TabCopyPath" xml:space="preserve">
+    <value>Копіювати повний шлях</value>
+  </data>
+  <data name="TabCopyName" xml:space="preserve">
+    <value>Копіювати ім'я файлу</value>
+  </data>
+  <data name="TabOpenFolder" xml:space="preserve">
+    <value>Відкрити папку з файлом</value>
+  </data>
+  <data name="TabReload" xml:space="preserve">
+    <value>Перечитати з диска</value>
+  </data>
+  <data name="CmdSaveAll" xml:space="preserve">
+    <value>Зберегти все</value>
+  </data>
+  <data name="CmdOpenRecent" xml:space="preserve">
+    <value>Відкрити нещодавній: {0}</value>
+  </data>
+  <data name="CmdTopmost" xml:space="preserve">
+    <value>Поверх усіх вікон (увімк. / вимк.)</value>
+  </data>
+  <data name="CmdMarkdownHelp" xml:space="preserve">
+    <value>Шпаргалка з Markdown</value>
+  </data>
+  <data name="CmdLineNumbersOn" xml:space="preserve">
+    <value>Показати номери рядків</value>
+  </data>
+  <data name="CmdLineNumbersOff" xml:space="preserve">
+    <value>Сховати номери рядків</value>
+  </data>
+  <data name="CmdLineBandOn" xml:space="preserve">
+    <value>Підсвічувати поточний рядок</value>
+  </data>
+  <data name="CmdLineBandOff" xml:space="preserve">
+    <value>Не підсвічувати поточний рядок</value>
+  </data>
+  <data name="SetSectionEditing.Text" xml:space="preserve">
+    <value>Код і редагування</value>
+  </data>
+  <data name="SetLineNumbersTitle.Text" xml:space="preserve">
+    <value>Номери рядків</value>
+  </data>
+  <data name="SetLineNumbersDesc.Text" xml:space="preserve">
+    <value>Номери на лівому полі</value>
+  </data>
+  <data name="SetLineBandTitle.Text" xml:space="preserve">
+    <value>Підсвічувати поточний рядок</value>
+  </data>
+  <data name="SetLineBandDesc.Text" xml:space="preserve">
+    <value>М'яка смуга кольору акценту за рядком із курсором</value>
+  </data>
+  <data name="SetTabSizeTitle.Text" xml:space="preserve">
+    <value>Клавіша Tab</value>
+  </data>
+  <data name="SetTabSizeDesc.Text" xml:space="preserve">
+    <value>Що вставляє Tab. Якщо виділено кілька рядків, Tab і Shift+Tab зсувають їх.</value>
+  </data>
+  <data name="SetTabChar.Content" xml:space="preserve">
+    <value>Символ табуляції</value>
+  </data>
+  <data name="SetTab2.Content" xml:space="preserve">
+    <value>2 пробіли</value>
+  </data>
+  <data name="SetTab4.Content" xml:space="preserve">
+    <value>4 пробіли</value>
+  </data>
+  <data name="SetTab8.Content" xml:space="preserve">
+    <value>8 пробілів</value>
+  </data>
+  <data name="SetAutoIndentTitle.Text" xml:space="preserve">
+    <value>Розумний Enter</value>
+  </data>
+  <data name="SetAutoIndentDesc.Text" xml:space="preserve">
+    <value>Новий рядок зберігає відступ; списки Markdown продовжуються самі</value>
+  </data>
+  <data name="SetSearchEngineTitle.Text" xml:space="preserve">
+    <value>Пошук в інтернеті</value>
+  </data>
+  <data name="SetSearchEngineDesc.Text" xml:space="preserve">
+    <value>Де Ctrl+E шукає виділений текст</value>
+  </data>
+  <data name="SetExitLastTitle.Text" xml:space="preserve">
+    <value>Закривати Vellum з останньою вкладкою</value>
+  </data>
+  <data name="SetExitLastDesc.Text" xml:space="preserve">
+    <value>Інакше відкриється нова порожня вкладка</value>
+  </data>
+  <data name="SetNewEncodingTitle.Text" xml:space="preserve">
+    <value>Кодування нових файлів</value>
+  </data>
+  <data name="SetNewEncodingDesc.Text" xml:space="preserve">
+    <value>Відкриті файли зберігають своє; змінити можна будь-коли в рядку стану</value>
+  </data>
+  <data name="SetNewEolTitle.Text" xml:space="preserve">
+    <value>Перенесення рядків у нових файлах</value>
+  </data>
+  <data name="SetNewEolDesc.Text" xml:space="preserve">
+    <value>Програми Windows чекають CRLF, а Linux, macOS і більшість інструментів для коду чекають LF</value>
+  </data>
+  <data name="EolWindowsItem.Content" xml:space="preserve">
+    <value>Windows (CRLF)</value>
+  </data>
+  <data name="EolUnixItem.Content" xml:space="preserve">
+    <value>Unix / macOS (LF)</value>
+  </data>
+  <data name="EolMacItem.Content" xml:space="preserve">
+    <value>Старий Mac (CR)</value>
+  </data>
+  <data name="ShortcutMoveLines" xml:space="preserve">
+    <value>Перемістити рядки вгору / вниз</value>
+  </data>
+  <data name="ShortcutCase" xml:space="preserve">
+    <value>Великі / малі літери</value>
+  </data>
+  <data name="ShortcutIndent" xml:space="preserve">
+    <value>Збільшити / зменшити відступ</value>
+  </data>
+  <data name="CaptionMinimize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Згорнути</value>
+  </data>
+  <data name="CaptionMinimize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Згорнути</value>
+  </data>
+  <data name="CaptionMaximize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Розгорнути</value>
+  </data>
+  <data name="CaptionMaximize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Розгорнути</value>
+  </data>
+  <data name="CaptionClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="CaptionClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="CaptionMaximizeName" xml:space="preserve">
+    <value>Розгорнути</value>
+  </data>
+  <data name="CaptionRestoreName" xml:space="preserve">
+    <value>Відновити</value>
+  </data>
+  <data name="Accent_lavender" xml:space="preserve">
+    <value>Лаванда</value>
+  </data>
+  <data name="Accent_indigo" xml:space="preserve">
+    <value>Індиго</value>
+  </data>
+  <data name="Accent_sky" xml:space="preserve">
+    <value>Небо</value>
+  </data>
+  <data name="Accent_teal" xml:space="preserve">
+    <value>Бірюза</value>
+  </data>
+  <data name="Accent_sage" xml:space="preserve">
+    <value>Шавлія</value>
+  </data>
+  <data name="Accent_lime" xml:space="preserve">
+    <value>Лайм</value>
+  </data>
+  <data name="Accent_sand" xml:space="preserve">
+    <value>Пісок</value>
+  </data>
+  <data name="Accent_coral" xml:space="preserve">
+    <value>Корал</value>
+  </data>
+  <data name="Accent_crimson" xml:space="preserve">
+    <value>Малиновий</value>
+  </data>
+  <data name="Accent_berry" xml:space="preserve">
+    <value>Ягода</value>
+  </data>
+  <data name="Accent_slate" xml:space="preserve">
+    <value>Сланець</value>
+  </data>
+  <data name="ReadOnlyButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Лише читання. Натисніть, щоб дозволити редагування</value>
+  </data>
+  <data name="ReadOnlyButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Лише читання. Натисніть, щоб дозволити редагування</value>
+  </data>
+  <data name="ToolLineAbove" xml:space="preserve">
+    <value>Вставити рядок вище</value>
+  </data>
+  <data name="ToolLineBelow" xml:space="preserve">
+    <value>Вставити рядок нижче</value>
+  </data>
+  <data name="ToolSortNumAsc" xml:space="preserve">
+    <value>Сортувати за числом 0 → 9</value>
+  </data>
+  <data name="ToolSortNumDesc" xml:space="preserve">
+    <value>Сортувати за числом 9 → 0</value>
+  </data>
+  <data name="ToolShuffle" xml:space="preserve">
+    <value>Перемішати рядки</value>
+  </data>
+  <data name="ToolRemoveConsecutive" xml:space="preserve">
+    <value>Прибрати повтори поспіль</value>
+  </data>
+  <data name="ToolTrimLeading" xml:space="preserve">
+    <value>Прибрати пробіли на початку рядків</value>
+  </data>
+  <data name="ToolTrimBoth" xml:space="preserve">
+    <value>Прибрати пробіли з обох боків</value>
+  </data>
+  <data name="ToolTabsToSpaces" xml:space="preserve">
+    <value>Табуляції → пробіли</value>
+  </data>
+  <data name="ToolSpacesToTabs" xml:space="preserve">
+    <value>Пробіли відступу → табуляції</value>
+  </data>
+  <data name="ToolRandomCase" xml:space="preserve">
+    <value>вИпАдКоВиЙ рЕгІсТр</value>
+  </data>
+  <data name="ToolFormatJson" xml:space="preserve">
+    <value>Відформатувати JSON</value>
+  </data>
+  <data name="ToolMinifyJson" xml:space="preserve">
+    <value>Стиснути JSON</value>
+  </data>
+  <data name="ToolHashMd5" xml:space="preserve">
+    <value>Копіювати хеш MD5</value>
+  </data>
+  <data name="ToolHashSha1" xml:space="preserve">
+    <value>Копіювати хеш SHA-1</value>
+  </data>
+  <data name="ToolHashSha256" xml:space="preserve">
+    <value>Копіювати хеш SHA-256</value>
+  </data>
+  <data name="ToolHashSha512" xml:space="preserve">
+    <value>Копіювати хеш SHA-512</value>
+  </data>
+  <data name="ToolHashCopied" xml:space="preserve">
+    <value>{0} скопійовано в буфер обміну</value>
+  </data>
+  <data name="ToolNotJson" xml:space="preserve">
+    <value>Це не правильний JSON</value>
+  </data>
+  <data name="ToolBookmark" xml:space="preserve">
+    <value>Поставити / зняти закладку</value>
+  </data>
+  <data name="ToolBookmarkNext" xml:space="preserve">
+    <value>Наступна закладка</value>
+  </data>
+  <data name="ToolBookmarkPrev" xml:space="preserve">
+    <value>Попередня закладка</value>
+  </data>
+  <data name="ToolBookmarkClear" xml:space="preserve">
+    <value>Прибрати всі закладки</value>
+  </data>
+  <data name="ToolMatchingBracket" xml:space="preserve">
+    <value>До парної дужки</value>
+  </data>
+  <data name="ToolReadOnly" xml:space="preserve">
+    <value>Лише читання</value>
+  </data>
+  <data name="BookmarksNone" xml:space="preserve">
+    <value>Закладок ще немає. Додати закладку: Ctrl+F2</value>
+  </data>
+  <data name="BracketNone" xml:space="preserve">
+    <value>Біля курсора немає дужки</value>
+  </data>
+  <data name="ReadOnlyOn" xml:space="preserve">
+    <value>Лише читання: текст заблоковано</value>
+  </data>
+  <data name="ReadOnlyOff" xml:space="preserve">
+    <value>Редагування знову дозволено</value>
+  </data>
+  <data name="ReadOnlyNote" xml:space="preserve">
+    <value>Лише читання. Вимкніть, щоб редагувати</value>
+  </data>
+  <data name="CtxSpaces" xml:space="preserve">
+    <value>Пробіли й табуляції</value>
+  </data>
+  <data name="CtxBookmarks" xml:space="preserve">
+    <value>Закладки</value>
+  </data>
+  <data name="StatusSelection" xml:space="preserve">
+    <value>(виділено: символів {0}, рядків {1})</value>
+  </data>
+  <data name="SetAutoCloseTitle.Text" xml:space="preserve">
+    <value>Закривати дужки й лапки</value>
+  </data>
+  <data name="SetAutoCloseDesc.Text" xml:space="preserve">
+    <value>У коді після ( [ { або " одразу додається закривна</value>
+  </data>
+  <data name="SetSmartHighlightTitle.Text" xml:space="preserve">
+    <value>Підсвічувати збіги</value>
+  </data>
+  <data name="SetSmartHighlightDesc.Text" xml:space="preserve">
+    <value>Виділене слово підсвічується всюди; пара дужок біля курсора позначається</value>
+  </data>
+  <data name="SetWatchFilesTitle.Text" xml:space="preserve">
+    <value>Стежити за змінами з інших програм</value>
+  </data>
+  <data name="SetWatchFilesDesc.Text" xml:space="preserve">
+    <value>Файл, змінений деінде, перечитується сам; якщо є незбережені правки, Vellum спершу запитає</value>
+  </data>
+  <data name="ShortcutNewLine" xml:space="preserve">
+    <value>Новий рядок нижче / вище</value>
+  </data>
+  <data name="ShortcutBookmarkJump" xml:space="preserve">
+    <value>Наступна / попередня закладка</value>
+  </data>
+  <data name="CmdReopenClosed" xml:space="preserve">
+    <value>Повернути закриту вкладку</value>
+  </data>
+  <data name="TabRename" xml:space="preserve">
+    <value>Перейменувати файл…</value>
+  </data>
+  <data name="TabOpenWith" xml:space="preserve">
+    <value>Відкрити в іншій програмі…</value>
+  </data>
+  <data name="TabSaveCopy" xml:space="preserve">
+    <value>Зберегти копію…</value>
+  </data>
+  <data name="TabFileInfo" xml:space="preserve">
+    <value>Відомості про файл</value>
+  </data>
+  <data name="CopySuffix" xml:space="preserve">
+    <value>копія</value>
+  </data>
+  <data name="RenameTitle" xml:space="preserve">
+    <value>Перейменувати файл</value>
+  </data>
+  <data name="RenameConfirm" xml:space="preserve">
+    <value>Перейменувати</value>
+  </data>
+  <data name="RenameInvalid" xml:space="preserve">
+    <value>У назві є символи, які Windows не дозволяє: \ / : * ? " &lt; &gt; |</value>
+  </data>
+  <data name="RenameExists" xml:space="preserve">
+    <value>Файл з такою назвою вже існує</value>
+  </data>
+  <data name="RenameError" xml:space="preserve">
+    <value>Не вдалося перейменувати на {0}</value>
+  </data>
+  <data name="InfoPath" xml:space="preserve">
+    <value>Розташування</value>
+  </data>
+  <data name="InfoSize" xml:space="preserve">
+    <value>Розмір</value>
+  </data>
+  <data name="InfoCreated" xml:space="preserve">
+    <value>Створено</value>
+  </data>
+  <data name="InfoModified" xml:space="preserve">
+    <value>Змінено</value>
+  </data>
+  <data name="InfoEncoding" xml:space="preserve">
+    <value>Кодування</value>
+  </data>
+  <data name="InfoLineEnding" xml:space="preserve">
+    <value>Перенесення рядків</value>
+  </data>
+  <data name="InfoLines" xml:space="preserve">
+    <value>Рядків</value>
+  </data>
+  <data name="InfoWords" xml:space="preserve">
+    <value>Слів</value>
+  </data>
+  <data name="InfoChars" xml:space="preserve">
+    <value>Символів</value>
+  </data>
+  <data name="InfoLanguage" xml:space="preserve">
+    <value>Підсвічування</value>
+  </data>
+  <data name="SizeBytes" xml:space="preserve">
+    <value>{0} байт</value>
+  </data>
+  <data name="SizeKb" xml:space="preserve">
+    <value>{0} КБ</value>
+  </data>
+  <data name="SizeMb" xml:space="preserve">
+    <value>{0} МБ</value>
+  </data>
+  <data name="ReloadedExternal" xml:space="preserve">
+    <value>Перечитано: файл змінили поза Vellum</value>
+  </data>
+  <data name="ExternalTitle" xml:space="preserve">
+    <value>{0} змінено поза Vellum</value>
+  </data>
+  <data name="ExternalText" xml:space="preserve">
+    <value>Інша програма зберегла цей файл, а тут є незбережені правки. Завантажити нову версію і відкинути свої правки чи залишити свої?</value>
+  </data>
+  <data name="ExternalReload" xml:space="preserve">
+    <value>Завантажити нову</value>
+  </data>
+  <data name="ExternalKeep" xml:space="preserve">
+    <value>Залишити мої</value>
+  </data>
+  <data name="SettingsClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Закрити налаштування (Esc)</value>
+  </data>
+  <data name="SettingsClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Закрити налаштування (Esc)</value>
+  </data>
+  <data name="AboutTagline.Text" xml:space="preserve">
+    <value>Спокійний скляний блокнот для тексту, нотаток і коду.</value>
+  </data>
+  <data name="AboutPrivacyNote.Text" xml:space="preserve">
+    <value>Працює без інтернету. Нічого не збирає: ваш текст лишається на вашому комп'ютері.</value>
+  </data>
+  <data name="AboutWebsite" xml:space="preserve">
+    <value>Сайт Vellum</value>
+  </data>
+  <data name="AboutRate" xml:space="preserve">
+    <value>Оцінити Vellum</value>
+  </data>
+  <data name="AboutSupport" xml:space="preserve">
+    <value>Підтримати проєкт</value>
+  </data>
+  <data name="AboutSupportDesc" xml:space="preserve">
+    <value>Vellum безкоштовний; донат допомагає робити його кращим</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>Написати нам</value>
+  </data>
+  <data name="AboutBug" xml:space="preserve">
+    <value>Повідомити про проблему</value>
+  </data>
+  <data name="AboutBugDesc" xml:space="preserve">
+    <value>Відкриває лист із уже вказаною версією</value>
+  </data>
+  <data name="AboutPrivacy" xml:space="preserve">
+    <value>Політика конфіденційності</value>
+  </data>
+  <data name="AboutPrivacyDesc" xml:space="preserve">
+    <value>Що Vellum робить (і чого не робить) з даними</value>
+  </data>
+  <data name="AboutStudio" xml:space="preserve">
+    <value>Інші застосунки Wesky</value>
+  </data>
+  <data name="MenuLibrary.Text" xml:space="preserve">
+    <value>Нотатки</value>
+  </data>
+  <data name="MenuHistory.Text" xml:space="preserve">
+    <value>Історія версій</value>
+  </data>
+  <data name="LibraryNew.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Нова нотатка</value>
+  </data>
+  <data name="LibraryNew.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Нова нотатка</value>
+  </data>
+  <data name="LibraryClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Закрити (Esc)</value>
+  </data>
+  <data name="LibraryClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="LibrarySearch.PlaceholderText" xml:space="preserve">
+    <value>Пошук у нотатках</value>
+  </data>
+  <data name="LibraryEmptyTrash.Content" xml:space="preserve">
+    <value>Очистити кошик</value>
+  </data>
+  <data name="HistoryTitle.Text" xml:space="preserve">
+    <value>Історія версій</value>
+  </data>
+  <data name="HistoryClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Закрити (Esc)</value>
+  </data>
+  <data name="HistoryClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="HistoryShowChanges.OnContent" xml:space="preserve">
+    <value>Що змінилося</value>
+  </data>
+  <data name="HistoryShowChanges.OffContent" xml:space="preserve">
+    <value>Що змінилося</value>
+  </data>
+  <data name="HistoryEmpty.Text" xml:space="preserve">
+    <value>Версій поки немає. Vellum зберігає версію кожні кілька хвилин, поки ви пишете, і під час кожного збереження.</value>
+  </data>
+  <data name="HistoryHint.Text" xml:space="preserve">
+    <value>Червоним показано те, чого вже немає в тексті, зеленим те, що додано потім.</value>
+  </data>
+  <data name="HistoryCopy.Content" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="HistoryRestore.Content" xml:space="preserve">
+    <value>Повернути цю версію</value>
+  </data>
+  <data name="SetSectionNotes.Text" xml:space="preserve">
+    <value>Нотатки та історія</value>
+  </data>
+  <data name="SetLibraryTitle.Text" xml:space="preserve">
+    <value>Бібліотека нотаток</value>
+  </data>
+  <data name="SetLibraryDesc.Text" xml:space="preserve">
+    <value>Кожна нова вкладка стає нотаткою: вона зберігається сама й лишається в бібліотеці після закриття (Ctrl+Shift+L).</value>
+  </data>
+  <data name="SetHistoryTitle.Text" xml:space="preserve">
+    <value>Історія версій</value>
+  </data>
+  <data name="SetHistoryDesc.Text" xml:space="preserve">
+    <value>Зберігає попередні версії нотаток: можна переглянути або повернути (Ctrl+Shift+H).</value>
+  </data>
+  <data name="SetFileHistoryTitle.Text" xml:space="preserve">
+    <value>Історія і для файлів</value>
+  </data>
+  <data name="SetFileHistoryDesc.Text" xml:space="preserve">
+    <value>Зберігає версії й тих файлів, які ви зберігаєте у Vellum.</value>
+  </data>
+  <data name="SetClearHistoryTitle.Text" xml:space="preserve">
+    <value>Очистити історію</value>
+  </data>
+  <data name="SetClearHistoryDesc.Text" xml:space="preserve">
+    <value>Видаляє всі збережені версії. Нотатки залишаються.</value>
+  </data>
+  <data name="SetClearHistoryButton.Content" xml:space="preserve">
+    <value>Очистити</value>
+  </data>
+  <data name="NoteUntitled" xml:space="preserve">
+    <value>Нова нотатка</value>
+  </data>
+  <data name="LibraryTitleText" xml:space="preserve">
+    <value>Нотатки</value>
+  </data>
+  <data name="LibraryMeta" xml:space="preserve">
+    <value>{0} · слів: {1}</value>
+  </data>
+  <data name="LibraryTrash" xml:space="preserve">
+    <value>Кошик</value>
+  </data>
+  <data name="LibraryTrashCount" xml:space="preserve">
+    <value>Кошик ({0})</value>
+  </data>
+  <data name="LibraryEmptyTrashText" xml:space="preserve">
+    <value>Кошик порожній. Видалені нотатки зберігаються тут 30 днів.</value>
+  </data>
+  <data name="LibraryNothingFound" xml:space="preserve">
+    <value>Нічого не знайдено.</value>
+  </data>
+  <data name="LibraryEmptyText" xml:space="preserve">
+    <value>Нотаток поки немає. Кожна нова вкладка стає нотаткою, просто почніть писати. Теги ставте прямо в тексті: #ідеї.</value>
+  </data>
+  <data name="LibraryAllTags" xml:space="preserve">
+    <value>Усі</value>
+  </data>
+  <data name="LibraryYesterday" xml:space="preserve">
+    <value>Учора</value>
+  </data>
+  <data name="LibraryRestore" xml:space="preserve">
+    <value>Відновити</value>
+  </data>
+  <data name="LibraryDeleteForever" xml:space="preserve">
+    <value>Видалити назавжди</value>
+  </data>
+  <data name="LibraryOpen" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="LibraryEmptyTrashYes" xml:space="preserve">
+    <value>Очистити кошик</value>
+  </data>
+  <data name="LibraryEmptyTrashConfirm" xml:space="preserve">
+    <value>Видалити всі нотатки з кошика назавжди?</value>
+  </data>
+  <data name="LibraryOff" xml:space="preserve">
+    <value>Бібліотеку нотаток вимкнено в налаштуваннях.</value>
+  </data>
+  <data name="NotePin" xml:space="preserve">
+    <value>Закріпити</value>
+  </data>
+  <data name="NoteUnpin" xml:space="preserve">
+    <value>Відкріпити</value>
+  </data>
+  <data name="NoteHistory" xml:space="preserve">
+    <value>Історія версій…</value>
+  </data>
+  <data name="NoteExport" xml:space="preserve">
+    <value>Зберегти у файл…</value>
+  </data>
+  <data name="NoteDelete" xml:space="preserve">
+    <value>Видалити нотатку</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Нотатку збережено</value>
+  </data>
+  <data name="NoteEmpty" xml:space="preserve">
+    <value>Нотатка порожня</value>
+  </data>
+  <data name="HistoryToday" xml:space="preserve">
+    <value>Сьогодні, {0}</value>
+  </data>
+  <data name="HistoryYesterday" xml:space="preserve">
+    <value>Учора, {0}</value>
+  </data>
+  <data name="HistoryLines" xml:space="preserve">
+    <value>Рядків: {0}</value>
+  </data>
+  <data name="HistorySame" xml:space="preserve">
+    <value>Як зараз</value>
+  </data>
+  <data name="HistoryChanges" xml:space="preserve">
+    <value>Відтоді: +{0} / −{1} рядків</value>
+  </data>
+  <data name="HistoryRestored" xml:space="preserve">
+    <value>Версію повернено. Ctrl+Z скасує.</value>
+  </data>
+  <data name="HistoryOff" xml:space="preserve">
+    <value>Історію версій вимкнено в налаштуваннях.</value>
+  </data>
+  <data name="HistoryUntitled" xml:space="preserve">
+    <value>Спершу збережіть файл: історія ведеться для нотаток і збережених файлів.</value>
+  </data>
+  <data name="HistoryFilesOff" xml:space="preserve">
+    <value>Історію для файлів вимкнено в налаштуваннях.</value>
+  </data>
+  <data name="CmdLibrary" xml:space="preserve">
+    <value>Бібліотека нотаток</value>
+  </data>
+  <data name="CmdHistory" xml:space="preserve">
+    <value>Історія версій</value>
+  </data>
+  <data name="SetClearHistorySize" xml:space="preserve">
+    <value>Видаляє всі збережені версії ({0}). Нотатки залишаються.</value>
+  </data>
+  <data name="SetClearHistoryConfirm" xml:space="preserve">
+    <value>Видалити всі збережені версії? Самі нотатки й файли залишаться як є.</value>
+  </data>
+  <data name="SetClearHistoryYes" xml:space="preserve">
+    <value>Очистити історію</value>
+  </data>
+  <data name="NoteLockedSnippet" xml:space="preserve">
+    <value>Захищена паролем</value>
+  </data>
+  <data name="HistoryLocked" xml:space="preserve">
+    <value>Нотатки під паролем не мають історії версій.</value>
+  </data>
+  <data name="LockOpenTitle" xml:space="preserve">
+    <value>Відкрити «{0}»</value>
+  </data>
+  <data name="LockOpenText" xml:space="preserve">
+    <value>Нотатку захищено. Введіть пароль, щоб відкрити її.</value>
+  </data>
+  <data name="LockOpenButton" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="LockWrongPassword" xml:space="preserve">
+    <value>Неправильний пароль.</value>
+  </data>
+  <data name="LockSetTitle" xml:space="preserve">
+    <value>Захистити нотатку паролем</value>
+  </data>
+  <data name="LockSetText" xml:space="preserve">
+    <value>Нотатку буде зашифровано на диску. Якщо забути пароль, відновити її не зможе ніхто, навіть ми. Попередні версії нотатки буде видалено.</value>
+  </data>
+  <data name="LockSetButton" xml:space="preserve">
+    <value>Захистити</value>
+  </data>
+  <data name="LockDone" xml:space="preserve">
+    <value>Нотатку захищено паролем</value>
+  </data>
+  <data name="LockRemoveTitle" xml:space="preserve">
+    <value>Зняти пароль</value>
+  </data>
+  <data name="LockRemoveText" xml:space="preserve">
+    <value>Введіть пароль ще раз, щоб знову зберігати нотатку без шифрування.</value>
+  </data>
+  <data name="LockRemoveButton" xml:space="preserve">
+    <value>Зняти пароль</value>
+  </data>
+  <data name="LockRemoved" xml:space="preserve">
+    <value>Пароль знято</value>
+  </data>
+  <data name="LockPassword" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="LockPasswordAgain" xml:space="preserve">
+    <value>Повторіть пароль</value>
+  </data>
+  <data name="LockMismatch" xml:space="preserve">
+    <value>Паролі не збігаються.</value>
+  </data>
+  <data name="LockNote" xml:space="preserve">
+    <value>Захистити паролем…</value>
+  </data>
+  <data name="LockRemove" xml:space="preserve">
+    <value>Зняти пароль…</value>
+  </data>
+  <data name="ExportPdf" xml:space="preserve">
+    <value>Експорт у PDF…</value>
+  </data>
+  <data name="ExportHtml" xml:space="preserve">
+    <value>Експорт у HTML…</value>
+  </data>
+  <data name="ExportDone" xml:space="preserve">
+    <value>Експортовано: {0}</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Не вдалося підготувати сторінку для експорту.</value>
+  </data>
+  <data name="MenuExport.Text" xml:space="preserve">
+    <value>Експорт</value>
+  </data>
+  <data name="MenuExportPdf.Text" xml:space="preserve">
+    <value>PDF…</value>
+  </data>
+  <data name="MenuExportHtml.Text" xml:space="preserve">
+    <value>HTML-сторінка…</value>
+  </data>
+  <data name="MenuMini.Text" xml:space="preserve">
+    <value>Міні-вікно</value>
+  </data>
+  <data name="CaptionMini.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Повернути звичайне вікно</value>
+  </data>
+  <data name="CaptionMini.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Повернути звичайне вікно</value>
+  </data>
+  <data name="CaptionMiniName" xml:space="preserve">
+    <value>Повернути звичайне вікно</value>
+  </data>
+  <data name="MiniOff" xml:space="preserve">
+    <value>Міні-вікно вимкнено в налаштуваннях.</value>
+  </data>
+  <data name="CmdMini" xml:space="preserve">
+    <value>Міні-вікно поверх усіх (увімк. / вимк.)</value>
+  </data>
+  <data name="CmdExportPdf" xml:space="preserve">
+    <value>Експорт у PDF</value>
+  </data>
+  <data name="CmdExportHtml" xml:space="preserve">
+    <value>Експорт у HTML</value>
+  </data>
+  <data name="TrayOpen" xml:space="preserve">
+    <value>Відкрити Vellum</value>
+  </data>
+  <data name="TrayNewNote" xml:space="preserve">
+    <value>Нова нотатка</value>
+  </data>
+  <data name="TrayExit" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="SetSectionTray.Text" xml:space="preserve">
+    <value>Трей</value>
+  </data>
+  <data name="SetTrayTitle.Text" xml:space="preserve">
+    <value>Значок біля годинника</value>
+  </data>
+  <data name="SetTrayDesc.Text" xml:space="preserve">
+    <value>Відкривайте Vellum або нову нотатку із системного трею.</value>
+  </data>
+  <data name="SetCloseToTrayTitle.Text" xml:space="preserve">
+    <value>Закривати в трей</value>
+  </data>
+  <data name="SetCloseToTrayDesc.Text" xml:space="preserve">
+    <value>Хрестик ховає вікно, а Vellum лишається біля годинника. Щоб закрити повністю, виберіть «Вийти» в меню.</value>
+  </data>
+  <data name="SetStartupTitle.Text" xml:space="preserve">
+    <value>Запускати разом з Windows</value>
+  </data>
+  <data name="SetStartupDesc.Text" xml:space="preserve">
+    <value>Запускається тихо: у треї або згорнутим.</value>
+  </data>
+  <data name="SetStartupNote" xml:space="preserve">
+    <value>Запускається тихо: у треї або згорнутим.</value>
+  </data>
+  <data name="SetStartupBlocked" xml:space="preserve">
+    <value>Вимкнено в Диспетчері завдань → Автозавантаження. Увімкніть там.</value>
+  </data>
+  <data name="SetStartupPolicy" xml:space="preserve">
+    <value>Заборонено політикою вашої організації.</value>
+  </data>
+  <data name="SetQuickNoteTitle.Text" xml:space="preserve">
+    <value>Швидка нотатка: Ctrl+Alt+N</value>
+  </data>
+  <data name="SetQuickNoteDesc.Text" xml:space="preserve">
+    <value>З будь-якої програми відкриває Vellum з новою нотаткою.</value>
+  </data>
+  <data name="SetQuickNoteNote" xml:space="preserve">
+    <value>З будь-якої програми відкриває Vellum з новою нотаткою.</value>
+  </data>
+  <data name="SetQuickNoteTaken" xml:space="preserve">
+    <value>Ctrl+Alt+N вже зайняте іншою програмою.</value>
+  </data>
+  <data name="SetMiniTitle.Text" xml:space="preserve">
+    <value>Міні-вікно</value>
+  </data>
+  <data name="SetMiniDesc.Text" xml:space="preserve">
+    <value>Маленьке вікно поверх інших: Ctrl+Shift+M.</value>
+  </data>
+  <data name="SetNoteLocksTitle.Text" xml:space="preserve">
+    <value>Нотатки під паролем</value>
+  </data>
+  <data name="SetNoteLocksDesc.Text" xml:space="preserve">
+    <value>Захист нотатки з меню вкладки. Шифрування AES-256.</value>
+  </data>
+  <data name="SetExportTitle.Text" xml:space="preserve">
+    <value>Експорт у PDF і HTML</value>
+  </data>
+  <data name="SetExportDesc.Text" xml:space="preserve">
+    <value>У головному меню, меню вкладки та палітрі команд.</value>
+  </data>
+  <data name="ShortcutQuickNote" xml:space="preserve">
+    <value>Швидка нотатка з будь-якої програми</value>
+  </data>
+</root>

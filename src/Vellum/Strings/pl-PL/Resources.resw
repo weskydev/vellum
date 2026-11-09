@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UntitledTab" xml:space="preserve">
+    <value>Bez tytułu</value>
+  </data>
+  <data name="StatusPosition" xml:space="preserve">
+    <value>Wiersz {0}, kol. {1}</value>
+  </data>
+  <data name="StatusCounts" xml:space="preserve">
+    <value>Słowa: {0} · znaki: {1}</value>
+  </data>
+  <data name="MenuButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuNewTab.Text" xml:space="preserve">
+    <value>Nowa karta</value>
+  </data>
+  <data name="MenuOpen.Text" xml:space="preserve">
+    <value>Otwórz…</value>
+  </data>
+  <data name="MenuSave.Text" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="MenuSaveAs.Text" xml:space="preserve">
+    <value>Zapisz jako…</value>
+  </data>
+  <data name="MenuCloseTab.Text" xml:space="preserve">
+    <value>Zamknij kartę</value>
+  </data>
+  <data name="MenuExit.Text" xml:space="preserve">
+    <value>Zakończ</value>
+  </data>
+  <data name="SaveChangesTitle" xml:space="preserve">
+    <value>Zapisać zmiany w {0}?</value>
+  </data>
+  <data name="SaveChangesText" xml:space="preserve">
+    <value>Jeśli nie zapiszesz, zmiany zostaną utracone.</value>
+  </data>
+  <data name="ButtonSave" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="ButtonDontSave" xml:space="preserve">
+    <value>Nie zapisuj</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="ButtonOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ErrorOpenTitle" xml:space="preserve">
+    <value>Nie można otworzyć {0}</value>
+  </data>
+  <data name="ErrorSaveTitle" xml:space="preserve">
+    <value>Nie można zapisać {0}</value>
+  </data>
+  <data name="FileTypeText" xml:space="preserve">
+    <value>Dokument tekstowy</value>
+  </data>
+  <data name="MenuSettings.Text" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="SettingsTab" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="SettingsHeader.Text" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="SetSectionAppearance.Text" xml:space="preserve">
+    <value>Wygląd</value>
+  </data>
+  <data name="SetThemeTitle.Text" xml:space="preserve">
+    <value>Motyw</value>
+  </data>
+  <data name="SetThemeDesc.Text" xml:space="preserve">
+    <value>Jasny, ciemny lub jak w Windows</value>
+  </data>
+  <data name="SetThemeSystem.Content" xml:space="preserve">
+    <value>Ustawienie systemowe</value>
+  </data>
+  <data name="SetThemeLight.Content" xml:space="preserve">
+    <value>Jasny</value>
+  </data>
+  <data name="SetThemeDark.Content" xml:space="preserve">
+    <value>Ciemny</value>
+  </data>
+  <data name="SetAccentTitle.Text" xml:space="preserve">
+    <value>Kolor akcentu</value>
+  </data>
+  <data name="SetAccentDesc.Text" xml:space="preserve">
+    <value>Dla wyróżnień, zaznaczenia i odcienia szkła</value>
+  </data>
+  <data name="Accent_violet" xml:space="preserve">
+    <value>Fiolet Vellum</value>
+  </data>
+  <data name="Accent_mint" xml:space="preserve">
+    <value>Mięta</value>
+  </data>
+  <data name="Accent_amber" xml:space="preserve">
+    <value>Bursztyn</value>
+  </data>
+  <data name="Accent_rose" xml:space="preserve">
+    <value>Róż</value>
+  </data>
+  <data name="Accent_ocean" xml:space="preserve">
+    <value>Ocean</value>
+  </data>
+  <data name="Accent_graphite" xml:space="preserve">
+    <value>Grafit</value>
+  </data>
+  <data name="Accent_system" xml:space="preserve">
+    <value>Kolor akcentu Windows</value>
+  </data>
+  <data name="SetBackdropTitle.Text" xml:space="preserve">
+    <value>Tło okna</value>
+  </data>
+  <data name="SetBackdropDesc.Text" xml:space="preserve">
+    <value>Szkło rozmywa to, co jest za oknem, a Mica bierze kolor z tapety</value>
+  </data>
+  <data name="SetBackdropAcrylic.Content" xml:space="preserve">
+    <value>Szkło</value>
+  </data>
+  <data name="SetBackdropMica.Content" xml:space="preserve">
+    <value>Mica</value>
+  </data>
+  <data name="SetBackdropSolid.Content" xml:space="preserve">
+    <value>Jednolite</value>
+  </data>
+  <data name="SetGlassTitle.Text" xml:space="preserve">
+    <value>Przezroczystość szkła</value>
+  </data>
+  <data name="SetGlassDesc.Text" xml:space="preserve">
+    <value>Jak bardzo widać tło</value>
+  </data>
+  <data name="SetSectionEditor.Text" xml:space="preserve">
+    <value>Edytor</value>
+  </data>
+  <data name="SetFontTitle.Text" xml:space="preserve">
+    <value>Czcionka</value>
+  </data>
+  <data name="SetFontDesc.Text" xml:space="preserve">
+    <value>Wybierz czcionkę lub wpisz nazwę dowolnej zainstalowanej</value>
+  </data>
+  <data name="SetWrapTitle.Text" xml:space="preserve">
+    <value>Zawijanie wierszy</value>
+  </data>
+  <data name="SetWrapDesc.Text" xml:space="preserve">
+    <value>Długie wiersze mieszczą się w szerokości okna</value>
+  </data>
+  <data name="SetStatusTitle.Text" xml:space="preserve">
+    <value>Pasek stanu</value>
+  </data>
+  <data name="SetStatusDesc.Text" xml:space="preserve">
+    <value>Wiersz, kolumna, liczba słów i kodowanie na dole</value>
+  </data>
+  <data name="SetSpellTitle.Text" xml:space="preserve">
+    <value>Sprawdzanie pisowni</value>
+  </data>
+  <data name="SetSpellDesc.Text" xml:space="preserve">
+    <value>Podkreślaj błędnie napisane słowa</value>
+  </data>
+  <data name="SetSectionFiles.Text" xml:space="preserve">
+    <value>Pliki</value>
+  </data>
+  <data name="SetSessionTitle.Text" xml:space="preserve">
+    <value>Przywracaj karty przy starcie</value>
+  </data>
+  <data name="SetSessionDesc.Text" xml:space="preserve">
+    <value>Przy następnym uruchomieniu otwiera karty i niezapisany tekst</value>
+  </data>
+  <data name="SetAutoSaveTitle.Text" xml:space="preserve">
+    <value>Autozapis</value>
+  </data>
+  <data name="SetAutoSaveDesc.Text" xml:space="preserve">
+    <value>Otwarte pliki zapisują się same chwilę po pisaniu</value>
+  </data>
+  <data name="SetSectionLanguage.Text" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="SetLanguageTitle.Text" xml:space="preserve">
+    <value>Język aplikacji</value>
+  </data>
+  <data name="SetLanguageDesc.Text" xml:space="preserve">
+    <value>Domyślnie Vellum używa języka Windows</value>
+  </data>
+  <data name="SetLanguageSystem.Content" xml:space="preserve">
+    <value>Język Windows</value>
+  </data>
+  <data name="SetRestartBar.Message" xml:space="preserve">
+    <value>Uruchom Vellum ponownie, aby zmienić język. Karty pozostaną otwarte.</value>
+  </data>
+  <data name="SetRestartButton.Content" xml:space="preserve">
+    <value>Uruchom ponownie</value>
+  </data>
+  <data name="SetSectionAbout.Text" xml:space="preserve">
+    <value>O aplikacji</value>
+  </data>
+  <data name="SetVersion" xml:space="preserve">
+    <value>Wersja {0} · Wesky</value>
+  </data>
+  <data name="FindReplaceToggle.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pokaż zamianę</value>
+  </data>
+  <data name="FindReplaceToggle.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pokaż zamianę</value>
+  </data>
+  <data name="FindMatchCase.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Uwzględniaj wielkość liter</value>
+  </data>
+  <data name="FindMatchCase.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Uwzględniaj wielkość liter</value>
+  </data>
+  <data name="FindWholeWord.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Całe słowo</value>
+  </data>
+  <data name="FindWholeWord.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Całe słowo</value>
+  </data>
+  <data name="FindRegex.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Wyrażenie regularne</value>
+  </data>
+  <data name="FindRegex.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Wyrażenie regularne</value>
+  </data>
+  <data name="FindPrevious.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Poprzedni wynik (Shift+F3)</value>
+  </data>
+  <data name="FindPrevious.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Poprzedni wynik (Shift+F3)</value>
+  </data>
+  <data name="FindNext.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Następny wynik (F3)</value>
+  </data>
+  <data name="FindNext.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Następny wynik (F3)</value>
+  </data>
+  <data name="FindClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zamknij (Esc)</value>
+  </data>
+  <data name="FindClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zamknij (Esc)</value>
+  </data>
+  <data name="FindBox.PlaceholderText" xml:space="preserve">
+    <value>Znajdź</value>
+  </data>
+  <data name="ReplaceBox.PlaceholderText" xml:space="preserve">
+    <value>Zamień na</value>
+  </data>
+  <data name="ReplaceOne.Content" xml:space="preserve">
+    <value>Zamień</value>
+  </data>
+  <data name="ReplaceAll.Content" xml:space="preserve">
+    <value>Zamień wszystko</value>
+  </data>
+  <data name="FindCount" xml:space="preserve">
+    <value>{0} z {1}</value>
+  </data>
+  <data name="FindTotal" xml:space="preserve">
+    <value>Znaleziono: {0}</value>
+  </data>
+  <data name="FindNoResults" xml:space="preserve">
+    <value>Brak wyników</value>
+  </data>
+  <data name="FindRegexError" xml:space="preserve">
+    <value>Nieprawidłowy wzorzec</value>
+  </data>
+  <data name="ReplacedCount" xml:space="preserve">
+    <value>Zamieniono: {0}</value>
+  </data>
+  <data name="PaletteBox.PlaceholderText" xml:space="preserve">
+    <value>Wpisz polecenie albo : i numer wiersza</value>
+  </data>
+  <data name="PaletteGoToLine" xml:space="preserve">
+    <value>Przejdź do wiersza {0}</value>
+  </data>
+  <data name="MenuFind.Text" xml:space="preserve">
+    <value>Znajdź</value>
+  </data>
+  <data name="MenuReplace.Text" xml:space="preserve">
+    <value>Zamień</value>
+  </data>
+  <data name="MenuPalette.Text" xml:space="preserve">
+    <value>Paleta poleceń</value>
+  </data>
+  <data name="CmdPalette" xml:space="preserve">
+    <value>Paleta poleceń</value>
+  </data>
+  <data name="CmdNewTab" xml:space="preserve">
+    <value>Nowa karta</value>
+  </data>
+  <data name="CmdOpen" xml:space="preserve">
+    <value>Otwórz…</value>
+  </data>
+  <data name="CmdSave" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="CmdSaveAs" xml:space="preserve">
+    <value>Zapisz jako…</value>
+  </data>
+  <data name="CmdCloseTab" xml:space="preserve">
+    <value>Zamknij kartę</value>
+  </data>
+  <data name="CmdFind" xml:space="preserve">
+    <value>Znajdź</value>
+  </data>
+  <data name="CmdReplace" xml:space="preserve">
+    <value>Zamień</value>
+  </data>
+  <data name="CmdFindNextPrev" xml:space="preserve">
+    <value>Następny / poprzedni wynik</value>
+  </data>
+  <data name="CmdGoToLine" xml:space="preserve">
+    <value>Przejdź do wiersza…</value>
+  </data>
+  <data name="CmdSettings" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="CmdWrapOn" xml:space="preserve">
+    <value>Włącz zawijanie wierszy</value>
+  </data>
+  <data name="CmdWrapOff" xml:space="preserve">
+    <value>Wyłącz zawijanie wierszy</value>
+  </data>
+  <data name="CmdStatusOn" xml:space="preserve">
+    <value>Pokaż pasek stanu</value>
+  </data>
+  <data name="CmdStatusOff" xml:space="preserve">
+    <value>Ukryj pasek stanu</value>
+  </data>
+  <data name="CmdZoomIn" xml:space="preserve">
+    <value>Powiększ</value>
+  </data>
+  <data name="CmdZoomOut" xml:space="preserve">
+    <value>Pomniejsz</value>
+  </data>
+  <data name="CmdZoomReset" xml:space="preserve">
+    <value>Resetuj powiększenie</value>
+  </data>
+  <data name="CmdZoom" xml:space="preserve">
+    <value>Powiększ / pomniejsz / resetuj</value>
+  </data>
+  <data name="CmdThemeSystem" xml:space="preserve">
+    <value>Motyw: systemowy</value>
+  </data>
+  <data name="CmdThemeLight" xml:space="preserve">
+    <value>Motyw: jasny</value>
+  </data>
+  <data name="CmdThemeDark" xml:space="preserve">
+    <value>Motyw: ciemny</value>
+  </data>
+  <data name="CmdAccent" xml:space="preserve">
+    <value>Akcent: {0}</value>
+  </data>
+  <data name="CmdBackdropAcrylic" xml:space="preserve">
+    <value>Tło: szkło</value>
+  </data>
+  <data name="CmdBackdropMica" xml:space="preserve">
+    <value>Tło: Mica</value>
+  </data>
+  <data name="CmdBackdropSolid" xml:space="preserve">
+    <value>Tło: jednolite</value>
+  </data>
+  <data name="CmdSwitchTab" xml:space="preserve">
+    <value>Przejdź do karty: {0}</value>
+  </data>
+  <data name="CmdSwitchTabs" xml:space="preserve">
+    <value>Przełącz karty</value>
+  </data>
+  <data name="SetSectionShortcuts.Text" xml:space="preserve">
+    <value>Skróty klawiszowe</value>
+  </data>
+  <data name="PreviewButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Podgląd Markdown (Ctrl+Shift+V)</value>
+  </data>
+  <data name="PreviewButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Podgląd Markdown (Ctrl+Shift+V)</value>
+  </data>
+  <data name="LanguageButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Podświetlanie dla tej karty</value>
+  </data>
+  <data name="LanguageButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Podświetlanie dla tej karty</value>
+  </data>
+  <data name="StatusCountsGoal" xml:space="preserve">
+    <value>Słowa: {0} / {1} · znaki: {2}</value>
+  </data>
+  <data name="SyntaxPlain" xml:space="preserve">
+    <value>Zwykły tekst</value>
+  </data>
+  <data name="PreviewOff" xml:space="preserve">
+    <value>Podgląd</value>
+  </data>
+  <data name="PreviewSplit" xml:space="preserve">
+    <value>Obok siebie</value>
+  </data>
+  <data name="PreviewFull" xml:space="preserve">
+    <value>Tylko podgląd</value>
+  </data>
+  <data name="CtxUndo" xml:space="preserve">
+    <value>Cofnij</value>
+  </data>
+  <data name="CtxRedo" xml:space="preserve">
+    <value>Ponów</value>
+  </data>
+  <data name="CtxCut" xml:space="preserve">
+    <value>Wytnij</value>
+  </data>
+  <data name="CtxCopy" xml:space="preserve">
+    <value>Kopiuj</value>
+  </data>
+  <data name="CtxPaste" xml:space="preserve">
+    <value>Wklej</value>
+  </data>
+  <data name="CtxSelectAll" xml:space="preserve">
+    <value>Zaznacz wszystko</value>
+  </data>
+  <data name="CmdPreview" xml:space="preserve">
+    <value>Podgląd Markdown</value>
+  </data>
+  <data name="CmdZenOn" xml:space="preserve">
+    <value>Tryb zen</value>
+  </data>
+  <data name="CmdZenOff" xml:space="preserve">
+    <value>Wyjdź z trybu zen</value>
+  </data>
+  <data name="CmdFocusOn" xml:space="preserve">
+    <value>Włącz tryb skupienia</value>
+  </data>
+  <data name="CmdFocusOff" xml:space="preserve">
+    <value>Wyłącz tryb skupienia</value>
+  </data>
+  <data name="CmdTypewriterOn" xml:space="preserve">
+    <value>Włącz tryb maszyny do pisania</value>
+  </data>
+  <data name="CmdTypewriterOff" xml:space="preserve">
+    <value>Wyłącz tryb maszyny do pisania</value>
+  </data>
+  <data name="CmdReadableOn" xml:space="preserve">
+    <value>Wąska kolumna tekstu</value>
+  </data>
+  <data name="CmdReadableOff" xml:space="preserve">
+    <value>Tekst na całą szerokość</value>
+  </data>
+  <data name="CmdMarkdownOn" xml:space="preserve">
+    <value>Włącz formatowanie Markdown</value>
+  </data>
+  <data name="CmdMarkdownOff" xml:space="preserve">
+    <value>Wyłącz formatowanie Markdown</value>
+  </data>
+  <data name="CmdSyntaxOn" xml:space="preserve">
+    <value>Włącz podświetlanie kodu</value>
+  </data>
+  <data name="CmdSyntaxOff" xml:space="preserve">
+    <value>Wyłącz podświetlanie kodu</value>
+  </data>
+  <data name="CmdSyntax" xml:space="preserve">
+    <value>Podświetlanie: {0}</value>
+  </data>
+  <data name="CmdUndoRedo" xml:space="preserve">
+    <value>Cofnij / ponów</value>
+  </data>
+  <data name="SetLineSpacingTitle.Text" xml:space="preserve">
+    <value>Odstęp między wierszami</value>
+  </data>
+  <data name="SetLineSpacingDesc.Text" xml:space="preserve">
+    <value>Więcej miejsca między wierszami ułatwia czytanie długich tekstów</value>
+  </data>
+  <data name="SetReadableTitle.Text" xml:space="preserve">
+    <value>Wąska kolumna tekstu</value>
+  </data>
+  <data name="SetReadableDesc.Text" xml:space="preserve">
+    <value>W szerokim oknie wiersze zachowują wygodną do czytania szerokość</value>
+  </data>
+  <data name="SetSectionWriting.Text" xml:space="preserve">
+    <value>Pisanie i kod</value>
+  </data>
+  <data name="SetMarkdownTitle.Text" xml:space="preserve">
+    <value>Formatowanie Markdown</value>
+  </data>
+  <data name="SetMarkdownDesc.Text" xml:space="preserve">
+    <value>Nagłówki, pogrubienie i kod są sformatowane już podczas pisania w plikach .md</value>
+  </data>
+  <data name="SetPreviewTitle.Text" xml:space="preserve">
+    <value>Podgląd Markdown</value>
+  </data>
+  <data name="SetPreviewDesc.Text" xml:space="preserve">
+    <value>Przycisk na pasku stanu i Ctrl+Shift+V pokazują gotową stronę</value>
+  </data>
+  <data name="SetSyntaxTitle.Text" xml:space="preserve">
+    <value>Podświetlanie kodu</value>
+  </data>
+  <data name="SetSyntaxDesc.Text" xml:space="preserve">
+    <value>Kolory dla kodu, JSON, XML, logów i innych, zależnie od typu pliku</value>
+  </data>
+  <data name="SetMonoTitle.Text" xml:space="preserve">
+    <value>Czcionka o stałej szerokości dla kodu</value>
+  </data>
+  <data name="SetMonoDesc.Text" xml:space="preserve">
+    <value>Pliki kodu używają Cascadia Mono, aby kolumny się wyrównywały</value>
+  </data>
+  <data name="SetFocusTitle.Text" xml:space="preserve">
+    <value>Tryb skupienia</value>
+  </data>
+  <data name="SetFocusDesc.Text" xml:space="preserve">
+    <value>Wszystko poza bieżącym akapitem przygasa</value>
+  </data>
+  <data name="SetTypewriterTitle.Text" xml:space="preserve">
+    <value>Maszyna do pisania</value>
+  </data>
+  <data name="SetTypewriterDesc.Text" xml:space="preserve">
+    <value>Wiersz, który piszesz, zostaje na środku okna</value>
+  </data>
+  <data name="SetGoalTitle.Text" xml:space="preserve">
+    <value>Cel słów</value>
+  </data>
+  <data name="SetGoalDesc.Text" xml:space="preserve">
+    <value>Pokazuje postęp na pasku stanu; 0 wyłącza</value>
+  </data>
+  <data name="HelpButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ściągawka Markdown</value>
+  </data>
+  <data name="HelpButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ściągawka Markdown</value>
+  </data>
+  <data name="LineEndingButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Końce wierszy</value>
+  </data>
+  <data name="LineEndingButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Końce wierszy</value>
+  </data>
+  <data name="EncodingButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kodowanie</value>
+  </data>
+  <data name="EncodingButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Kodowanie</value>
+  </data>
+  <data name="HelpClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zamknij (Esc)</value>
+  </data>
+  <data name="HelpClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zamknij (Esc)</value>
+  </data>
+  <data name="ToolDuplicateLine" xml:space="preserve">
+    <value>Duplikuj wiersz</value>
+  </data>
+  <data name="ToolDeleteLine" xml:space="preserve">
+    <value>Usuń wiersz</value>
+  </data>
+  <data name="ToolMoveLineUp" xml:space="preserve">
+    <value>Przesuń wiersz w górę</value>
+  </data>
+  <data name="ToolMoveLineDown" xml:space="preserve">
+    <value>Przesuń wiersz w dół</value>
+  </data>
+  <data name="ToolSortAsc" xml:space="preserve">
+    <value>Sortuj wiersze A → Z</value>
+  </data>
+  <data name="ToolSortDesc" xml:space="preserve">
+    <value>Sortuj wiersze Z → A</value>
+  </data>
+  <data name="ToolRemoveDuplicates" xml:space="preserve">
+    <value>Usuń zduplikowane wiersze</value>
+  </data>
+  <data name="ToolRemoveEmpty" xml:space="preserve">
+    <value>Usuń puste wiersze</value>
+  </data>
+  <data name="ToolTrimTrailing" xml:space="preserve">
+    <value>Usuń spacje na końcu wierszy</value>
+  </data>
+  <data name="ToolJoinLines" xml:space="preserve">
+    <value>Połącz wiersze</value>
+  </data>
+  <data name="ToolReverseLines" xml:space="preserve">
+    <value>Odwróć kolejność wierszy</value>
+  </data>
+  <data name="ToolUpper" xml:space="preserve">
+    <value>WIELKIE LITERY</value>
+  </data>
+  <data name="ToolLower" xml:space="preserve">
+    <value>małe litery</value>
+  </data>
+  <data name="ToolTitle" xml:space="preserve">
+    <value>Każde Słowo Wielką Literą</value>
+  </data>
+  <data name="ToolSentence" xml:space="preserve">
+    <value>Wielka litera na początku zdania</value>
+  </data>
+  <data name="ToolInvert" xml:space="preserve">
+    <value>oDWRÓĆ wIELKOŚĆ lITER</value>
+  </data>
+  <data name="ToolComment" xml:space="preserve">
+    <value>Zakomentuj / odkomentuj</value>
+  </data>
+  <data name="ToolDateTime" xml:space="preserve">
+    <value>Wstaw datę i godzinę</value>
+  </data>
+  <data name="ToolBase64Encode" xml:space="preserve">
+    <value>Koduj do Base64</value>
+  </data>
+  <data name="ToolBase64Decode" xml:space="preserve">
+    <value>Dekoduj z Base64</value>
+  </data>
+  <data name="ToolUrlEncode" xml:space="preserve">
+    <value>Koduj do URL</value>
+  </data>
+  <data name="ToolUrlDecode" xml:space="preserve">
+    <value>Dekoduj URL</value>
+  </data>
+  <data name="ToolSearchWeb" xml:space="preserve">
+    <value>Szukaj w internecie</value>
+  </data>
+  <data name="ToolNothingChanged" xml:space="preserve">
+    <value>Nie ma nic do zmiany</value>
+  </data>
+  <data name="ToolNoComments" xml:space="preserve">
+    <value>Ten język nie ma komentarzy</value>
+  </data>
+  <data name="ToolSelectFirst" xml:space="preserve">
+    <value>Najpierw zaznacz tekst</value>
+  </data>
+  <data name="ToolCannotDecode" xml:space="preserve">
+    <value>Nie można zdekodować zaznaczenia</value>
+  </data>
+  <data name="CtxLines" xml:space="preserve">
+    <value>Wiersze</value>
+  </data>
+  <data name="CtxCase" xml:space="preserve">
+    <value>Wielkość liter</value>
+  </data>
+  <data name="CtxConvert" xml:space="preserve">
+    <value>Konwertuj</value>
+  </data>
+  <data name="EolWindows" xml:space="preserve">
+    <value>Windows (CRLF)</value>
+  </data>
+  <data name="EolUnix" xml:space="preserve">
+    <value>Unix / macOS (LF)</value>
+  </data>
+  <data name="EolMac" xml:space="preserve">
+    <value>Stary Mac (CR)</value>
+  </data>
+  <data name="EncSaveAs" xml:space="preserve">
+    <value>Zapisz z kodowaniem</value>
+  </data>
+  <data name="EncReopen" xml:space="preserve">
+    <value>Otwórz ponownie z kodowaniem</value>
+  </data>
+  <data name="EncLossTitle" xml:space="preserve">
+    <value>Niektóre znaki zostaną utracone</value>
+  </data>
+  <data name="EncLossText" xml:space="preserve">
+    <value>{0} nie może zapisać niektórych znaków tego tekstu. Zostaną zapisane jako „?”. Mimo to konwertować?</value>
+  </data>
+  <data name="EncLossConfirm" xml:space="preserve">
+    <value>Konwertuj</value>
+  </data>
+  <data name="ReloadTitle" xml:space="preserve">
+    <value>Wczytać plik ponownie?</value>
+  </data>
+  <data name="ReloadText" xml:space="preserve">
+    <value>Niezapisane zmiany w tej karcie zostaną utracone.</value>
+  </data>
+  <data name="ReloadConfirm" xml:space="preserve">
+    <value>Wczytaj ponownie</value>
+  </data>
+  <data name="HelpTitle.Text" xml:space="preserve">
+    <value>Ściągawka Markdown</value>
+  </data>
+  <data name="HelpSubtitle.Text" xml:space="preserve">
+    <value>Proste znaki, które stają się formatowaniem. Działa w plikach .md.</value>
+  </data>
+  <data name="HelpYouType.Text" xml:space="preserve">
+    <value>PISZESZ</value>
+  </data>
+  <data name="HelpYouGet.Text" xml:space="preserve">
+    <value>OTRZYMUJESZ</value>
+  </data>
+  <data name="HelpTips.Text" xml:space="preserve">
+    <value>Ctrl+Shift+V pokazuje podgląd. Enter kontynuuje listy, Tab je zagnieżdża. Obraz: ![podpis](plik.png lub link).</value>
+  </data>
+  <data name="HelpMdHeadings" xml:space="preserve">
+    <value>Nagłówki</value>
+  </data>
+  <data name="HelpMdHeadingsSample" xml:space="preserve">
+    <value># Nagłówek 1\n## Nagłówek 2\n### Nagłówek 3</value>
+  </data>
+  <data name="HelpMdEmphasis" xml:space="preserve">
+    <value>Pogrubienie i kursywa</value>
+  </data>
+  <data name="HelpMdEmphasisSample" xml:space="preserve">
+    <value>**pogrubienie**, *kursywa*, ***oba***</value>
+  </data>
+  <data name="HelpMdStrike" xml:space="preserve">
+    <value>Przekreślenie</value>
+  </data>
+  <data name="HelpMdStrikeSample" xml:space="preserve">
+    <value>~~już nieaktualne~~</value>
+  </data>
+  <data name="HelpMdCode" xml:space="preserve">
+    <value>Kod w wierszu</value>
+  </data>
+  <data name="HelpMdCodeSample" xml:space="preserve">
+    <value>Uruchom `git status`</value>
+  </data>
+  <data name="HelpMdLink" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="HelpMdBullets" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="HelpMdBulletsSample" xml:space="preserve">
+    <value>- Jabłka\n- Gruszki\n  - Element zagnieżdżony</value>
+  </data>
+  <data name="HelpMdNumbers" xml:space="preserve">
+    <value>Lista numerowana</value>
+  </data>
+  <data name="HelpMdNumbersSample" xml:space="preserve">
+    <value>1. Pierwszy\n2. Drugi</value>
+  </data>
+  <data name="HelpMdTasks" xml:space="preserve">
+    <value>Lista zadań</value>
+  </data>
+  <data name="HelpMdTasksSample" xml:space="preserve">
+    <value>- [x] Zrobione\n- [ ] Do zrobienia</value>
+  </data>
+  <data name="HelpMdQuote" xml:space="preserve">
+    <value>Cytat</value>
+  </data>
+  <data name="HelpMdQuoteSample" xml:space="preserve">
+    <value>&gt; Pisz codziennie.</value>
+  </data>
+  <data name="HelpMdCodeBlock" xml:space="preserve">
+    <value>Blok kodu</value>
+  </data>
+  <data name="HelpMdTable" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="HelpMdTableSample" xml:space="preserve">
+    <value>| Pozycja | Cena |\n|---------|------|\n| Herbata | 3    |</value>
+  </data>
+  <data name="HelpMdRule" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="HelpMdRuleSample" xml:space="preserve">
+    <value>Powyżej\n\n---\n\nPoniżej</value>
+  </data>
+  <data name="MenuRecent.Text" xml:space="preserve">
+    <value>Ostatnie pliki</value>
+  </data>
+  <data name="MenuRecentClear" xml:space="preserve">
+    <value>Wyczyść listę</value>
+  </data>
+  <data name="MenuSaveAll.Text" xml:space="preserve">
+    <value>Zapisz wszystko</value>
+  </data>
+  <data name="MenuTopmost.Text" xml:space="preserve">
+    <value>Zawsze na wierzchu</value>
+  </data>
+  <data name="MenuZen.Text" xml:space="preserve">
+    <value>Tryb zen</value>
+  </data>
+  <data name="MenuMarkdownHelp.Text" xml:space="preserve">
+    <value>Ściągawka Markdown</value>
+  </data>
+  <data name="MenuCloseAll.Text" xml:space="preserve">
+    <value>Zamknij wszystkie karty</value>
+  </data>
+  <data name="TabClose" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="TabCloseOthers" xml:space="preserve">
+    <value>Zamknij pozostałe karty</value>
+  </data>
+  <data name="TabCloseRight" xml:space="preserve">
+    <value>Zamknij karty po prawej</value>
+  </data>
+  <data name="TabCloseSaved" xml:space="preserve">
+    <value>Zamknij zapisane karty</value>
+  </data>
+  <data name="TabCloseAll" xml:space="preserve">
+    <value>Zamknij wszystkie karty</value>
+  </data>
+  <data name="TabCopyPath" xml:space="preserve">
+    <value>Kopiuj pełną ścieżkę</value>
+  </data>
+  <data name="TabCopyName" xml:space="preserve">
+    <value>Kopiuj nazwę pliku</value>
+  </data>
+  <data name="TabOpenFolder" xml:space="preserve">
+    <value>Otwórz folder</value>
+  </data>
+  <data name="TabReload" xml:space="preserve">
+    <value>Wczytaj ponownie z dysku</value>
+  </data>
+  <data name="CmdSaveAll" xml:space="preserve">
+    <value>Zapisz wszystko</value>
+  </data>
+  <data name="CmdOpenRecent" xml:space="preserve">
+    <value>Otwórz ostatni: {0}</value>
+  </data>
+  <data name="CmdTopmost" xml:space="preserve">
+    <value>Zawsze na wierzchu (wł. / wył.)</value>
+  </data>
+  <data name="CmdMarkdownHelp" xml:space="preserve">
+    <value>Ściągawka Markdown</value>
+  </data>
+  <data name="CmdLineNumbersOn" xml:space="preserve">
+    <value>Pokaż numery wierszy</value>
+  </data>
+  <data name="CmdLineNumbersOff" xml:space="preserve">
+    <value>Ukryj numery wierszy</value>
+  </data>
+  <data name="CmdLineBandOn" xml:space="preserve">
+    <value>Wyróżniaj bieżący wiersz</value>
+  </data>
+  <data name="CmdLineBandOff" xml:space="preserve">
+    <value>Nie wyróżniaj bieżącego wiersza</value>
+  </data>
+  <data name="SetSectionEditing.Text" xml:space="preserve">
+    <value>Kod i edycja</value>
+  </data>
+  <data name="SetLineNumbersTitle.Text" xml:space="preserve">
+    <value>Numery wierszy</value>
+  </data>
+  <data name="SetLineNumbersDesc.Text" xml:space="preserve">
+    <value>Numery na lewym marginesie</value>
+  </data>
+  <data name="SetLineBandTitle.Text" xml:space="preserve">
+    <value>Wyróżniaj bieżący wiersz</value>
+  </data>
+  <data name="SetLineBandDesc.Text" xml:space="preserve">
+    <value>Delikatny pas w kolorze akcentu za wierszem z kursorem</value>
+  </data>
+  <data name="SetTabSizeTitle.Text" xml:space="preserve">
+    <value>Klawisz Tab</value>
+  </data>
+  <data name="SetTabSizeDesc.Text" xml:space="preserve">
+    <value>Co wstawia Tab. Przy zaznaczeniu kilku wierszy Tab i Shift+Tab je przesuwają.</value>
+  </data>
+  <data name="SetTabChar.Content" xml:space="preserve">
+    <value>Znak tabulacji</value>
+  </data>
+  <data name="SetTab2.Content" xml:space="preserve">
+    <value>2 spacje</value>
+  </data>
+  <data name="SetTab4.Content" xml:space="preserve">
+    <value>4 spacje</value>
+  </data>
+  <data name="SetTab8.Content" xml:space="preserve">
+    <value>8 spacji</value>
+  </data>
+  <data name="SetAutoIndentTitle.Text" xml:space="preserve">
+    <value>Inteligentny Enter</value>
+  </data>
+  <data name="SetAutoIndentDesc.Text" xml:space="preserve">
+    <value>Nowy wiersz zachowuje wcięcie; listy Markdown kontynuują się same</value>
+  </data>
+  <data name="SetSearchEngineTitle.Text" xml:space="preserve">
+    <value>Wyszukiwanie w internecie</value>
+  </data>
+  <data name="SetSearchEngineDesc.Text" xml:space="preserve">
+    <value>Gdzie Ctrl+E szuka zaznaczonego tekstu</value>
+  </data>
+  <data name="SetExitLastTitle.Text" xml:space="preserve">
+    <value>Zamknij Vellum z ostatnią kartą</value>
+  </data>
+  <data name="SetExitLastDesc.Text" xml:space="preserve">
+    <value>W przeciwnym razie otworzy się nowa pusta karta</value>
+  </data>
+  <data name="SetNewEncodingTitle.Text" xml:space="preserve">
+    <value>Kodowanie nowych plików</value>
+  </data>
+  <data name="SetNewEncodingDesc.Text" xml:space="preserve">
+    <value>Otwarte pliki zachowują swoje; można je zmienić w dowolnej chwili na pasku stanu</value>
+  </data>
+  <data name="SetNewEolTitle.Text" xml:space="preserve">
+    <value>Końce wierszy nowych plików</value>
+  </data>
+  <data name="SetNewEolDesc.Text" xml:space="preserve">
+    <value>Aplikacje Windows oczekują CRLF; Linux, macOS i większość narzędzi programistycznych używa LF</value>
+  </data>
+  <data name="EolWindowsItem.Content" xml:space="preserve">
+    <value>Windows (CRLF)</value>
+  </data>
+  <data name="EolUnixItem.Content" xml:space="preserve">
+    <value>Unix / macOS (LF)</value>
+  </data>
+  <data name="EolMacItem.Content" xml:space="preserve">
+    <value>Stary Mac (CR)</value>
+  </data>
+  <data name="ShortcutMoveLines" xml:space="preserve">
+    <value>Przesuń wiersze w górę / dół</value>
+  </data>
+  <data name="ShortcutCase" xml:space="preserve">
+    <value>Wielkie / małe litery</value>
+  </data>
+  <data name="ShortcutIndent" xml:space="preserve">
+    <value>Zwiększ / zmniejsz wcięcie</value>
+  </data>
+  <data name="CaptionMinimize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Minimalizuj</value>
+  </data>
+  <data name="CaptionMinimize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Minimalizuj</value>
+  </data>
+  <data name="CaptionMaximize.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Maksymalizuj</value>
+  </data>
+  <data name="CaptionMaximize.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Maksymalizuj</value>
+  </data>
+  <data name="CaptionClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="CaptionClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="CaptionMaximizeName" xml:space="preserve">
+    <value>Maksymalizuj</value>
+  </data>
+  <data name="CaptionRestoreName" xml:space="preserve">
+    <value>Przywróć</value>
+  </data>
+  <data name="Accent_lavender" xml:space="preserve">
+    <value>Lawenda</value>
+  </data>
+  <data name="Accent_indigo" xml:space="preserve">
+    <value>Indygo</value>
+  </data>
+  <data name="Accent_sky" xml:space="preserve">
+    <value>Niebo</value>
+  </data>
+  <data name="Accent_teal" xml:space="preserve">
+    <value>Morski</value>
+  </data>
+  <data name="Accent_sage" xml:space="preserve">
+    <value>Szałwia</value>
+  </data>
+  <data name="Accent_lime" xml:space="preserve">
+    <value>Limonka</value>
+  </data>
+  <data name="Accent_sand" xml:space="preserve">
+    <value>Piasek</value>
+  </data>
+  <data name="Accent_coral" xml:space="preserve">
+    <value>Koral</value>
+  </data>
+  <data name="Accent_crimson" xml:space="preserve">
+    <value>Karmazyn</value>
+  </data>
+  <data name="Accent_berry" xml:space="preserve">
+    <value>Jagoda</value>
+  </data>
+  <data name="Accent_slate" xml:space="preserve">
+    <value>Łupek</value>
+  </data>
+  <data name="ReadOnlyButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tylko do odczytu. Kliknij, aby zezwolić na edycję</value>
+  </data>
+  <data name="ReadOnlyButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Tylko do odczytu. Kliknij, aby zezwolić na edycję</value>
+  </data>
+  <data name="ToolLineAbove" xml:space="preserve">
+    <value>Wstaw wiersz powyżej</value>
+  </data>
+  <data name="ToolLineBelow" xml:space="preserve">
+    <value>Wstaw wiersz poniżej</value>
+  </data>
+  <data name="ToolSortNumAsc" xml:space="preserve">
+    <value>Sortuj według liczb 0 → 9</value>
+  </data>
+  <data name="ToolSortNumDesc" xml:space="preserve">
+    <value>Sortuj według liczb 9 → 0</value>
+  </data>
+  <data name="ToolShuffle" xml:space="preserve">
+    <value>Wymieszaj wiersze</value>
+  </data>
+  <data name="ToolRemoveConsecutive" xml:space="preserve">
+    <value>Usuń powtórzone kolejne wiersze</value>
+  </data>
+  <data name="ToolTrimLeading" xml:space="preserve">
+    <value>Usuń spacje na początku wierszy</value>
+  </data>
+  <data name="ToolTrimBoth" xml:space="preserve">
+    <value>Usuń spacje z obu stron</value>
+  </data>
+  <data name="ToolTabsToSpaces" xml:space="preserve">
+    <value>Tabulacje → spacje</value>
+  </data>
+  <data name="ToolSpacesToTabs" xml:space="preserve">
+    <value>Spacje wcięcia → tabulacje</value>
+  </data>
+  <data name="ToolRandomCase" xml:space="preserve">
+    <value>lOsOwA wIeLkOśĆ</value>
+  </data>
+  <data name="ToolFormatJson" xml:space="preserve">
+    <value>Formatuj JSON</value>
+  </data>
+  <data name="ToolMinifyJson" xml:space="preserve">
+    <value>Kompaktuj JSON</value>
+  </data>
+  <data name="ToolHashMd5" xml:space="preserve">
+    <value>Kopiuj skrót MD5</value>
+  </data>
+  <data name="ToolHashSha1" xml:space="preserve">
+    <value>Kopiuj skrót SHA-1</value>
+  </data>
+  <data name="ToolHashSha256" xml:space="preserve">
+    <value>Kopiuj skrót SHA-256</value>
+  </data>
+  <data name="ToolHashSha512" xml:space="preserve">
+    <value>Kopiuj skrót SHA-512</value>
+  </data>
+  <data name="ToolHashCopied" xml:space="preserve">
+    <value>{0} skopiowano do schowka</value>
+  </data>
+  <data name="ToolNotJson" xml:space="preserve">
+    <value>To nie jest poprawny JSON</value>
+  </data>
+  <data name="ToolBookmark" xml:space="preserve">
+    <value>Dodaj / usuń zakładkę</value>
+  </data>
+  <data name="ToolBookmarkNext" xml:space="preserve">
+    <value>Następna zakładka</value>
+  </data>
+  <data name="ToolBookmarkPrev" xml:space="preserve">
+    <value>Poprzednia zakładka</value>
+  </data>
+  <data name="ToolBookmarkClear" xml:space="preserve">
+    <value>Usuń wszystkie zakładki</value>
+  </data>
+  <data name="ToolMatchingBracket" xml:space="preserve">
+    <value>Przejdź do pasującego nawiasu</value>
+  </data>
+  <data name="ToolReadOnly" xml:space="preserve">
+    <value>Tylko do odczytu</value>
+  </data>
+  <data name="BookmarksNone" xml:space="preserve">
+    <value>Brak zakładek. Ctrl+F2 dodaje zakładkę</value>
+  </data>
+  <data name="BracketNone" xml:space="preserve">
+    <value>Brak nawiasu przy kursorze</value>
+  </data>
+  <data name="ReadOnlyOn" xml:space="preserve">
+    <value>Tylko do odczytu: tekst jest zablokowany</value>
+  </data>
+  <data name="ReadOnlyOff" xml:space="preserve">
+    <value>Edycja znów dozwolona</value>
+  </data>
+  <data name="ReadOnlyNote" xml:space="preserve">
+    <value>Tylko do odczytu. Wyłącz, aby edytować</value>
+  </data>
+  <data name="CtxSpaces" xml:space="preserve">
+    <value>Spacje i tabulacje</value>
+  </data>
+  <data name="CtxBookmarks" xml:space="preserve">
+    <value>Zakładki</value>
+  </data>
+  <data name="StatusSelection" xml:space="preserve">
+    <value>(zaznaczono znaki: {0}, wiersze: {1})</value>
+  </data>
+  <data name="SetAutoCloseTitle.Text" xml:space="preserve">
+    <value>Zamykaj nawiasy i cudzysłowy</value>
+  </data>
+  <data name="SetAutoCloseDesc.Text" xml:space="preserve">
+    <value>W kodzie wpisanie ( [ { lub " dodaje znak zamykający</value>
+  </data>
+  <data name="SetSmartHighlightTitle.Text" xml:space="preserve">
+    <value>Wyróżniaj wystąpienia</value>
+  </data>
+  <data name="SetSmartHighlightDesc.Text" xml:space="preserve">
+    <value>Zaznaczone słowo podświetla się wszędzie; para nawiasów przy kursorze jest oznaczona</value>
+  </data>
+  <data name="SetWatchFilesTitle.Text" xml:space="preserve">
+    <value>Śledź zmiany z innych programów</value>
+  </data>
+  <data name="SetWatchFilesDesc.Text" xml:space="preserve">
+    <value>Plik zmieniony gdzie indziej wczytuje się sam; przy niezapisanych zmianach Vellum najpierw zapyta</value>
+  </data>
+  <data name="ShortcutNewLine" xml:space="preserve">
+    <value>Nowy wiersz poniżej / powyżej</value>
+  </data>
+  <data name="ShortcutBookmarkJump" xml:space="preserve">
+    <value>Następna / poprzednia zakładka</value>
+  </data>
+  <data name="CmdReopenClosed" xml:space="preserve">
+    <value>Otwórz ponownie zamkniętą kartę</value>
+  </data>
+  <data name="TabRename" xml:space="preserve">
+    <value>Zmień nazwę pliku…</value>
+  </data>
+  <data name="TabOpenWith" xml:space="preserve">
+    <value>Otwórz w innej aplikacji…</value>
+  </data>
+  <data name="TabSaveCopy" xml:space="preserve">
+    <value>Zapisz kopię…</value>
+  </data>
+  <data name="TabFileInfo" xml:space="preserve">
+    <value>Informacje o pliku</value>
+  </data>
+  <data name="CopySuffix" xml:space="preserve">
+    <value>kopia</value>
+  </data>
+  <data name="RenameTitle" xml:space="preserve">
+    <value>Zmień nazwę pliku</value>
+  </data>
+  <data name="RenameConfirm" xml:space="preserve">
+    <value>Zmień nazwę</value>
+  </data>
+  <data name="RenameInvalid" xml:space="preserve">
+    <value>Nazwa zawiera znaki niedozwolone w Windows: \ / : * ? " &lt; &gt; |</value>
+  </data>
+  <data name="RenameExists" xml:space="preserve">
+    <value>Plik o tej nazwie już istnieje</value>
+  </data>
+  <data name="RenameError" xml:space="preserve">
+    <value>Nie można zmienić nazwy na {0}</value>
+  </data>
+  <data name="InfoPath" xml:space="preserve">
+    <value>Lokalizacja</value>
+  </data>
+  <data name="InfoSize" xml:space="preserve">
+    <value>Rozmiar</value>
+  </data>
+  <data name="InfoCreated" xml:space="preserve">
+    <value>Utworzono</value>
+  </data>
+  <data name="InfoModified" xml:space="preserve">
+    <value>Zmodyfikowano</value>
+  </data>
+  <data name="InfoEncoding" xml:space="preserve">
+    <value>Kodowanie</value>
+  </data>
+  <data name="InfoLineEnding" xml:space="preserve">
+    <value>Końce wierszy</value>
+  </data>
+  <data name="InfoLines" xml:space="preserve">
+    <value>Wiersze</value>
+  </data>
+  <data name="InfoWords" xml:space="preserve">
+    <value>Słowa</value>
+  </data>
+  <data name="InfoChars" xml:space="preserve">
+    <value>Znaki</value>
+  </data>
+  <data name="InfoLanguage" xml:space="preserve">
+    <value>Podświetlanie</value>
+  </data>
+  <data name="SizeBytes" xml:space="preserve">
+    <value>{0} B</value>
+  </data>
+  <data name="SizeKb" xml:space="preserve">
+    <value>{0} KB</value>
+  </data>
+  <data name="SizeMb" xml:space="preserve">
+    <value>{0} MB</value>
+  </data>
+  <data name="ReloadedExternal" xml:space="preserve">
+    <value>Wczytano ponownie: plik zmieniono poza Vellum</value>
+  </data>
+  <data name="ExternalTitle" xml:space="preserve">
+    <value>{0} zmieniono poza Vellum</value>
+  </data>
+  <data name="ExternalText" xml:space="preserve">
+    <value>Inny program zapisał ten plik, a Ty masz tu niezapisane zmiany. Wczytać nową wersję i odrzucić swoje zmiany, czy zachować swoje?</value>
+  </data>
+  <data name="ExternalReload" xml:space="preserve">
+    <value>Wczytaj nową wersję</value>
+  </data>
+  <data name="ExternalKeep" xml:space="preserve">
+    <value>Zachowaj moje</value>
+  </data>
+  <data name="SettingsClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zamknij ustawienia (Esc)</value>
+  </data>
+  <data name="SettingsClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zamknij ustawienia (Esc)</value>
+  </data>
+  <data name="AboutTagline.Text" xml:space="preserve">
+    <value>Spokojny szklany notatnik do tekstu, notatek i kodu.</value>
+  </data>
+  <data name="AboutPrivacyNote.Text" xml:space="preserve">
+    <value>Działa offline. Niczego nie zbiera: Twój tekst zostaje na Twoim komputerze.</value>
+  </data>
+  <data name="AboutWebsite" xml:space="preserve">
+    <value>Strona Vellum</value>
+  </data>
+  <data name="AboutRate" xml:space="preserve">
+    <value>Oceń Vellum</value>
+  </data>
+  <data name="AboutSupport" xml:space="preserve">
+    <value>Wesprzyj projekt</value>
+  </data>
+  <data name="AboutSupportDesc" xml:space="preserve">
+    <value>Vellum jest darmowy; darowizna pomaga go ulepszać</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>Napisz do nas</value>
+  </data>
+  <data name="AboutBug" xml:space="preserve">
+    <value>Zgłoś problem</value>
+  </data>
+  <data name="AboutBugDesc" xml:space="preserve">
+    <value>Otwiera e-mail z już podaną wersją</value>
+  </data>
+  <data name="AboutPrivacy" xml:space="preserve">
+    <value>Polityka prywatności</value>
+  </data>
+  <data name="AboutPrivacyDesc" xml:space="preserve">
+    <value>Co Vellum robi (i czego nie robi) z danymi</value>
+  </data>
+  <data name="AboutStudio" xml:space="preserve">
+    <value>Więcej od Wesky</value>
+  </data>
+  <data name="MenuLibrary.Text" xml:space="preserve">
+    <value>Notatki</value>
+  </data>
+  <data name="MenuHistory.Text" xml:space="preserve">
+    <value>Historia wersji</value>
+  </data>
+  <data name="LibraryNew.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Nowa notatka</value>
+  </data>
+  <data name="LibraryNew.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Nowa notatka</value>
+  </data>
+  <data name="LibraryClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zamknij (Esc)</value>
+  </data>
+  <data name="LibraryClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="LibrarySearch.PlaceholderText" xml:space="preserve">
+    <value>Szukaj w notatkach</value>
+  </data>
+  <data name="LibraryEmptyTrash.Content" xml:space="preserve">
+    <value>Opróżnij kosz</value>
+  </data>
+  <data name="HistoryTitle.Text" xml:space="preserve">
+    <value>Historia wersji</value>
+  </data>
+  <data name="HistoryClose.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zamknij (Esc)</value>
+  </data>
+  <data name="HistoryClose.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="HistoryShowChanges.OnContent" xml:space="preserve">
+    <value>Co się zmieniło</value>
+  </data>
+  <data name="HistoryShowChanges.OffContent" xml:space="preserve">
+    <value>Co się zmieniło</value>
+  </data>
+  <data name="HistoryEmpty.Text" xml:space="preserve">
+    <value>Nie ma jeszcze wersji. Vellum zachowuje jedną co kilka minut podczas pisania i przy każdym zapisie.</value>
+  </data>
+  <data name="HistoryHint.Text" xml:space="preserve">
+    <value>Czerwone: brak w obecnym tekście. Zielone: dodane później.</value>
+  </data>
+  <data name="HistoryCopy.Content" xml:space="preserve">
+    <value>Kopiuj</value>
+  </data>
+  <data name="HistoryRestore.Content" xml:space="preserve">
+    <value>Przywróć tę wersję</value>
+  </data>
+  <data name="SetSectionNotes.Text" xml:space="preserve">
+    <value>Notatki i historia</value>
+  </data>
+  <data name="SetLibraryTitle.Text" xml:space="preserve">
+    <value>Biblioteka notatek</value>
+  </data>
+  <data name="SetLibraryDesc.Text" xml:space="preserve">
+    <value>Nowe karty to notatki: zapisują się same i zostają w bibliotece po zamknięciu (Ctrl+Shift+L).</value>
+  </data>
+  <data name="SetHistoryTitle.Text" xml:space="preserve">
+    <value>Historia wersji</value>
+  </data>
+  <data name="SetHistoryDesc.Text" xml:space="preserve">
+    <value>Zachowuje poprzednie wersje notatek do podglądu lub przywrócenia (Ctrl+Shift+H).</value>
+  </data>
+  <data name="SetFileHistoryTitle.Text" xml:space="preserve">
+    <value>Historia także dla plików</value>
+  </data>
+  <data name="SetFileHistoryDesc.Text" xml:space="preserve">
+    <value>Zachowuje też wersje plików zapisywanych w Vellum.</value>
+  </data>
+  <data name="SetClearHistoryTitle.Text" xml:space="preserve">
+    <value>Wyczyść historię</value>
+  </data>
+  <data name="SetClearHistoryDesc.Text" xml:space="preserve">
+    <value>Usuwa wszystkie zapisane wersje. Notatki zostają.</value>
+  </data>
+  <data name="SetClearHistoryButton.Content" xml:space="preserve">
+    <value>Wyczyść</value>
+  </data>
+  <data name="NoteUntitled" xml:space="preserve">
+    <value>Nowa notatka</value>
+  </data>
+  <data name="LibraryTitleText" xml:space="preserve">
+    <value>Notatki</value>
+  </data>
+  <data name="LibraryMeta" xml:space="preserve">
+    <value>{0} · słowa: {1}</value>
+  </data>
+  <data name="LibraryTrash" xml:space="preserve">
+    <value>Kosz</value>
+  </data>
+  <data name="LibraryTrashCount" xml:space="preserve">
+    <value>Kosz ({0})</value>
+  </data>
+  <data name="LibraryEmptyTrashText" xml:space="preserve">
+    <value>Kosz jest pusty. Usunięte notatki zostają tu przez 30 dni.</value>
+  </data>
+  <data name="LibraryNothingFound" xml:space="preserve">
+    <value>Nic nie znaleziono.</value>
+  </data>
+  <data name="LibraryEmptyText" xml:space="preserve">
+    <value>Nie ma jeszcze notatek. Każda nowa karta to notatka: zacznij pisać. Dodawaj #tagi wprost w tekście.</value>
+  </data>
+  <data name="LibraryAllTags" xml:space="preserve">
+    <value>Wszystkie</value>
+  </data>
+  <data name="LibraryYesterday" xml:space="preserve">
+    <value>Wczoraj</value>
+  </data>
+  <data name="LibraryRestore" xml:space="preserve">
+    <value>Przywróć</value>
+  </data>
+  <data name="LibraryDeleteForever" xml:space="preserve">
+    <value>Usuń na zawsze</value>
+  </data>
+  <data name="LibraryOpen" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
+  <data name="LibraryEmptyTrashYes" xml:space="preserve">
+    <value>Opróżnij kosz</value>
+  </data>
+  <data name="LibraryEmptyTrashConfirm" xml:space="preserve">
+    <value>Usunąć na zawsze wszystkie notatki z kosza?</value>
+  </data>
+  <data name="LibraryOff" xml:space="preserve">
+    <value>Biblioteka notatek jest wyłączona w ustawieniach.</value>
+  </data>
+  <data name="NotePin" xml:space="preserve">
+    <value>Przypnij</value>
+  </data>
+  <data name="NoteUnpin" xml:space="preserve">
+    <value>Odepnij</value>
+  </data>
+  <data name="NoteHistory" xml:space="preserve">
+    <value>Historia wersji…</value>
+  </data>
+  <data name="NoteExport" xml:space="preserve">
+    <value>Zapisz jako plik…</value>
+  </data>
+  <data name="NoteDelete" xml:space="preserve">
+    <value>Usuń notatkę</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Notatka zapisana</value>
+  </data>
+  <data name="NoteEmpty" xml:space="preserve">
+    <value>Notatka jest pusta</value>
+  </data>
+  <data name="HistoryToday" xml:space="preserve">
+    <value>Dziś, {0}</value>
+  </data>
+  <data name="HistoryYesterday" xml:space="preserve">
+    <value>Wczoraj, {0}</value>
+  </data>
+  <data name="HistoryLines" xml:space="preserve">
+    <value>Wiersze: {0}</value>
+  </data>
+  <data name="HistorySame" xml:space="preserve">
+    <value>Tak samo jak teraz</value>
+  </data>
+  <data name="HistoryChanges" xml:space="preserve">
+    <value>Od tego czasu: +{0} / −{1} wierszy</value>
+  </data>
+  <data name="HistoryRestored" xml:space="preserve">
+    <value>Wersja przywrócona. Ctrl+Z cofa.</value>
+  </data>
+  <data name="HistoryOff" xml:space="preserve">
+    <value>Historia wersji jest wyłączona w ustawieniach.</value>
+  </data>
+  <data name="HistoryUntitled" xml:space="preserve">
+    <value>Najpierw zapisz plik: historia dotyczy notatek i zapisanych plików.</value>
+  </data>
+  <data name="HistoryFilesOff" xml:space="preserve">
+    <value>Historia plików jest wyłączona w ustawieniach.</value>
+  </data>
+  <data name="CmdLibrary" xml:space="preserve">
+    <value>Biblioteka notatek</value>
+  </data>
+  <data name="CmdHistory" xml:space="preserve">
+    <value>Historia wersji</value>
+  </data>
+  <data name="SetClearHistorySize" xml:space="preserve">
+    <value>Usuwa wszystkie zapisane wersje ({0}). Notatki zostają.</value>
+  </data>
+  <data name="SetClearHistoryConfirm" xml:space="preserve">
+    <value>Usunąć wszystkie zapisane wersje? Notatki i pliki zostaną bez zmian.</value>
+  </data>
+  <data name="SetClearHistoryYes" xml:space="preserve">
+    <value>Wyczyść historię</value>
+  </data>
+  <data name="NoteLockedSnippet" xml:space="preserve">
+    <value>Chroniona hasłem</value>
+  </data>
+  <data name="HistoryLocked" xml:space="preserve">
+    <value>Notatki z hasłem nie mają historii wersji.</value>
+  </data>
+  <data name="LockOpenTitle" xml:space="preserve">
+    <value>Otwórz „{0}”</value>
+  </data>
+  <data name="LockOpenText" xml:space="preserve">
+    <value>Ta notatka jest chroniona. Wpisz hasło, aby ją otworzyć.</value>
+  </data>
+  <data name="LockOpenButton" xml:space="preserve">
+    <value>Otwórz</value>
+  </data>
+  <data name="LockWrongPassword" xml:space="preserve">
+    <value>Nieprawidłowe hasło.</value>
+  </data>
+  <data name="LockSetTitle" xml:space="preserve">
+    <value>Chroń notatkę hasłem</value>
+  </data>
+  <data name="LockSetText" xml:space="preserve">
+    <value>Notatka zostanie zaszyfrowana na dysku. Jeśli zapomnisz hasła, nie da się jej odzyskać, nawet nam. Jej wcześniejsze wersje zostaną usunięte.</value>
+  </data>
+  <data name="LockSetButton" xml:space="preserve">
+    <value>Chroń</value>
+  </data>
+  <data name="LockDone" xml:space="preserve">
+    <value>Notatka chroniona hasłem</value>
+  </data>
+  <data name="LockRemoveTitle" xml:space="preserve">
+    <value>Usuń hasło</value>
+  </data>
+  <data name="LockRemoveText" xml:space="preserve">
+    <value>Wpisz hasło jeszcze raz, aby znów przechowywać notatkę bez szyfrowania.</value>
+  </data>
+  <data name="LockRemoveButton" xml:space="preserve">
+    <value>Usuń hasło</value>
+  </data>
+  <data name="LockRemoved" xml:space="preserve">
+    <value>Hasło usunięte</value>
+  </data>
+  <data name="LockPassword" xml:space="preserve">
+    <value>Hasło</value>
+  </data>
+  <data name="LockPasswordAgain" xml:space="preserve">
+    <value>Powtórz hasło</value>
+  </data>
+  <data name="LockMismatch" xml:space="preserve">
+    <value>Hasła nie są zgodne.</value>
+  </data>
+  <data name="LockNote" xml:space="preserve">
+    <value>Chroń hasłem…</value>
+  </data>
+  <data name="LockRemove" xml:space="preserve">
+    <value>Usuń hasło…</value>
+  </data>
+  <data name="ExportPdf" xml:space="preserve">
+    <value>Eksportuj do PDF…</value>
+  </data>
+  <data name="ExportHtml" xml:space="preserve">
+    <value>Eksportuj do HTML…</value>
+  </data>
+  <data name="ExportDone" xml:space="preserve">
+    <value>Wyeksportowano: {0}</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Nie udało się przygotować strony do eksportu.</value>
+  </data>
+  <data name="MenuExport.Text" xml:space="preserve">
+    <value>Eksportuj</value>
+  </data>
+  <data name="MenuExportPdf.Text" xml:space="preserve">
+    <value>PDF…</value>
+  </data>
+  <data name="MenuExportHtml.Text" xml:space="preserve">
+    <value>Strona HTML…</value>
+  </data>
+  <data name="MenuMini.Text" xml:space="preserve">
+    <value>Mini okno</value>
+  </data>
+  <data name="CaptionMini.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Wróć do pełnego okna</value>
+  </data>
+  <data name="CaptionMini.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Wróć do pełnego okna</value>
+  </data>
+  <data name="CaptionMiniName" xml:space="preserve">
+    <value>Wróć do pełnego okna</value>
+  </data>
+  <data name="MiniOff" xml:space="preserve">
+    <value>Mini okno jest wyłączone w ustawieniach.</value>
+  </data>
+  <data name="CmdMini" xml:space="preserve">
+    <value>Mini okno na wierzchu (wł. / wył.)</value>
+  </data>
+  <data name="CmdExportPdf" xml:space="preserve">
+    <value>Eksportuj do PDF</value>
+  </data>
+  <data name="CmdExportHtml" xml:space="preserve">
+    <value>Eksportuj do HTML</value>
+  </data>
+  <data name="TrayOpen" xml:space="preserve">
+    <value>Otwórz Vellum</value>
+  </data>
+  <data name="TrayNewNote" xml:space="preserve">
+    <value>Nowa notatka</value>
+  </data>
+  <data name="TrayExit" xml:space="preserve">
+    <value>Zakończ</value>
+  </data>
+  <data name="SetSectionTray.Text" xml:space="preserve">
+    <value>Zasobnik</value>
+  </data>
+  <data name="SetTrayTitle.Text" xml:space="preserve">
+    <value>Ikona obok zegara</value>
+  </data>
+  <data name="SetTrayDesc.Text" xml:space="preserve">
+    <value>Otwieraj Vellum lub zaczynaj notatkę z zasobnika systemowego.</value>
+  </data>
+  <data name="SetCloseToTrayTitle.Text" xml:space="preserve">
+    <value>Zamykaj do zasobnika</value>
+  </data>
+  <data name="SetCloseToTrayDesc.Text" xml:space="preserve">
+    <value>Zamknięcie okna zostawia Vellum obok zegara. „Zakończ” w menu zamyka go.</value>
+  </data>
+  <data name="SetStartupTitle.Text" xml:space="preserve">
+    <value>Uruchamiaj z Windows</value>
+  </data>
+  <data name="SetStartupDesc.Text" xml:space="preserve">
+    <value>Uruchamia się po cichu: w zasobniku lub zminimalizowany.</value>
+  </data>
+  <data name="SetStartupNote" xml:space="preserve">
+    <value>Uruchamia się po cichu: w zasobniku lub zminimalizowany.</value>
+  </data>
+  <data name="SetStartupBlocked" xml:space="preserve">
+    <value>Wyłączone w Menedżerze zadań → Aplikacje autostartu. Włącz je tam.</value>
+  </data>
+  <data name="SetStartupPolicy" xml:space="preserve">
+    <value>Niedozwolone przez Twoją organizację.</value>
+  </data>
+  <data name="SetQuickNoteTitle.Text" xml:space="preserve">
+    <value>Szybka notatka: Ctrl+Alt+N</value>
+  </data>
+  <data name="SetQuickNoteDesc.Text" xml:space="preserve">
+    <value>Z dowolnej aplikacji otwiera Vellum z nową notatką.</value>
+  </data>
+  <data name="SetQuickNoteNote" xml:space="preserve">
+    <value>Z dowolnej aplikacji otwiera Vellum z nową notatką.</value>
+  </data>
+  <data name="SetQuickNoteTaken" xml:space="preserve">
+    <value>Ctrl+Alt+N jest już używane przez inną aplikację.</value>
+  </data>
+  <data name="SetMiniTitle.Text" xml:space="preserve">
+    <value>Mini okno</value>
+  </data>
+  <data name="SetMiniDesc.Text" xml:space="preserve">
+    <value>Małe okno nad pozostałymi: Ctrl+Shift+M.</value>
+  </data>
+  <data name="SetNoteLocksTitle.Text" xml:space="preserve">
+    <value>Notatki z hasłem</value>
+  </data>
+  <data name="SetNoteLocksDesc.Text" xml:space="preserve">
+    <value>Chroń notatkę z menu jej karty. Szyfrowanie AES-256.</value>
+  </data>
+  <data name="SetExportTitle.Text" xml:space="preserve">
+    <value>Eksport do PDF i HTML</value>
+  </data>
+  <data name="SetExportDesc.Text" xml:space="preserve">
+    <value>W menu głównym, menu karty i palecie poleceń.</value>
+  </data>
+  <data name="ShortcutQuickNote" xml:space="preserve">
+    <value>Szybka notatka z dowolnej aplikacji</value>
+  </data>
+</root>

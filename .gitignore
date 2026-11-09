@@ -1,0 +1,37 @@
+# Build output
+bin/
+obj/
+release/
+AppPackages/
+BundleArtifacts/
+*.msix
+*.msixbundle
+*.msixupload
+*.appx
+*.appxbundle
+
+# Visual Studio and editors
+.vs/
+.vscode/
+*.user
+*.suo
+*.rsuser
+
+# Signing
+*.pfx
+*.cer
+
+# Store submission files (Partner Center import, store art)
+docs/store/
+assets/store/
+
+# Python
+__pycache__/
+*.pyc
+
+# Brand art lives outside the repo, only the source icon is kept
+assets/*
+!assets/icon.png
+
+# One-off internal scripts
+tools/dashes_app.py

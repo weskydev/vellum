@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserControl
+    x:Class="Vellum.Controls.HistoryPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:Vellum.Models">
+
+    <Grid Padding="16,12,12,14" RowSpacing="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Title and close -->
+        <Grid ColumnSpacing="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <FontIcon Glyph="&#xE81C;" FontSize="18" Foreground="{ThemeResource VellumAccentBrush}" VerticalAlignment="Center" />
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <TextBlock x:Uid="HistoryTitle" FontSize="18" FontWeight="SemiBold" />
+                <TextBlock x:Name="NameText" Style="{StaticResource StatusTextStyle}" TextTrimming="CharacterEllipsis" />
+            </StackPanel>
+            <Button x:Uid="HistoryClose" Grid.Column="2" Style="{StaticResource IconButtonStyle}" VerticalAlignment="Top" Click="Close_Click">
+                <FontIcon Glyph="&#xE711;" FontSize="12" />
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="1" ColumnSpacing="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="ListColumn" Width="230" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Versions, newest first -->
+            <ListView
+                x:Name="VersionList"
+                Margin="-4,0,0,0"
+                SelectionMode="Single"
+                SelectionChanged="VersionList_SelectionChanged">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem" BasedOn="{StaticResource DefaultListViewItemStyle}">
+                        <Setter Property="Padding" Value="10,7" />
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:VersionItem">
+                        <StackPanel>
+                            <TextBlock Text="{x:Bind When}" />
+                            <TextBlock Text="{x:Bind Detail}" Style="{StaticResource StatusTextStyle}" FontSize="12" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <!-- The chosen version: as text, or what changed since then -->
+            <Border Grid.Column="1" Background="{ThemeResource GlassCardBrush}" BorderBrush="{ThemeResource GlassStrokeBrush}" BorderThickness="1" CornerRadius="8">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Padding="10,6" ColumnSpacing="8" BorderBrush="{ThemeResource DividerBrush}" BorderThickness="0,0,0,1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ToggleSwitch x:Name="ChangesSwitch" x:Uid="HistoryShowChanges" MinWidth="0" Toggled="ChangesSwitch_Toggled" />
+                        <TextBlock x:Name="SummaryText" Grid.Column="1" Style="{StaticResource StatusTextStyle}" VerticalAlignment="Center" HorizontalAlignment="Right" TextTrimming="CharacterEllipsis" />
+                    </Grid>
+                    <ListView
+                        x:Name="LineList"
+                        Grid.Row="1"
+                        SelectionMode="None"
+                        IsItemClickEnabled="False"
+                        Padding="0,6">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem" BasedOn="{StaticResource DefaultListViewItemStyle}">
+                                <Setter Property="Padding" Value="0" />
+                                <Setter Property="Margin" Value="0" />
+                                <Setter Property="MinHeight" Value="0" />
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="models:DiffRow">
+                                <Grid Background="{x:Bind Background}" Padding="6,1,10,1" ColumnSpacing="6">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="14" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="{x:Bind Mark}" FontFamily="Cascadia Mono, Consolas" FontSize="13" Opacity="0.7" />
+                                    <TextBlock Grid.Column="1" Text="{x:Bind Text}" TextDecorations="{x:Bind Decorations}"
+                                               FontFamily="Cascadia Mono, Consolas" FontSize="13" TextWrapping="Wrap" IsTextSelectionEnabled="True" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    <TextBlock x:Name="EmptyText" x:Uid="HistoryEmpty" Grid.Row="1" Style="{StaticResource StatusTextStyle}" FontSize="14"
+                               TextWrapping="Wrap" TextAlignment="Center" MaxWidth="340" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" />
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Copy and restore -->
+        <Grid Grid.Row="2" ColumnSpacing="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Uid="HistoryHint" Style="{StaticResource StatusTextStyle}" FontSize="12" VerticalAlignment="Center" TextWrapping="Wrap" />
+            <Button x:Name="CopyButton" x:Uid="HistoryCopy" Grid.Column="1" Click="Copy_Click" />
+            <Button x:Name="RestoreButton" x:Uid="HistoryRestore" Grid.Column="2" Style="{StaticResource AccentButtonStyle}" Click="Restore_Click" />
+        </Grid>
+    </Grid>
+</UserControl>
